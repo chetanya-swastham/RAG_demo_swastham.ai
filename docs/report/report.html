@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Swastham Multilingual Health RAG: Project Report</title>
+<style>
+  @page { size: A4; margin: 18mm 17mm 20mm 17mm; }
+  :root {
+    --ink: #1b2430; --muted: #5a6573; --line: #d9dee5; --soft: #f3f6f9;
+    --navy: #16324f; --teal: #0f7c7a; --teal-soft: #e3f3f2; --amber: #b86e00; --amber-soft: #fff4e0;
+    --red: #b3261e; --red-soft: #fdecea; --green: #2e7d32; --green-soft: #e8f5e9;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { margin: 0; background: #fff; color: var(--ink);
+         font-family: "Segoe UI", "Nirmala UI", Arial, sans-serif; font-size: 10pt; line-height: 1.5; }
+  .hi { font-family: "Nirmala UI", "Segoe UI", sans-serif; }
+  h1, h2, h3 { color: var(--navy); line-height: 1.25; margin: 0; }
+  h2 { font-size: 16pt; margin: 0 0 3mm; padding-bottom: 2mm; border-bottom: 2px solid var(--teal); }
+  h2 .num { color: var(--teal); margin-right: 2mm; }
+  h3 { font-size: 11.5pt; margin: 5mm 0 1.5mm; }
+  p { margin: 0 0 2.5mm; }
+  ul { margin: 0 0 2.5mm; padding-left: 5mm; }
+  li { margin-bottom: 1mm; }
+  a { color: var(--teal); text-decoration: none; }
+  code { font-family: Consolas, "Cascadia Mono", monospace; font-size: 8.8pt; background: var(--soft);
+         padding: 0 1mm; border-radius: 2px; }
+  pre { font-family: Consolas, monospace; font-size: 8.6pt; background: var(--soft); border: 1px solid var(--line);
+        border-radius: 3px; padding: 3mm; margin: 0 0 3mm; white-space: pre-wrap; }
+  section { break-before: page; }
+  .keep { break-inside: avoid; }
+  table { width: 100%; border-collapse: collapse; margin: 1.5mm 0 3.5mm; font-size: 9pt; break-inside: auto; }
+  th { background: var(--navy); color: #fff; text-align: left; font-weight: 600; padding: 1.6mm 2mm; }
+  td { border-bottom: 1px solid var(--line); padding: 1.5mm 2mm; vertical-align: top; }
+  tr { break-inside: avoid; }
+  tbody tr:nth-child(even) td { background: #fafbfc; }
+  td.n, th.n { text-align: right; white-space: nowrap; }
+  .lead { font-size: 11pt; color: var(--ink); }
+  .muted { color: var(--muted); }
+  .small { font-size: 8.5pt; }
+  .callout { border-left: 4px solid var(--teal); background: var(--teal-soft); padding: 2.5mm 4mm; margin: 2mm 0 4mm; border-radius: 0 3px 3px 0; }
+  .callout.amber { border-color: var(--amber); background: var(--amber-soft); }
+  .callout.red { border-color: var(--red); background: var(--red-soft); }
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; margin: 3mm 0 5mm; }
+  .kpi { border: 1px solid var(--line); border-top: 3px solid var(--teal); border-radius: 3px; padding: 2.5mm 3mm; }
+  .kpi b { display: block; font-size: 17pt; color: var(--navy); line-height: 1.1; }
+  .kpi span { font-size: 8.3pt; color: var(--muted); }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+  .card { border: 1px solid var(--line); border-radius: 4px; padding: 3mm 4mm; margin-bottom: 3.5mm; break-inside: avoid; }
+  .card h3 { margin-top: 0; }
+  .tag { display: inline-block; font-size: 7.5pt; font-weight: 600; letter-spacing: .03em; text-transform: uppercase;
+         padding: .3mm 1.8mm; border-radius: 10px; background: var(--teal-soft); color: var(--teal); margin-right: 1.5mm; }
+  .tag.amber { background: var(--amber-soft); color: var(--amber); }
+  .row { display: grid; grid-template-columns: 26mm 1fr; gap: 3mm; margin: 0 0 1.2mm; }
+  .row .k { font-weight: 600; color: var(--muted); font-size: 8.8pt; }
+  .pass { color: var(--green); font-weight: 600; }
+  .fail { color: var(--red); font-weight: 600; }
+
+  /* Cover */
+  .cover { height: 257mm; display: flex; flex-direction: column; justify-content: space-between; }
+  .cover .band { background: var(--navy); color: #fff; margin: -18mm -17mm 0; padding: 30mm 17mm 16mm; }
+  .cover .eyebrow { font-size: 9.5pt; letter-spacing: .14em; text-transform: uppercase; color: #9fd6d4; }
+  .cover h1 { color: #fff; font-size: 30pt; margin: 4mm 0 3mm; }
+  .cover .sub { font-size: 13pt; color: #dbe6f0; }
+  .cover .langs { font-size: 13pt; margin-top: 8mm; color: #fff; }
+  .cover .meta { margin-top: 10mm; }
+  .cover .meta .row { grid-template-columns: 34mm 1fr; font-size: 10.5pt; }
+  .cover .links { border: 1px solid var(--line); border-radius: 4px; padding: 4mm 5mm; }
+  .cover .links .row { grid-template-columns: 34mm 1fr; font-size: 10.5pt; }
+
+  /* Timeline */
+  .tl { position: relative; margin: 2mm 0 0 3mm; padding-left: 7mm; border-left: 2px solid var(--teal); }
+  .tl .ev { position: relative; margin-bottom: 4mm; break-inside: avoid; }
+  .tl .ev::before { content: ""; position: absolute; left: -9.6mm; top: 1.2mm; width: 3.4mm; height: 3.4mm;
+                    border-radius: 50%; background: #fff; border: 2px solid var(--teal); }
+  .tl .date { font-weight: 700; color: var(--teal); font-size: 9pt; letter-spacing: .03em; text-transform: uppercase; }
+  .tl .ttl { font-weight: 700; color: var(--navy); font-size: 10.5pt; margin: .5mm 0 1mm; }
+  .tl .ev p, .tl .ev ul { font-size: 9.3pt; }
+
+  svg text { font-family: "Segoe UI", Arial, sans-serif; }
+</style>
+</head>
+<body>
+
+<!-- ============ COVER ============ -->
+<div class="cover">
+  <div>
+    <div class="band">
+      <div class="eyebrow">Swastham.ai · Proof of Concept · Project Report</div>
+      <h1>Multilingual Health RAG</h1>
+      <div class="sub">One verified answer for every language, by text or by voice</div>
+      <div class="langs">English · <span class="hi">हिन्दी</span> · Hinglish</div>
+    </div>
+    <div class="meta">
+      <div class="row"><span class="k">Prepared by</span><span>Chetanya Jain</span></div>
+      <div class="row"><span class="k">Prepared for</span><span>Founder, Swastham.ai</span></div>
+      <div class="row"><span class="k">Date</span><span>28 September 2026</span></div>
+      <div class="row"><span class="k">Work period</span><span>23 – 28 September 2026</span></div>
+      <div class="row"><span class="k">Status</span><span>Approved proof of concept, deployed and running</span></div>
+    </div>
+  </div>
+  <div class="links">
+    <div class="row"><span class="k">Live demo</span><a href="https://swastham-rag-demo.vercel.app">https://swastham-rag-demo.vercel.app</a></div>
+    <div class="row"><span class="k">Source code</span><a href="{{REPO_URL}}">{{REPO_URL}}</a></div>
+    <div class="row"><span class="k">Tech reference</span><span><code>README.md</code> and <code>IMPLEMENTATION.md</code> in the repository</span></div>
+  </div>
+</div>
+
+<!-- ============ 1. EXECUTIVE SUMMARY ============ -->
+<section>
+  <h2><span class="num">1</span>Executive summary</h2>
+  <p class="lead">Swastham users ask health questions in English, Hindi and Hinglish. When an AI model answers each language separately, the answers <b>drift apart</b>: facts, numbers and even safety warnings differ between languages. For a health product, that is a patient-safety risk.</p>
+  <p>I designed and built a retrieval-augmented generation (RAG) system that removes this risk by design. <b>Every question, in any language, is answered once in English from the verified knowledge base.</b> Hindi and Hinglish users receive a <b>checked translation</b> of that exact answer. The translation is automatically back-translated and must keep every number, safety caution and recommendation. If it doesn't, the answer is blocked rather than shown or spoken.</p>
+
+  <div class="kpis">
+    <div class="kpi"><b>3</b><span>languages from one answer path: English, Hindi, Hinglish</span></div>
+    <div class="kpi"><b>81 / 81</b><span>automated unit tests passing</span></div>
+    <div class="kpi"><b>14 / 14</b><span>Hinglish questions retrieve the same evidence as English</span></div>
+    <div class="kpi"><b>7 / 7</b><span>parity checks passed on the insulin, BMI, pregnancy and hunger samples</span></div>
+  </div>
+
+  <h3>What was delivered</h3>
+  <ul>
+    <li><b>The brief, fully met:</b> an English knowledge base indexed in FAISS, a structured Answer Plan, one canonical English answer, lightweight validation, and a UI to compare English and Hindi side by side.</li>
+    <li><b>Beyond the brief</b>, each built on the same "one answer" rule:
+      <ul>
+        <li>fail-closed translation safety gates;</li>
+        <li>question canonicalisation with an answer store (same question, same answer, every time);</li>
+        <li>full <b>Hinglish</b> support;</li>
+        <li>a trilingual evaluation suite;</li>
+        <li>a <b>voice assistant</b> and a hands-free <b>voice agent</b> that understands follow-up questions.</li>
+      </ul></li>
+    <li><b>Deployed to the cloud</b> as a container on Vercel, and <b>documented</b> for handover (README, implementation guide, 81 offline tests).</li>
+  </ul>
+
+  <h3>How problems were solved</h3>
+  <p>Early testing showed Hindi answers quietly losing a doctor referral and softening an insulin warning. I built a runtime trace that logs every retrieval and model call, found the root cause (the translation step, not the architecture), and fixed it in the prompts, the medical glossary and new safety gates. <b>I never lowered a quality threshold to make a test pass.</b> Section 6 walks through these investigations.</p>
+
+  <div class="callout">
+    <b>Try it:</b> <a href="https://swastham-rag-demo.vercel.app">swastham-rag-demo.vercel.app</a>. Ask <span class="hi">"मैं टाइप 2 डायबिटीज के लिए इंसुलिन लेता हूँ। क्या मैं दीक्षित की दिन में दो बार भोजन वाली योजना अपना सकता हूँ?"</span> on the Ask tab and open the <i>Pipeline trace</i> to see every step and check. Appendix A gives the 5-minute demo script and setup steps.
+  </div>
+</section>
+
+<!-- ============ 2. THE PROBLEM ============ -->
+<section>
+  <h2><span class="num">2</span>The problem</h2>
+  <p>A common way to support Hindi is to let the AI model answer a Hindi question directly in Hindi. That produces <b>two independent answers</b> to the same question, one per language. They are generated separately, so they can say different things:</p>
+  <ul>
+    <li><b>Different facts or detail:</b> the Hindi answer is often shorter and less specific.</li>
+    <li><b>Lost numbers:</b> a BMI cut-off or a walking target can change or disappear.</li>
+    <li><b>Lost safety cautions:</b> for example, "people on insulin must adjust their dose with their doctor" can go missing. This is the most serious risk.</li>
+  </ul>
+  <div class="callout red">
+    <b>Why it matters for Swastham:</b> a Hindi-speaking user with type 2 diabetes who is on insulin must get exactly the same safety warning as an English-speaking user. An answer that is "mostly the same" is not acceptable in healthcare.
+  </div>
+
+  <h3>The original brief</h3>
+  <p>Take an English knowledge document on obesity, diabetes and the Dixit Lifestyle, and make sure the same question in English and Hindi rests on <b>the same evidence and the same underlying answer</b>. Hindi must never reason on its own. The brief also asked to keep the stack simple: Python, PyMuPDF, sentence-transformers, FAISS and one LLM, with no separate Hindi vector database, no agent frameworks, no hybrid search and no reranking.</p>
+
+  <h3>Brief vs. delivered</h3>
+  <table>
+    <thead><tr><th style="width:34%">Brief asked for</th><th>Delivered</th></tr></thead>
+    <tbody>
+      <tr><td>Ingestion: extract → chunk → English embeddings → FAISS</td><td>Section-aware chunking with heading context and safety tagging: 83 chunks, 23 of them marked safety-critical. The index is checked against its embedding model</td></tr>
+      <tr><td>Detect language; translate Hindi to English</td><td>Deterministic detection for English, Hindi <b>and Hinglish</b>, with a fixed medical glossary for translation</td></tr>
+      <tr><td>Answer Plan before generation</td><td>A JSON plan (required points, conditions, restrictions, evidence) in which safety cautions become required points</td></tr>
+      <tr><td>Canonical English answer from evidence only</td><td>Yes, plus <b>canonicalisation</b> so that different wordings of one question become the same question, and an <b>answer store</b> so it always gets the same answer</td></tr>
+      <tr><td>Lightweight validation</td><td>Four validation checks with one guided regeneration, plus <b>back-translation parity checks</b> on every Hindi and Hinglish answer, which <b>fail closed</b></td></tr>
+      <tr><td>Small UI to compare EN and HI</td><td>A three-tab web app: Ask (typed or 🎤 voice), Parity Compare (EN/HI/Hinglish scorecards against the old baseline) and a hands-free <b>Voice Agent</b></td></tr>
+      <tr><td>Keep it simple</td><td>Kept to the same simple stack: one English index, one LLM provider, no agent framework. It has also been <b>deployed</b> to the cloud</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ============ 3. SOLUTION ============ -->
+<section>
+  <h2><span class="num">3</span>The solution: generate once, translate everywhere</h2>
+  <p>The core design decision is simple and strict: <b>Hindi and Hinglish never reason on their own.</b> Every language goes through the same English answer path. Other languages only get a translation, and that translation must pass checks before anyone sees or hears it.</p>
+
+  <svg viewBox="0 0 700 430" width="100%" class="keep" role="img" aria-label="Architecture diagram">
+    <defs>
+      <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M0,0 L10,5 L0,10 z" fill="#5a6573"/></marker>
+    </defs>
+    <!-- inputs -->
+    <g font-size="12">
+      <rect x="10" y="10" width="150" height="34" rx="5" fill="#e3f3f2" stroke="#0f7c7a"/><text x="85" y="32" text-anchor="middle">English question</text>
+      <rect x="10" y="54" width="150" height="34" rx="5" fill="#e3f3f2" stroke="#0f7c7a"/><text x="85" y="76" text-anchor="middle">Hindi question</text>
+      <rect x="10" y="98" width="150" height="34" rx="5" fill="#e3f3f2" stroke="#0f7c7a"/><text x="85" y="120" text-anchor="middle">Hinglish question</text>
+      <rect x="10" y="142" width="150" height="34" rx="5" fill="#e3f3f2" stroke="#0f7c7a"/><text x="85" y="164" text-anchor="middle">🎤 Spoken question</text>
+      <rect x="200" y="98" width="150" height="34" rx="5" fill="#fff" stroke="#9aa5b1"/><text x="275" y="120" text-anchor="middle">→ standard Hindi</text>
+      <rect x="200" y="54" width="150" height="34" rx="5" fill="#fff" stroke="#9aa5b1"/><text x="275" y="76" text-anchor="middle">translate → English</text>
+      <rect x="200" y="142" width="150" height="34" rx="5" fill="#fff" stroke="#9aa5b1"/><text x="275" y="164" text-anchor="middle">Whisper transcript</text>
+    </g>
+    <g stroke="#5a6573" stroke-width="1.4" fill="none" marker-end="url(#ar)">
+      <path d="M160 71 H198"/><path d="M160 115 H198"/><path d="M160 159 H198"/>
+      <path d="M275 98 V90"/>
+      <path d="M160 27 H400 V206"/>
+      <path d="M350 71 H400"/>
+      <path d="M350 159 H400"/>
+    </g>
+    <!-- core -->
+    <rect x="235" y="208" width="330" height="150" rx="7" fill="#16324f"/>
+    <g fill="#fff" font-size="12" text-anchor="middle">
+      <text x="400" y="230" font-weight="700" font-size="13">ONE canonical English answer path</text>
+      <text x="400" y="254">1. Canonical question (one per meaning)</text>
+      <text x="400" y="274">2. Answer store: seen before? reuse</text>
+      <text x="400" y="294">3. FAISS retrieval from the English knowledge base</text>
+      <text x="400" y="314">4. Answer Plan → canonical English answer</text>
+      <text x="400" y="334">5. Validation (+1 guided regeneration)</text>
+    </g>
+    <!-- outputs -->
+    <g stroke="#5a6573" stroke-width="1.4" fill="none" marker-end="url(#ar)">
+      <path d="M300 358 V378 H110 V388"/><path d="M400 358 V388"/><path d="M500 358 V378 H610 V388"/>
+    </g>
+    <g font-size="11.5" text-anchor="middle">
+      <rect x="20" y="390" width="180" height="36" rx="5" fill="#e8f5e9" stroke="#2e7d32"/><text x="110" y="412">English: shown as-is</text>
+      <rect x="290" y="390" width="220" height="36" rx="5" fill="#fff4e0" stroke="#b86e00"/><text x="400" y="406">Hindi: translate THAT answer</text><text x="400" y="420" font-size="10" fill="#5a6573">gates → back-translate → parity</text>
+      <rect x="520" y="390" width="180" height="36" rx="5" fill="#fff4e0" stroke="#b86e00"/><text x="610" y="406">Hinglish: same, checked</text><text x="610" y="420" font-size="10" fill="#5a6573">fail closed on safety loss</text>
+    </g>
+    <text x="580" y="36" font-size="10.5" fill="#5a6573" text-anchor="middle">Voice agent follow-ups are</text>
+    <text x="580" y="50" font-size="10.5" fill="#5a6573" text-anchor="middle">rewritten into standalone</text>
+    <text x="580" y="64" font-size="10.5" fill="#5a6573" text-anchor="middle">questions first</text>
+  </svg>
+
+  <h3>Design principles I applied</h3>
+  <table>
+    <thead><tr><th style="width:32%">Principle</th><th>What it means in the system</th></tr></thead>
+    <tbody>
+      <tr><td><b>Generate once, translate everywhere</b></td><td>Only one function writes medical content. Hindi, Hinglish and speech are all derived from that one English answer</td></tr>
+      <tr><td><b>Same meaning → same answer</b></td><td>Questions are canonicalised and answers are stored per canonical question, so repeat questions get identical answers in seconds</td></tr>
+      <tr><td><b>Validate translations like any model output</b></td><td>Script, number and medical-term gates run on every translation, then a back-translation parity check</td></tr>
+      <tr><td><b>Fail closed on safety</b></td><td>A translation that loses a number or a safety caution after one retry is <b>never shown or spoken</b></td></tr>
+      <tr><td><b>Fix causes, not thresholds</b></td><td>Every failure was fixed in the prompt, glossary or pipeline. No threshold was ever lowered</td></tr>
+      <tr><td><b>Deterministic and testable</b></td><td>Temperature 0 with a fixed seed. All checks are pure functions, unit-tested offline without an API key</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ============ 4. TIMELINE ============ -->
+<section>
+  <h2><span class="num">4</span>How the work progressed</h2>
+  <p>The project ran from 23 to 28 September 2026. Each stage started from a problem found in the previous one.</p>
+  <div class="tl">
+    <div class="ev">
+      <div class="date">23 Sep · Foundation</div>
+      <div class="ttl">Brief, knowledge base and core pipeline</div>
+      <ul>
+        <li>Structured the English knowledge base (obesity, diabetes, the Dixit Lifestyle) for retrieval.</li>
+        <li>Designed the single answer path: ingestion → FAISS retrieval → Answer Plan → canonical English answer → validation.</li>
+      </ul>
+    </div>
+    <div class="ev">
+      <div class="date">24 Sep · Measure, then fix</div>
+      <div class="ttl">Evaluation set and first round of parity fixes</div>
+      <ul>
+        <li>Built the index: 83 chunks, 23 tagged safety-critical.</li>
+        <li>Wrote a 15-question EN/HI evaluation set, 6 of them safety-critical.</li>
+        <li>A runtime trace exposed three translation faults: a Hindi answer echoed in English, a lost obstetrician referral, and an insulin warning whose certainty was weakened.</li>
+        <li>Fixed them with glossary entries, prompt rules and new fail-closed translation gates.</li>
+      </ul>
+    </div>
+    <div class="ev">
+      <div class="date">24 – 25 Sep · Consistency</div>
+      <div class="ttl">Second round of fixes, canonicalisation and the answer store</div>
+      <ul>
+        <li>Fixed a tense drift and a glossary over-reach found in the hunger sample.</li>
+        <li>Added LLM question canonicalisation, so English and Hindi converge on one question.</li>
+        <li>Added a fingerprinted answer store that resets itself when prompts, the model or the knowledge base change.</li>
+        <li>Parity is now checked on every Hindi answer, not only on the Compare tab.</li>
+        <li>Built the EN/HI evaluation runner and the parity trace tool, and delivered the first presentation.</li>
+      </ul>
+    </div>
+    <div class="ev">
+      <div class="date">26 Sep · New language</div>
+      <div class="ttl">Hinglish support and trilingual evaluation</div>
+      <ul>
+        <li>Hinglish is common with Indian users but defeats plain embeddings (only 0.21 evidence overlap).</li>
+        <li>Built a deterministic Hinglish detector, a spelling normaliser, protected medical terms and a checked Hinglish-to-Hindi conversion.</li>
+        <li>Built a trilingual evaluation suite with a 14-question dataset, showing evidence overlap of 1.00 with English.</li>
+      </ul>
+    </div>
+    <div class="ev">
+      <div class="date">28 Sep · Voice, documentation and deployment</div>
+      <div class="ttl">Voice assistant, voice agent, documentation and cloud deployment</div>
+      <ul>
+        <li>Added speech in and out around the same verified pipeline: Whisper speech-to-text and neural text-to-speech.</li>
+        <li>Built a hands-free voice agent with pause detection, 3-turn memory for follow-ups and barge-in.</li>
+        <li>Tested live in Hindi and Hinglish.</li>
+        <li>Wrote the README and implementation guide, bringing the suite to 81 unit tests.</li>
+        <li>Packaged the app as a container and deployed it to Vercel.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5. FEATURES ============ -->
+<section>
+  <h2><span class="num">5</span>Features I added</h2>
+  <p>Each feature started from a concrete need. Each one keeps the core rule: one canonical English answer per question, with every other language a checked translation of it.</p>
+
+  <div class="card">
+    <h3><span class="tag">Safety</span>Parity checks and fail-closed translation gates</h3>
+    <div class="row"><span class="k">Why</span><span>A translation can silently drop a warning. The first traces proved it happens.</span></div>
+    <div class="row"><span class="k">How</span><span>Every translation passes these checks:
+      <ul>
+        <li><b>Gates:</b> correct script, identical numbers, medical terms present.</li>
+        <li><b>Back-translation</b> to English, then five parity checks: evidence overlap, <b>numbers</b>, <b>safety cautions</b>, recommendations and content coverage.</li>
+        <li>On failure, one retry with the failed checks as feedback.</li>
+      </ul></span></div>
+    <div class="row"><span class="k">Outcome</span><span>If the numbers or safety cautions are still wrong after the retry, the answer is <b>blocked</b>. A user never sees or hears an unverified translation.</span></div>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag">Consistency</span>Question canonicalisation and answer store</h3>
+    <div class="row"><span class="k">Why</span><span>"Can I eat fruit?" and "Are fruits OK for me?" are the same question and must get the same answer.</span></div>
+    <div class="row"><span class="k">How</span><span>Each question is rewritten into one standard English question, cached per wording. Validated answers and passing translations are stored per canonical question. A fingerprint of the model, prompts, glossaries and knowledge base resets the store automatically when any of them change.</span></div>
+    <div class="row"><span class="k">Outcome</span><span>Repeat questions are answered <b>identically</b> in a few seconds, instead of the 50–80 seconds a new question takes on the free API tier.</span></div>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag">Language</span>Hinglish (Romanised Hindi) input and output</h3>
+    <div class="row"><span class="k">Why</span><span>Many users type Hindi in English letters, mixed with English words. Embedding that text directly retrieves the wrong evidence (overlap 0.21 with English).</span></div>
+    <div class="row"><span class="k">How</span><span>Hinglish questions go through a pipeline and join the existing Hindi path. Answers come back through the same checks as Hindi.
+      <ul>
+        <li><b>Detection:</b> scored strong and weak marker words, with no model call.</li>
+        <li><b>Normalisation:</b> one standard spelling per Hindi word (<i>mai → main</i>, <i>hu → hoon</i>).</li>
+        <li><b>Protection:</b> medical terms such as <i>HbA1c</i>, <i>glimepiride</i> and <i>insulin</i> are masked before conversion.</li>
+        <li><b>Conversion:</b> a checked step from Roman script to Devanagari.</li>
+      </ul></span></div>
+    <div class="row"><span class="k">Outcome</span><span>Evidence overlap with English rose from <b>0.21 to 1.00</b>, on 14 of 14 questions. All four forms below reach the same canonical question and the same evidence:</span></div>
+    <pre class="hi">EN  Can I eat fruits if I have diabetes?
+HI  अगर मुझे डायबिटीज है तो क्या मैं फल खा सकता हूँ?
+HG  Mujhe diabetes hai, kya main fruits kha sakta hu?
+HG  kya mai fruit kha sakta hu diabetes me</pre>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag">Quality</span>Trilingual evaluation suite</h3>
+    <div class="row"><span class="k">Why</span><span>"It looks right" is not evidence. Consistency across languages had to be measured.</span></div>
+    <div class="row"><span class="k">How</span><span>A dataset of 14 EN/HI/Hinglish triples (5 safety-critical) with spelling variants. The suite measures:
+      <ul>
+        <li>retrieval consistency, evidence overlap and missing evidence;</li>
+        <li>plan consistency and answer similarity;</li>
+        <li>hallucination rate and parity.</li>
+      </ul>
+      Each language runs <i>separately</i>, so convergence is measured rather than forced. The Hinglish normaliser is compared against two baselines. Reports are produced as Markdown, JSON and CSV.</span></div>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag">Voice</span>Voice assistant and hands-free voice agent</h3>
+    <div class="row"><span class="k">Why</span><span>Many users prefer speaking to typing, especially in Hindi.</span></div>
+    <div class="row"><span class="k">How</span><span>Voice only adds input and output around the same verified pipeline, so what is spoken is the checked answer.
+      <ul>
+        <li><b>Speech in:</b> Whisper, with Urdu-script output corrected to Hindi and silence rejected.</li>
+        <li><b>Speech out:</b> neural Hindi and Indian-English voices.</li>
+        <li><b>Voice agent:</b> microphone calibration to room noise, pause detection and 3-turn memory. It rewrites follow-ups such as <span class="hi">"और अगर मैं प्रेग्नेंट हूँ तो?"</span> into standalone questions, lets you interrupt it (barge-in), and shows a ✓ verified badge.</li>
+      </ul></span></div>
+    <div class="row"><span class="k">Outcome</span><span>The live Hindi round trip was transcribed exactly. A two-turn pregnancy follow-up was rewritten correctly, answered in Hinglish, and passed validation and parity. If it cannot verify an answer, the agent says so and refers the user to their doctor.</span></div>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag">Product</span>Parity Compare UI, web app and cloud deployment</h3>
+    <div class="row"><span class="k">What</span><span>A three-tab web app with no build step.
+      <ul>
+        <li>The Ask tab shows a full pipeline trace and the evidence behind each answer.</li>
+        <li>The Parity Compare tab scores English, Hindi and Hinglish side by side against the old "answer directly in Hindi" baseline. It refuses to compare different questions (<i>Question Intent Mismatch</i>).</li>
+      </ul>
+      The app is containerised with CPU-only PyTorch and the embedding model preloaded, and deployed on Vercel with the API key kept in the platform's environment variables.</span></div>
+  </div>
+</section>
+
+<!-- ============ 6. PROBLEM SOLVING ============ -->
+<section>
+  <h2><span class="num">6</span>Problem solving: case studies</h2>
+  <p>I found these problems with a <b>runtime trace tool</b> (<code>trace_parity.py</code>) that logs every retrieval and every model call for the sample questions. The trace showed that the architecture was right, with one retrieval, one generation, and the exact answer passed to the translator. <b>The translation itself was unfaithful.</b> So every fix went into the translation step.</p>
+
+  <div class="card">
+    <h3><span class="tag amber">Case 1</span>A check that passed and hid a bug (BMI)</h3>
+    <div class="row"><span class="k">Symptom</span><span>The BMI sample "passed" parity.</span></div>
+    <div class="row"><span class="k">Root cause</span><span>The translator had returned the <b>English text unchanged</b>, so English was being compared with English.</span></div>
+    <div class="row"><span class="k">Fix</span><span>A gate that rejects a "Hindi" answer that is not mostly Devanagari, plus a rule that the output must always be Hindi, with the instruction repeated after the source text.</span></div>
+    <div class="row"><span class="k">Lesson</span><span>Every check needs a sanity check on its inputs. A passing check can hide a bug.</span></div>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag amber">Case 2</span>Doctor referral lost in translation (pregnancy)</h3>
+    <div class="row"><span class="k">Symptom</span><span>The safety check failed on the Hindi pregnancy answer.</span></div>
+    <div class="row"><span class="k">Root cause</span><span>"Obstetrician" was translated as <span class="hi">प्रसूति विशेषज्ञ</span> ("obstetric specialist"), which did not back-translate as a doctor referral.</span></div>
+    <div class="row"><span class="k">Fix</span><span>Referral roles (clinician, obstetrician, paediatrician, endocrinologist, healthcare team) were added to both glossaries, with a rule to keep the specific professional named.</span></div>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag amber">Case 3</span>An insulin warning made weaker (insulin)</h3>
+    <div class="row"><span class="k">Symptom</span><span>The recommendation check failed.</span></div>
+    <div class="row"><span class="k">Root cause</span><span>"Clinician" collapsed to "doctor", and "will <b>almost certainly</b> need to be adjusted" became "adjusted fairly precisely". The certainty of a safety instruction was weakened.</span></div>
+    <div class="row"><span class="k">Fix</span><span>Prompt rules to keep certainty words and the named professional, and the answer sent inside explicit delimiters. Exact-number gates with one retranslation, then fail closed.</span></div>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag amber">Case 4</span>Tense drift and a glossary over-reach (hunger)</h3>
+    <div class="row"><span class="k">Symptom</span><span>The recommendation check failed on the hunger sample.</span></div>
+    <div class="row"><span class="k">Root cause</span><span>Three faults:
+      <ul>
+        <li>"<b>Take</b> medicines" became "are taking", losing the instruction.</li>
+        <li>"Diabetes" was expanded to "<b>type 2</b> diabetes" from the glossary.</li>
+        <li>A heading was left in English.</li>
+      </ul></span></div>
+    <div class="row"><span class="k">Fix</span><span>Separate glossary entries for related terms, a rule to use a glossary term <b>only where the English uses that exact term</b>, and rules to keep tense and translate headings.</span></div>
+    <div class="row"><span class="k">Result</span><span>Insulin, BMI, pregnancy and hunger all pass <b>7 of 7</b> checks, <b>with no threshold or scoring logic changed.</b></span></div>
+  </div>
+
+  <div class="callout">
+    <b>Other issues solved along the way:</b>
+    <ul>
+      <li>Whisper labels spoken Hindi as Urdu, so the app re-transcribes it as Hindi.</li>
+      <li>Whisper invents "Thank you." on silence, so silent segments are filtered out.</li>
+      <li>The model's reasoning tokens were cutting answers short, so the output budget was raised and cut-offs now raise an error instead of showing a partial answer.</li>
+      <li>Keyword checks matched the middle of words (<i>kid</i> in <i>kidney</i>), so they now match whole words only.</li>
+      <li>Stale stored answers are now discarded automatically by the fingerprint.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 7. RESULTS ============ -->
+<section>
+  <h2><span class="num">7</span>Results and quality evidence</h2>
+
+  <h3>Hinglish retrieval: does the question reach the same evidence as English?</h3>
+  <p class="small muted">14 questions, retrieval-only evaluation, 26 Sep 2026 (<code>reports/trilingual_report.md</code>). Evidence overlap is the Jaccard overlap of retrieved chunks with the English question's chunks. The pass mark is 0.6.</p>
+  <svg viewBox="0 0 700 170" width="100%" class="keep" role="img" aria-label="Evidence overlap bar chart">
+    <g font-size="12">
+      <text x="205" y="30" text-anchor="end">Hinglish, with my normaliser</text>
+      <rect x="215" y="16" width="400" height="20" rx="2" fill="#0f7c7a"/><text x="622" y="31" font-weight="700">1.00</text>
+      <text x="205" y="68" text-anchor="end">Hindi (reference)</text>
+      <rect x="215" y="54" width="376" height="20" rx="2" fill="#6aa9c9"/><text x="598" y="69">0.94</text>
+      <text x="205" y="106" text-anchor="end">Hinglish, old pipeline</text>
+      <rect x="215" y="92" width="388" height="20" rx="2" fill="#9aa5b1"/><text x="610" y="107">0.97</text>
+      <text x="205" y="144" text-anchor="end">Hinglish, raw embedding</text>
+      <rect x="215" y="130" width="84" height="20" rx="2" fill="#b3261e"/><text x="306" y="145">0.21</text>
+      <line x1="455" y1="8" x2="455" y2="158" stroke="#b86e00" stroke-dasharray="4 3"/>
+      <text x="459" y="166" font-size="10" fill="#b86e00">pass mark 0.6</text>
+    </g>
+  </svg>
+
+  <table>
+    <thead><tr><th>Retrieval of the Hinglish question</th><th class="n">Mean overlap</th><th class="n">Passed</th><th class="n">Missing evidence</th><th class="n">Same canonical question</th></tr></thead>
+    <tbody>
+      <tr><td><b>With normaliser</b></td><td class="n"><b>1.00</b></td><td class="n"><b>14/14</b></td><td class="n"><b>0</b></td><td class="n">10/14</td></tr>
+      <tr><td>Old pipeline (Hinglish treated as English)</td><td class="n">0.97</td><td class="n">14/14</td><td class="n">1</td><td class="n">7/14</td></tr>
+      <tr><td>Raw embedding</td><td class="n">0.21</td><td class="n">4/14</td><td class="n">42</td><td class="n">0/14</td></tr>
+      <tr><td class="muted">Hindi, for reference</td><td class="n">0.94</td><td class="n">14/14</td><td class="n">2</td><td class="n">8/14</td></tr>
+    </tbody>
+  </table>
+  <p class="small">Hinglish was detected in 14 of 14 questions, and 0 of 14 English questions were wrongly detected as Hinglish.</p>
+
+  <h3>Full answer evaluation (samples T1, T2, T9)</h3>
+  <table>
+    <thead><tr><th>Language</th><th class="n">Parity passed</th><th class="n">Mean answer similarity to English</th><th class="n">Mean plan consistency</th></tr></thead>
+    <tbody>
+      <tr><td>Hindi</td><td class="n pass">3/3</td><td class="n">0.93</td><td class="n">0.89</td></tr>
+      <tr><td>Hinglish</td><td class="n pass">3/3</td><td class="n">0.97</td><td class="n">0.92</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Other quality evidence</h3>
+  <table>
+    <thead><tr><th style="width:36%">Area</th><th>Result</th></tr></thead>
+    <tbody>
+      <tr><td>Automated tests</td><td><b>81 / 81 pass</b> (re-run for this report on 28 Sep 2026). 32 parity, 28 Hinglish and 21 voice tests. They run offline, with no API key, microphone or network</td></tr>
+      <tr><td>Parity trace</td><td>Insulin, BMI, pregnancy and hunger samples: <b>7/7 checks each</b></td></tr>
+      <tr><td>Voice (live)</td><td>The Hindi speech round trip was transcribed exactly: <span class="hi">"मुझे हर समय भूख क्यों लगती है?"</span>. The follow-up was correctly rewritten and passed parity in Hinglish</td></tr>
+      <tr><td>Deployment</td><td><a href="https://swastham-rag-demo.vercel.app">Live app</a> is responding. Its <code>/api/status</code> reports the model key and voice both enabled (checked on 28 Sep 2026)</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Engineering practices</h3>
+  <ul>
+    <li><b>Determinism:</b> temperature 0 and seed 42 on every model call, with stored answers for repeatable output.</li>
+    <li><b>No silent fallback:</b> truncated or empty model output raises an error, so the demo never shows a partial or invented answer.</li>
+    <li><b>Resilience:</b> automatic retries on rate limits, server errors and timeouts (up to 8 attempts).</li>
+    <li><b>Safe storage:</b> the answer store is written atomically under a lock, and only validated answers are stored.</li>
+    <li><b>Separation of concerns:</b> ingestion, LLM layer, pipeline, validator, Hinglish, voice, server and UI are separate modules. Adding a new language touches only the translation layer (see the implementation guide, §17).</li>
+  </ul>
+</section>
+
+<!-- ============ 8. LIMITS & NEXT STEPS ============ -->
+<section>
+  <h2><span class="num">8</span>Limitations and recommended next steps</h2>
+  <p>This is a proof of concept. These are its known limits, stated plainly, with the step I recommend for each before production.</p>
+  <table>
+    <thead><tr><th style="width:40%">Limitation today</th><th>Recommended next step</th></tr></thead>
+    <tbody>
+      <tr><td>The checks are keyword-based, so they raise some false alarms. For example, "talk with your doctor" can be missed where the check looks for "consult a healthcare professional"</td><td>Add meaning-level checks (an entailment model or an LLM judge) alongside the keyword checks</td></tr>
+      <tr><td>A new question takes 50–80 s on the free API tier (6–10 model calls). Repeat questions take seconds</td><td>A paid tier or a faster model; pre-warm the store with the most common questions</td></tr>
+      <tr><td>Slightly different canonical wordings ("BMI cut-offs" vs "cut-off") are stored separately</td><td>Reuse a stored answer when the evidence is identical and the questions are very similar (cosine ≥ ~0.9)</td></tr>
+      <tr><td>The medical glossary determines whether advice survives translation</td><td>Version the glossary and have a clinician review it. Rerun all samples after each change</td></tr>
+      <tr><td>The system answers only from the knowledge document</td><td>Extend the knowledge base. Re-ingesting resets stored answers automatically</td></tr>
+      <tr><td>Voice pause detection is energy-based, and Hinglish speech is transcribed in Devanagari</td><td>Use a speech-activity model. "Reply in: Hinglish" already handles the reply language</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Roadmap to production</h3>
+  <ol>
+    <li><b>Clinical review</b> of the glossary and the safety-caution rules.</li>
+    <li><b>Meaning-level validation</b> alongside the keyword checks.</li>
+    <li><b>More languages</b> (e.g. Marathi, Tamil). The architecture needs only a new checked translator and a voice for each; retrieval, planning and validation stay unchanged.</li>
+    <li><b>Integration</b> with the Swastham app: authentication, logging and monitoring of parity failures, and a larger evaluation set drawn from real user questions.</li>
+  </ol>
+
+  <h3>What this project demonstrates</h3>
+  <table>
+    <thead><tr><th style="width:32%">Capability</th><th>Evidence in this project</th></tr></thead>
+    <tbody>
+      <tr><td>RAG system design</td><td>An end-to-end pipeline: chunking, embeddings, FAISS, Answer Plan and grounded generation, built within the brief's constraints</td></tr>
+      <tr><td>AI safety for healthcare</td><td>Fail-closed gates, preservation of safety cautions and doctor referrals, and no unverified output</td></tr>
+      <tr><td>Adding features without breaking the core</td><td>Five major features were added on top of one unchanged "one answer" rule</td></tr>
+      <tr><td>Problem solving</td><td>Traced root causes in the runtime and fixed causes, not thresholds (Section 6)</td></tr>
+      <tr><td>Measurement</td><td>Two evaluation suites, baselines and 81 unit tests</td></tr>
+      <tr><td>Full-stack delivery</td><td>Python backend, web UI, browser voice engine, container, cloud deployment and documentation</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ============ APPENDIX ============ -->
+<section>
+  <h2><span class="num">A</span>Appendix: how to run and demo</h2>
+
+  <h3>Use the live app</h3>
+  <p>Open <a href="https://swastham-rag-demo.vercel.app">https://swastham-rag-demo.vercel.app</a> in Chrome or Edge. Voice needs microphone permission.</p>
+
+  <h3>Run it locally</h3>
+  <p>You need Python 3.10+, internet access and a free Groq API key from console.groq.com/keys.</p>
+<pre>git clone {{REPO_URL}}.git
+cd RAG_demo_swastham.ai
+pip install -r requirements.txt
+copy .env.example .env          # then set GROQ_API_KEY in .env
+python server.py                # open http://localhost:8000</pre>
+  <p class="small">The search index and stored answers are included in the repository, so you don't need to re-ingest. To rebuild the index, run <code>python ingest.py --source documentRAG.md</code>. The first run downloads the embedding model (about 90 MB).</p>
+
+  <h3>Run the tests and evaluations</h3>
+<pre>python -m unittest test_parity.py test_hinglish.py test_voice.py   # 81 offline tests, no key needed
+python evaluate.py                                                 # 15 EN/HI pairs vs baseline
+python -m evaluation.run_trilingual_eval --retrieval-only          # EN/HI/Hinglish consistency report</pre>
+
+  <h3>Suggested 5-minute demo</h3>
+  <ol>
+    <li><b>Ask tab:</b> ask the Hindi insulin question and open the <i>Pipeline trace</i>. It shows the canonical question, the evidence, the Answer Plan, the validation and the parity checks.</li>
+    <li><b>Parity Compare:</b> run the <i>Insulin (safety)</i> sample with <i>Show baseline</i> ticked. The canonical pipeline passes, and the old approach is scored alongside it.</li>
+    <li><b>Voice Agent:</b> set <i>Reply in: Hinglish</i>, then say <i>"I take insulin for type 2 diabetes, can I follow the Dixit two-meal plan?"</i> and follow up with <i>"aur agar main pregnant hoon to?"</i>. Interrupt it mid-answer to see barge-in.</li>
+  </ol>
+
+  <h3>Repository map</h3>
+  <table>
+    <thead><tr><th style="width:34%">Path</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td><code>rag_pipeline.py</code></td><td>The single answer path, answer store, Parity Compare and baseline</td></tr>
+      <tr><td><code>llm_client.py</code></td><td>Every model call, prompts, medical glossaries, translation gates</td></tr>
+      <tr><td><code>validator.py</code></td><td>Answer validation and parity checks (pure functions)</td></tr>
+      <tr><td><code>ingest.py</code></td><td>Chunking, embeddings, FAISS index, retrieval</td></tr>
+      <tr><td><code>hinglish/</code></td><td>Hinglish detector, spelling normaliser, protected medical terms</td></tr>
+      <tr><td><code>voice.py</code>, <code>web/voice.js</code>, <code>web/agent.js</code></td><td>Speech in and out, browser voice engine, voice agent</td></tr>
+      <tr><td><code>server.py</code>, <code>web/</code></td><td>Web server, JSON and audio API, user interface</td></tr>
+      <tr><td><code>evaluation/</code>, <code>evaluate.py</code>, <code>trace_parity.py</code></td><td>Evaluation suites and the runtime trace tool</td></tr>
+      <tr><td><code>README.md</code>, <code>IMPLEMENTATION.md</code></td><td>Setup guide and full technical reference</td></tr>
+    </tbody>
+  </table>
+</section>
+
+</body>
+</html>
