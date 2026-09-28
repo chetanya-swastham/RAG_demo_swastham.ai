@@ -1,0 +1,769 @@
+{
+  "mode": "full",
+  "thresholds": {
+    "retrieval_overlap": 0.6,
+    "missing_evidence": 0,
+    "plan_consistency": 0.9,
+    "answer_similarity": 0.85,
+    "hallucination_rate": 0.2
+  },
+  "summary": {
+    "items": 3,
+    "evaluated": 3,
+    "errors": [],
+    "detection": {
+      "hinglish_detected": 3,
+      "english_misdetected": 0
+    },
+    "retrieval": {
+      "hi": {
+        "mean_overlap": 1.0,
+        "mean_rank_overlap": 1.0,
+        "passed": 3,
+        "total_missing_evidence": 0,
+        "same_canonical": 2,
+        "mean_query_similarity": 0.991,
+        "mean_score_drift": 0.003,
+        "n": 3
+      },
+      "hinglish": {
+        "mean_overlap": 1.0,
+        "mean_rank_overlap": 1.0,
+        "passed": 3,
+        "total_missing_evidence": 0,
+        "same_canonical": 2,
+        "mean_query_similarity": 0.993,
+        "mean_score_drift": 0.003,
+        "n": 3
+      },
+      "hinglish_raw": {
+        "mean_overlap": 0.2,
+        "mean_rank_overlap": 0.27,
+        "passed": 1,
+        "total_missing_evidence": 9,
+        "same_canonical": 0,
+        "mean_query_similarity": null,
+        "mean_score_drift": 0.078,
+        "n": 3
+      }
+    },
+    "variants": {
+      "total": 5,
+      "same_canonical": 4,
+      "mean_overlap": 1.0
+    },
+    "answers": {
+      "en_hallucination": 0.133,
+      "hi": {
+        "n": 3,
+        "same_answer_entry": 2,
+        "mean_overlap": 1.0,
+        "total_missing_evidence": 0,
+        "mean_plan_consistency": 0.894,
+        "plan_passed": 1,
+        "mean_answer_similarity": 0.933,
+        "answer_passed": 3,
+        "mean_hallucination": 0.089,
+        "hallucination_passed": 3,
+        "parity_passed": 3
+      },
+      "hinglish": {
+        "n": 3,
+        "same_answer_entry": 2,
+        "mean_overlap": 1.0,
+        "total_missing_evidence": 0,
+        "mean_plan_consistency": 0.915,
+        "plan_passed": 2,
+        "mean_answer_similarity": 0.966,
+        "answer_passed": 3,
+        "mean_hallucination": 0.211,
+        "hallucination_passed": 2,
+        "parity_passed": 3
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "T1",
+      "safety": false,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "Can I eat fruit if I have diabetes?",
+        "hi": "Can I eat fruit if I have diabetes?",
+        "hinglish": "Can I eat fruit if I have diabetes?"
+      },
+      "standard_hindi_query": "मुझे diabetes है क्या मैं fruits खा सकता हूँ",
+      "chunks": {
+        "en": [
+          {
+            "id": 49,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 24. Macronutrients, Glycaemic Index, and Meal Composition",
+            "score": 0.4852
+          },
+          {
+            "id": 24,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 7. Dietary Interventions",
+            "score": 0.4517
+          },
+          {
+            "id": 62,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+            "score": 0.4264
+          },
+          {
+            "id": 54,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.4247
+          }
+        ],
+        "hi": [
+          {
+            "id": 49,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 24. Macronutrients, Glycaemic Index, and Meal Composition",
+            "score": 0.4852
+          },
+          {
+            "id": 24,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 7. Dietary Interventions",
+            "score": 0.4517
+          },
+          {
+            "id": 62,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+            "score": 0.4264
+          },
+          {
+            "id": 54,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.4247
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 49,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 24. Macronutrients, Glycaemic Index, and Meal Composition",
+            "score": 0.4852
+          },
+          {
+            "id": 24,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 7. Dietary Interventions",
+            "score": 0.4517
+          },
+          {
+            "id": 62,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+            "score": 0.4264
+          },
+          {
+            "id": 54,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.4247
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            49,
+            24,
+            62,
+            54
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish": {
+          "chunk_ids": [
+            49,
+            24,
+            62,
+            54
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            76,
+            77,
+            52,
+            71
+          ],
+          "overlap": 0.0,
+          "rank_overlap": 0.0,
+          "missing_evidence": [
+            24,
+            49,
+            54,
+            62
+          ],
+          "missing_count": 4,
+          "score_drift": null
+        }
+      },
+      "variants": [
+        {
+          "text": "kya mai fruit kha sakta hu diabetes me",
+          "normalised": "kya main fruit kha sakta hoon diabetes me",
+          "english_query": "Can I eat fruit if I have diabetes?",
+          "same_canonical": true,
+          "overlap": 1.0
+        },
+        {
+          "text": "kya main fruits kha sakta hoon agar diabetes hai",
+          "normalised": "kya main fruits kha sakta hoon agar diabetes hai",
+          "english_query": "Can I eat fruit if I have diabetes?",
+          "same_canonical": true,
+          "overlap": 1.0
+        },
+        {
+          "text": "mujhe diabetes hai can i eat fruit",
+          "normalised": "mujhe diabetes hai can i eat fruit",
+          "english_query": "Can I eat fruit if I have diabetes?",
+          "same_canonical": true,
+          "overlap": 1.0
+        }
+      ],
+      "answers": {
+        "canonical_answer": "Fruit contains carbohydrates, so eating it will raise your blood‑glucose level. Because whole fruits also provide fiber, the carbohydrate is absorbed more slowly than refined carbs (such as white rice or sugar), producing a flatter glucose rise. When you add fruit to your meals you should consider the portion size and how it fits into your total daily carbohydrate allowance. If you use insulin or a sulfonylurea (a medication that stimulates insulin release), changing the amount or timing of fruit can affect your blood‑glucose and may increase the risk of hypoglycaemia; any adjustments to medication should be made only under medical supervision. Therefore, when you start eating fruit, monitor your blood‑glucose response and, if you are on insulin or sulfonylurea drugs, work with your healthcare provider to adjust doses as needed.",
+        "validation_passed": true,
+        "en": {
+          "hallucination": {
+            "rate": 0.4,
+            "ungrounded_sentences": [
+              "When you add fruit to your meals you should consider the portion size and how it fits into your total daily carbohydrate allowance.",
+              "Therefore, when you start eating fruit, monitor your blood‑glucose response and, if you are on insulin or sulfonylurea drugs, work with your healthcare provider to adjust doses as needed."
+            ],
+            "unsupported_numbers": []
+          }
+        },
+        "hi": {
+          "english_query": "Can I eat fruit if I have diabetes?",
+          "same_answer_entry": true,
+          "retrieval": {
+            "chunk_ids": [
+              49,
+              24,
+              62,
+              54
+            ],
+            "overlap": 1.0,
+            "rank_overlap": 1.0,
+            "missing_evidence": [],
+            "missing_count": 0,
+            "score_drift": 0.0
+          },
+          "plan_consistency": 1.0,
+          "answer_similarity": {
+            "value": 0.9882,
+            "cosine": 0.9882,
+            "content_coverage": 1.0
+          },
+          "hallucination": {
+            "rate": 0.0,
+            "ungrounded_sentences": [],
+            "unsupported_numbers": []
+          },
+          "parity_passed": true,
+          "failed_parity_checks": [],
+          "final_answer": "फल में कार्बोहाइड्रेट होते हैं, इसलिए इसे खाने से आपका ब्लड‑ग्लूकोज़ स्तर बढ़ेगा। क्योंकि पूरे फल में फाइबर भी होता है, कार्बोहाइड्रेट का अवशोषण परिष्कृत कार्ब्स (जैसे सफेद चावल या शुगर) की तुलना में अधिक धीरे‑धीरे होता है, जिससे ग्लूकोज़ में एक सपाट वृद्धि होती है। जब आप अपने भोजन में फल जोड़ते हैं तो आपको भाग के आकार पर विचार करना चाहिए और यह देखना चाहिए कि यह आपके कुल दैनिक कार्बोहाइड्रेट अलाउंस में कैसे फिट बैठता है। यदि आप इंसुलिन या सल्फोनाइलयूरिया (एक दवा जो इंसुलिन रिलीज़ को उत्तेजित करती है) का उपयोग करते हैं, तो फल की मात्रा या समय में परिवर्तन आपके ब्लड‑ग्लूकोज़ को प्रभावित कर सकता है और हाइपोग्लाइसीमिया के जोखिम को बढ़ा सकता है; किसी भी दवा में समायोजन केवल चिकित्सकीय पर्यवेक्षण में ही किया जाना चाहिए। इसलिए, जब आप फल खाना शुरू करें, तो अपने ब्लड‑ग्लूकोज़ प्रतिक्रिया की निगरानी करें और यदि आप इंसुलिन या सल्फोनाइलयूरिया दवाओं पर हैं, तो आवश्यकतानुसार खुराक समायोजित करने के लिए अपने हेल्थकेयर प्रोफेशनल के साथ काम करें।",
+          "back_translation": "Fruit contains carbohydrates, so eating it will raise your blood‑glucose level. Because whole fruit also contains fiber, the absorption of carbohydrates occurs more slowly than refined carbs (such as white rice or sugar), resulting in a flat increase in glucose. When you add fruit to your meals you should consider portion size and see how it fits into your total daily carbohydrate allowance. If you take insulin or sulfonylurea (a medicine that stimulates insulin release), changes in the amount or timing of fruit can affect your blood‑glucose and increase the risk of hypoglycemia; any adjustment to medicines should be made only under medical supervision. Therefore, when you start eating fruit, monitor your blood‑glucose response and, if you are on insulin or sulfonylurea medicines, work with your healthcare professional to adjust the dose as needed."
+        },
+        "hinglish": {
+          "english_query": "Can I eat fruit if I have diabetes?",
+          "same_answer_entry": true,
+          "retrieval": {
+            "chunk_ids": [
+              49,
+              24,
+              62,
+              54
+            ],
+            "overlap": 1.0,
+            "rank_overlap": 1.0,
+            "missing_evidence": [],
+            "missing_count": 0,
+            "score_drift": 0.0
+          },
+          "plan_consistency": 1.0,
+          "answer_similarity": {
+            "value": 0.9971,
+            "cosine": 0.9971,
+            "content_coverage": 1.0
+          },
+          "hallucination": {
+            "rate": 0.4,
+            "ungrounded_sentences": [
+              "When you add fruit to your meals, you should consider the portion size and how it fits into your total daily carbohydrate allowance.",
+              "Therefore, when you start eating fruit, monitor your blood‑glucose response and, if you are on insulin or sulfonylurea drugs, work with your healthcare provider to adjust doses as needed."
+            ],
+            "unsupported_numbers": []
+          },
+          "parity_passed": true,
+          "failed_parity_checks": [],
+          "final_answer": "Fruit mein carbohydrates hote hain, isliye usse khane se aapka blood‑glucose level badhega. Kyuki whole fruits fiber bhi provide karte hain, carbohydrate refined carbs (jaise white rice ya sugar) ke mukable dheere absorb hota hai, jis se glucose rise flatter hoti hai. Jab aap fruit ko apne meals mein add karte hain to portion size aur uska aapke total daily carbohydrate allowance mein fit hona consider karna chahiye. Agar aap insulin ya sulfonylurea (ek medication jo insulin release stimulate karta hai) use karte hain, to fruit ki amount ya timing change karne se aapke blood‑glucose par effect pad sakta hai aur hypoglycaemia ka risk badh sakta hai; medication mein koi bhi adjustment sirf medical supervision ke under hi kiya jaana chahiye. Isliye, jab aap fruit khana start karte hain, to apna blood‑glucose response monitor karein aur agar aap insulin ya sulfonylurea drugs par hain, to doses adjust karne ke liye apne healthcare provider ke saath kaam karein as needed.",
+          "back_translation": "Fruit contains carbohydrates, so eating it will raise your blood‑glucose level. Because whole fruits also provide fiber, the carbohydrate is absorbed more slowly than refined carbs (such as white rice or sugar), resulting in a flatter glucose rise. When you add fruit to your meals, you should consider the portion size and how it fits into your total daily carbohydrate allowance. If you take insulin or sulfonylurea (a medication that stimulates insulin release), changing the amount or timing of fruit can affect your blood‑glucose and increase the risk of hypoglycaemia; any medication adjustment should be made only under medical supervision. Therefore, when you start eating fruit, monitor your blood‑glucose response and, if you are on insulin or sulfonylurea drugs, work with your healthcare provider to adjust doses as needed."
+        }
+      },
+      "status": "ok"
+    },
+    {
+      "id": "T2",
+      "safety": true,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "Can I follow the Dixit Lifestyle two-meal plan while taking insulin for type 2 diabetes?",
+        "hi": "Can I follow the Dixit Lifestyle two-meal plan while taking insulin for type 2 diabetes?",
+        "hinglish": "Can I follow the Dixit Lifestyle two-meal plan while taking insulin for type 2 diabetes?"
+      },
+      "standard_hindi_query": "मैं type 2 diabetes के लिए insulin लेता हूँ क्या मैं dixit का two meal plan follow कर सकता हूँ",
+      "chunks": {
+        "en": [
+          {
+            "id": 32,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+            "score": 0.67
+          },
+          {
+            "id": 39,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 19. Synthetic Question–Answer Set (For RAG Evaluation and Fine-Tuning)",
+            "score": 0.654
+          },
+          {
+            "id": 34,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 15. Scientific Reception and Balanced Assessment",
+            "score": 0.6459
+          },
+          {
+            "id": 33,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 14. The Insulin Hypothesis",
+            "score": 0.6445
+          }
+        ],
+        "hi": [
+          {
+            "id": 32,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+            "score": 0.67
+          },
+          {
+            "id": 39,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 19. Synthetic Question–Answer Set (For RAG Evaluation and Fine-Tuning)",
+            "score": 0.654
+          },
+          {
+            "id": 34,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 15. Scientific Reception and Balanced Assessment",
+            "score": 0.6459
+          },
+          {
+            "id": 33,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 14. The Insulin Hypothesis",
+            "score": 0.6445
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 32,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+            "score": 0.67
+          },
+          {
+            "id": 39,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 19. Synthetic Question–Answer Set (For RAG Evaluation and Fine-Tuning)",
+            "score": 0.654
+          },
+          {
+            "id": 34,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 15. Scientific Reception and Balanced Assessment",
+            "score": 0.6459
+          },
+          {
+            "id": 33,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 14. The Insulin Hypothesis",
+            "score": 0.6445
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            32,
+            39,
+            34,
+            33
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish": {
+          "chunk_ids": [
+            32,
+            39,
+            34,
+            33
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            71,
+            61,
+            24,
+            62
+          ],
+          "overlap": 0.0,
+          "rank_overlap": 0.0,
+          "missing_evidence": [
+            32,
+            33,
+            34,
+            39
+          ],
+          "missing_count": 4,
+          "score_drift": null
+        }
+      },
+      "variants": [
+        {
+          "text": "mai insulin leta hu type 2 diabetes ke liye, kya dixit two meal plan kar sakta hu",
+          "normalised": "main insulin leta hoon type 2 diabetes ke liye kya dixit two meal plan kar sakta hoon",
+          "english_query": "Can I follow the Dixit Lifestyle two-meal plan while taking insulin for type 2 diabetes?",
+          "same_canonical": true,
+          "overlap": 1.0
+        }
+      ],
+      "answers": {
+        "canonical_answer": "The Dixit Lifestyle is built around eating only two meals a day, each taken when you truly feel hungry, with no food (except water, unsweetened tea or black coffee) between them. The meals are meant to be eaten quickly (about 5‑7 minutes) and are usually started with raw vegetables, salad or nuts to slow glucose absorption.\n\nBecause this pattern creates long fasting periods, it can lead to **dangerous low blood‑sugar (hypoglycaemia) in people who use insulin or sulfonylureas** if the medication is not adjusted. Therefore:\n\n* **Medical supervision is essential** before trying the two‑meal plan.  \n* Your doctor will need to monitor your blood glucose closely and may have to change your insulin dose or timing.  \n* Do not start the plan on your own, and do not assume it is safe for every insulin user.\n\nSome studies and anecdotal reports suggest that eating fewer meals and limiting the eating window may help improve glycaemic control and aid weight loss, but the evidence is limited and not conclusive. The Dixit Lifestyle has **not been proven to reverse type 2 diabetes**, and large randomised trials are lacking.\n\n**Bottom line:** You can consider the Dixit two‑meal approach only under the guidance of your healthcare provider, with careful blood‑glucose monitoring and possible insulin dose adjustments. Without such supervision, the prolonged fasting gaps pose a real risk of hypoglycaemia.",
+        "validation_passed": false,
+        "en": {
+          "hallucination": {
+            "rate": 0.0,
+            "ungrounded_sentences": [],
+            "unsupported_numbers": []
+          }
+        },
+        "hi": {
+          "english_query": "Can I follow the Dixit Lifestyle two-meal plan while taking insulin for type 2 diabetes?",
+          "same_answer_entry": true,
+          "retrieval": {
+            "chunk_ids": [
+              32,
+              39,
+              34,
+              33
+            ],
+            "overlap": 1.0,
+            "rank_overlap": 1.0,
+            "missing_evidence": [],
+            "missing_count": 0,
+            "score_drift": 0.0
+          },
+          "plan_consistency": 0.8068,
+          "answer_similarity": {
+            "value": 0.9212,
+            "cosine": 0.9212,
+            "content_coverage": 0.5
+          },
+          "hallucination": {
+            "rate": 0.1,
+            "ungrounded_sentences": [
+              "Monitor glucose closely.** Frequent self‑checks (including at night) are necessary, especially when you first change the eating schedule."
+            ],
+            "unsupported_numbers": []
+          },
+          "parity_passed": true,
+          "failed_parity_checks": [],
+          "final_answer": "डिक्सिट लाइफ़स्टाइल दो‑भोजन योजना खाने के अवसरों की संख्या को दिन में दो भोजन तक घटाती है, जिसमें छोटे (5‑7 मिनट) भोजन, “सलाद‑पहले” नियम और दैनिक 45‑मिनट की टहलना शामिल है। भोजन की आवृत्ति कम करने से कुछ लोगों को औसत इंसुलिन स्तर कम करने में मदद मिल सकती है और यह ग्लाइसेमिक नियंत्रण में सुधार कर सकता है।\n\nहालाँकि, जो भी इंसुलिन (या सल्फोनिलयूरिया) का उपयोग करता है, उसके लिए दो भोजन के बीच लंबे उपवास अवधि से खतरनाक हाइपोग्लाइसीमिया का वास्तविक जोखिम बनता है। क्योंकि इंसुलिन कई घंटों तक कार्य करता रहता है, भोजन के बिना कई घंटों का अंतराल दवा की मात्रा को समायोजित न करने पर ब्लड‑शुगर को असुरक्षित स्तर तक गिरा सकता है।\n\n**आपको क्या करना चाहिए**\n\n* **योजना को अपने आप शुरू न करें।** दो‑भोजन पैटर्न को आज़माने से पहले अपने डायबिटीज़‑केयर क्लिनिशियन से मिलें।  \n* **दवा की समीक्षा आवश्यक है।** आपका डॉक्टर इंसुलिन की मात्रा कम करने, इंजेक्शन के समय को बदलने, या विस्तारित उपवास के दौरान ब्लड‑शुगर को सुरक्षित रखने के लिए अलग रेजीमेन पर स्विच करने की आवश्यकता महसूस कर सकता है।  \n* **ग्लूकोज़ को निकटता से मॉनिटर करें।** अक्सर स्वयं‑जाँच (रात में भी) आवश्यक है, विशेष रूप से जब आप पहली बार खाने के शेड्यूल को बदलते हैं।  \n* **समायोजन के लिए तैयार रहें।** यदि आप कम ब्लड‑शुगर के लक्षण (हिलना‑डुलना, पसीना आना, भ्रम, चक्कर) महसूस करते हैं या कम ग्लूकोज़ रीडिंग दर्ज करते हैं, तो आपको योजना या दवा को तुरंत मेडिकल गाइडेंस के तहत संशोधित करना चाहिए।\n\nडिक्सिट लाइफ़स्टाइल को एक आशाजनक जीवनशैली दृष्टिकोण के रूप में प्रस्तुत किया गया है, टाइप 2 डायबिटीज़ का इलाज या उलटाव नहीं। इसके लाभ बड़े रैंडमाइज़्ड ट्रायल्स द्वारा सिद्ध नहीं हुए हैं, और इंसुलिन‑उपचारित रोगियों की सुरक्षा व्यक्तिगत मूल्यांकन और प्रोफेशनल सुपरविजन पर निर्भर करती है।",
+          "back_translation": "The Dixit Lifestyle two-meal plan reduces the number of eating occasions to two meals a day, which includes short (5–7 minute) meals, a “salad‑first” rule, and a daily 45‑minute walk. Reducing meal frequency can help some people lower average insulin levels and improve glycemic control.\n\nHowever, for anyone who takes insulin (or sulfonylureas), the long fasting period between the two meals creates a real risk of dangerous hypoglycemia. Because insulin works for many hours, a several‑hour gap without food can drop blood sugar to unsafe levels if the medication dose is not adjusted.\n\n**What you should do**\n\n* **Do not start the plan on your own.** Meet your diabetes‑care clinician before trying the two‑meal pattern.  \n* **Medication review is required.** Your doctor may feel the need to reduce the insulin dose, change injection timing, or switch to a different regimen to keep blood sugar safe during the extended fast.  \n* **Monitor glucose closely.** Frequent self‑checks (including at night) are necessary, especially when you first change the eating schedule.  \n* **Be prepared to adjust.** If you experience low‑blood‑sugar symptoms (shaking, sweating, confusion, dizziness) or record low glucose readings, you should modify the plan or medication immediately under medical guidance.\n\nThe Dixit Lifestyle is presented as a promising lifestyle approach, not a cure or reversal for type 2 diabetes. Its benefits have not been proven by large randomized trials, and the safety of insulin‑treated patients depends on individual assessment and professional supervision."
+        },
+        "hinglish": {
+          "english_query": "Can I follow the Dixit Lifestyle two-meal plan while taking insulin for type 2 diabetes?",
+          "same_answer_entry": true,
+          "retrieval": {
+            "chunk_ids": [
+              32,
+              39,
+              34,
+              33
+            ],
+            "overlap": 1.0,
+            "rank_overlap": 1.0,
+            "missing_evidence": [],
+            "missing_count": 0,
+            "score_drift": 0.0
+          },
+          "plan_consistency": 0.9097,
+          "answer_similarity": {
+            "value": 0.9561,
+            "cosine": 0.9561,
+            "content_coverage": 0.9
+          },
+          "hallucination": {
+            "rate": 0.0909,
+            "ungrounded_sentences": [
+              "Be ready to modify insulin dosing only under professional guidance; do not change doses yourself."
+            ],
+            "unsupported_numbers": []
+          },
+          "parity_passed": true,
+          "failed_parity_checks": [],
+          "final_answer": "Dixit Lifestyle sirf do meals din mein khane ke around built hai, har meal tab liya jata hai jab aap sach mein bhookh mehsoos karte ho, aur unke beech koi khana (sirf paani, unsweetened tea ya black coffee chhodkar) nahi hota. Meals ko jaldi (lagbhag 5‑7 minutes) khana hota hai aur aam taur par raw vegetables, salad ya nuts se start kiya jata hai taaki glucose absorption slow ho.\n\nKyuki yeh pattern long fasting periods create karta hai, isse insulin (ya sulfonylureas) use karne wale logon mein dangerous low blood‑sugar episodes ho sakte hain. Prolonged gaps without food jab insulin abhi bhi active hota hai, hypoglycaemia cause kar sakta hai.\n\nIsliye, insulin le rahe koi bhi vyakti ko **sirf direct medical supervision ke under hi is plan ko try karna chahiye**. Ek doctor ko insulin dose adjust karni pad sakti hai aur wo chahega ki aap blood glucose ko closely monitor karein jab aap naya eating schedule test kar rahe ho.\n\nKuch followers report karte hain ki two‑meal approach se glycaemic control better hota hai aur weight loss hota hai, lekin **koi solid scientific evidence nahi hai ki Dixit Lifestyle type 2 diabetes ko reverse kar sakta hai**.\n\n**Key safety points**\n\n- Do not start the two‑meal pattern on your own agar aap insulin ya sulfonylureas le rahe hain.  \n- Physician ki approval lein aur frequent blood‑glucose checks ka plan banayein.  \n- Sirf professional guidance ke under insulin dosing modify karne ke liye ready rahein; doses khud se change na karein.  \n\nShort mein, Dixit Lifestyle ko insulin‑treated individuals sirf tab try kar sakte hain jab doctor risks evaluate kare aur medication adjust karne mein help kare, saath hi poore time glucose monitoring carefully kare.",
+          "back_translation": "Dixit Lifestyle is built only around two meals a day; each meal is taken only when you truly feel hungry, and there is no food between them (except water, unsweetened tea, or black coffee). Meals must be eaten quickly (about 5‑7 minutes) and are usually started with raw vegetables, salad, or nuts so that glucose absorption is slowed.\n\nBecause this pattern creates long fasting periods, it can cause dangerous low blood‑sugar episodes in people who use insulin (or sulfonylureas). Prolonged gaps without food while insulin is still active can cause hypoglycaemia.\n\nTherefore, anyone taking insulin should **try this plan only under direct medical supervision**. A doctor may need to adjust the insulin dose and will want you to closely monitor blood glucose while you test the new eating schedule.\n\nSome followers report that the two‑meal approach improves glycaemic control and leads to weight loss, but **there is no solid scientific evidence that Dixit Lifestyle can reverse type 2 diabetes**.\n\n**Key safety points**\n\n- Do not start the two‑meal pattern on your own if you are taking insulin or sulfonylureas.  \n- Obtain physician approval and make a plan for frequent blood‑glucose checks.  \n- Be ready to modify insulin dosing only under professional guidance; do not change doses yourself.  \n\nIn short, individuals treated with insulin can try Dixit Lifestyle only when a doctor evaluates the risks and helps adjust medication, and they must monitor glucose carefully at all times."
+        }
+      },
+      "status": "ok"
+    },
+    {
+      "id": "T9",
+      "safety": false,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "Can type 2 diabetes go into remission with weight loss?",
+        "hi": "Can weight loss lead to remission of type 2 diabetes?",
+        "hinglish": "Can weight loss lead to type 2 diabetes remission?"
+      },
+      "standard_hindi_query": "क्या weight loss से type 2 diabetes remission में जा सकती है",
+      "chunks": {
+        "en": [
+          {
+            "id": 13,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 5a. Comorbidity Deep Dive: Type 2 Diabetes",
+            "score": 0.6769
+          },
+          {
+            "id": 59,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 29. Long-Term Maintenance and Relapse Prevention",
+            "score": 0.6022
+          },
+          {
+            "id": 28,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 10. Bariatric (Metabolic) Surgery",
+            "score": 0.5954
+          },
+          {
+            "id": 63,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+            "score": 0.5342
+          }
+        ],
+        "hi": [
+          {
+            "id": 13,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 5a. Comorbidity Deep Dive: Type 2 Diabetes",
+            "score": 0.6945
+          },
+          {
+            "id": 59,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 29. Long-Term Maintenance and Relapse Prevention",
+            "score": 0.6099
+          },
+          {
+            "id": 28,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 10. Bariatric (Metabolic) Surgery",
+            "score": 0.5962
+          },
+          {
+            "id": 63,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+            "score": 0.5222
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 13,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 5a. Comorbidity Deep Dive: Type 2 Diabetes",
+            "score": 0.6809
+          },
+          {
+            "id": 59,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 29. Long-Term Maintenance and Relapse Prevention",
+            "score": 0.5993
+          },
+          {
+            "id": 28,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 10. Bariatric (Metabolic) Surgery",
+            "score": 0.5873
+          },
+          {
+            "id": 63,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+            "score": 0.5126
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            13,
+            59,
+            28,
+            63
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0096,
+          "same_canonical": false,
+          "query_similarity": 0.9731
+        },
+        "hinglish": {
+          "chunk_ids": [
+            13,
+            59,
+            28,
+            63
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0091,
+          "same_canonical": false,
+          "query_similarity": 0.9791
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            13,
+            28,
+            59,
+            71
+          ],
+          "overlap": 0.6,
+          "rank_overlap": 0.81,
+          "missing_evidence": [
+            63
+          ],
+          "missing_count": 1,
+          "score_drift": 0.0778
+        }
+      },
+      "variants": [
+        {
+          "text": "weight kam karne se type 2 diabetes ka remission ho sakta hai kya",
+          "normalised": "weight kam karne se type 2 diabetes ka remission ho sakta hai kya",
+          "english_query": "Can weight loss lead to remission of type 2 diabetes?",
+          "same_canonical": false,
+          "overlap": 1.0
+        }
+      ],
+      "answers": {
+        "canonical_answer": "Weight loss of 5–10 % of body weight can markedly improve blood‑sugar control. In people who have had type 2 diabetes for a relatively short time, that amount of loss can sometimes bring fasting glucose and HbA1c into the non‑diabetic range **without the need for medication**. When normal glucose levels are sustained off all diabetes drugs, this state is called **remission**.  \n\n- **Remission is not guaranteed** – it requires continued normal glucose values and no medication, and many people do not achieve it even after losing weight.  \n- **Weight regain is common**. After the initial loss, the body’s lower energy expenditure and higher hunger‑driving hormones make maintaining the lower weight biologically difficult. Planning for long‑term maintenance is essential.  \n\n**Bariatric/metabolic surgery** can produce large, durable weight loss and has high rates of type 2 diabetes remission, especially when performed early in the disease course. However:  \n\n- Surgery carries operative risks and requires lifelong nutritional monitoring.  \n- It is not a substitute for ongoing lifestyle change and is not appropriate for every patient.  \n\nIn summary, modest weight loss can lead to diabetes remission in some individuals, but remission is not universal, weight regain must be anticipated, and surgical options, while effective for many, involve significant risks and lifelong follow‑up.",
+        "validation_passed": true,
+        "en": {
+          "hallucination": {
+            "rate": 0.0,
+            "ungrounded_sentences": [],
+            "unsupported_numbers": []
+          }
+        },
+        "hi": {
+          "english_query": "Can weight loss lead to remission of type 2 diabetes?",
+          "same_answer_entry": false,
+          "retrieval": {
+            "chunk_ids": [
+              13,
+              59,
+              28,
+              63
+            ],
+            "overlap": 1.0,
+            "rank_overlap": 1.0,
+            "missing_evidence": [],
+            "missing_count": 0,
+            "score_drift": 0.0096
+          },
+          "plan_consistency": 0.8758,
+          "answer_similarity": {
+            "value": 0.8891,
+            "cosine": 0.8891,
+            "content_coverage": 0.875
+          },
+          "hallucination": {
+            "rate": 0.1667,
+            "ungrounded_sentences": [
+              "Remission is possible, but it is **not universal for everyone** and must be maintained over time.",
+              "It is not a permanent “cure”; if weight is regained or other metabolic stressors return, hyperglycemia can recur.",
+              "It carries typical surgical risks (infection, bleeding, anesthesia complications).",
+              "Planning long‑term support (regular follow‑up, physical activity, balanced nutrition) is essential."
+            ],
+            "unsupported_numbers": []
+          },
+          "parity_passed": true,
+          "failed_parity_checks": [],
+          "final_answer": "वज़न कम करना टाइप 2 डायबिटीज (मधुमेह) पर शक्तिशाली प्रभाव डाल सकता है, लेकिन यह इलाज की गारंटी नहीं देता।\n\n**कितना वज़न कम करना मदद करता है**  \nशरीर के वज़न का केवल 5–10 % कम करने से कई अध्ययनों में ग्लाइसेमिक नियंत्रण में उल्लेखनीय सुधार दिखा है। उन लोगों में जिनका डायबिटीज़ का समय अपेक्षाकृत छोटा है, यह मात्रा उपवास ग्लूकोज़ और HbA1c को गैर‑डायबिटीज़ सीमा में **दवा की आवश्यकता के बिना** ला सकती है। जब सामान्य ग्लूकोज़ स्तर दवा के बिना बनाए रखे जाते हैं, तो इस स्थिति को **रिमिशन** कहा जाता है। रिमिशन संभव है, लेकिन यह **सभी के लिए सार्वभौमिक नहीं** है और इसे समय के साथ बनाए रखना आवश्यक है।\n\n**रिमिशन का क्या मतलब है**  \nरिमिशन के लिए आवश्यक है:  \n* सामान्य उपवास और भोजन‑के‑बाद ग्लूकोज़ (या HbA1c) स्तर।  \n* निरंतर अवधि के लिए कोई डायबिटीज‑कम करने वाली दवा न लेना।  \nयह स्थायी “क्योर” नहीं है; यदि वज़न फिर से बढ़ता है या अन्य मेटाबोलिक तनावकारक लौटते हैं, तो हाइपरग्लाइसेमिया फिर से हो सकता है।\n\n**बैरियाट्रिक (मेटाबोलिक) सर्जरी**  \nBMI ≥ 40 kg/m² वाले लोगों के लिए, या ≥ 35 kg/m² के साथ महत्वपूर्ण मोटापा‑संबंधी समस्याएँ जैसे कि खराब नियंत्रित डायबिटीज़, बैरियाट्रिक सर्जरी (जैसे, स्लिव गैस्ट्रेक्टॉमी, रू‑एन‑वाई गैस्ट्रिक बायपास) बड़े, टिकाऊ वज़न कम करने का परिणाम दे सकती है। उपयुक्त उम्मीदवारों में, विशेषकर जब रोग के शुरुआती चरण में सर्जरी की जाती है, रिमिशन दरें उच्च होती हैं।  \n\n**सर्जरी के बारे में मुख्य सावधानियाँ**  \n* इसमें सामान्य सर्जिकल जोखिम होते हैं (संक्रमण, रक्तस्राव, एनेस्थीसिया जटिलताएँ)।  \n* जीवन भर पोषण निगरानी और सप्लीमेंटेशन आवश्यक है।  \n* यह **चल रहे जीवनशैली परिवर्तन का विकल्प नहीं** है; यदि आहार और शारीरिक गतिविधि की आदतें बनाए नहीं रखी जातीं तो वज़न फिर से बढ़ सकता है।  \n\n**वज़न‑वापसी की चुनौती**  \nकिसी भी सफल वज़न‑कम करने के प्रयास—आहार, दवा‑आधारित, या सर्जिकल—के बाद कई लोग कुछ वज़न वापस पाते हैं। शरीर ऊर्जा खर्च को कम करके और भूख‑उत्तेजक हार्मोन बढ़ाकर अनुकूलित होता है, जिससे रखरखाव प्रारंभिक कमी चरण से कठिन हो जाता है। दीर्घकालिक समर्थन (नियमित फॉलो‑अप, शारीरिक गतिविधि, संतुलित पोषण) की योजना बनाना आवश्यक है।\n\n**निचला निष्कर्ष**  \n* एक मध्यम 5–10 % वज़न कम करना कुछ व्यक्तियों में, विशेषकर उन लोगों में जिनका रोग अवधि छोटा है, डायबिटीज़ रिमिशन की ओर ले जा सकता है।  \n* रिमिशन को दवा के बिना निरंतर सामान्य ग्लूकोज़ द्वारा परिभाषित किया जाता है और यह **हर किसी के लिए गारंटीकृत नहीं** है।  \n* बैरियाट्रिक सर्जरी योग्य रोगियों (BMI ≥ 40 या ≥ 35 के साथ सह-रोग) के लिए एक शक्तिशाली विकल्प प्रदान करती है और उच्च रिमिशन दर हासिल कर सकती है, लेकिन इसमें सर्जिकल जोखिम और जीवन भर पोषण फॉलो‑अप शामिल है।  \n* क्योंकि वज़न‑वापसी आम है, स्थायी लाभ के लिए एक ठोस रखरखाव योजना आवश्यक है।",
+          "back_translation": "Weight loss can have a powerful effect on type 2 diabetes, but it does not guarantee a cure.\n\n**How much weight loss helps**  \nReducing body weight by only 5–10 % has shown a notable improvement in glycemic control in many studies. In people whose diabetes duration is relatively short, this amount can bring fasting glucose and HbA1c into the non‑diabetic range **without the need for medication**. When normal glucose levels are maintained without medication, this condition is called **remission**. Remission is possible, but it is **not universal for everyone** and must be maintained over time.\n\n**What remission means**  \nRemission requires:  \n* Normal fasting and post‑meal glucose (or HbA1c) levels.  \n* No diabetes‑lowering medication taken for a continuous period.  \nIt is not a permanent “cure”; if weight is regained or other metabolic stressors return, hyperglycemia can recur.\n\n**Bariatric (metabolic) surgery**  \nFor people with BMI ≥ 40 kg/m², or ≥ 35 kg/m² with significant obesity‑related problems such as poorly controlled diabetes, bariatric surgery (e.g., sleeve gastrectomy, Roux‑en‑Y gastric bypass) can produce large, durable weight loss. In appropriate candidates, especially when surgery is performed in the early stage of disease, remission rates are high.\n\n**Key cautions about surgery**  \n* It carries typical surgical risks (infection, bleeding, anesthesia complications).  \n* Lifelong nutrition monitoring and supplementation are required.  \n* It **is not a substitute for ongoing lifestyle change**; if dietary and physical activity habits are not maintained, weight can be regained.\n\n**The challenge of weight regain**  \nAfter any successful weight‑loss effort—dietary, medication‑based, or surgical—many people regain some weight. The body adapts by lowering energy expenditure and increasing appetite‑stimulating hormones, making maintenance harder than the initial loss phase. Planning long‑term support (regular follow‑up, physical activity, balanced nutrition) is essential.\n\n**Bottom line**  \n* A moderate 5–10 % weight loss can lead to diabetes remission in some individuals, especially those with a short disease duration.  \n* Remission is defined by continuous normal glucose without medication and is **not guaranteed for everyone**.  \n* Bariatric surgery offers a powerful option for eligible patients (BMI ≥ 40 or ≥ 35 with comorbidities) and can achieve high remission rates, but it involves surgical risk and lifelong nutrition follow‑up.  \n* Because weight regain is common, a solid maintenance plan is required for lasting benefit."
+        },
+        "hinglish": {
+          "english_query": "Can weight loss lead to type 2 diabetes remission?",
+          "same_answer_entry": false,
+          "retrieval": {
+            "chunk_ids": [
+              13,
+              59,
+              28,
+              63
+            ],
+            "overlap": 1.0,
+            "rank_overlap": 1.0,
+            "missing_evidence": [],
+            "missing_count": 0,
+            "score_drift": 0.0091
+          },
+          "plan_consistency": 0.8343,
+          "answer_similarity": {
+            "value": 0.9452,
+            "cosine": 0.9452,
+            "content_coverage": 0.7143
+          },
+          "hallucination": {
+            "rate": 0.1429,
+            "ungrounded_sentences": [
+              "Ongoing lifestyle strategies (balanced diet, regular physical activity, behavioral support) are necessary to prevent weight regain.",
+              "Maintaining weight loss through consistent healthy habits is the most reliable way to increase the chance of remission."
+            ],
+            "unsupported_numbers": [
+              "4"
+            ]
+          },
+          "parity_passed": true,
+          "failed_parity_checks": [],
+          "final_answer": "Weight loss of about 5 – 10 % of body weight can markedly improve blood‑sugar control. Kuch logon—especially jo logon ka diabetes relatively short time se hai—yeh loss fasting aur post‑meal glucose levels ko normal range mein wapas le aata hai **without the need for diabetes medication**. Jab normal glucose levels medication ke bina sustain ho jate hain, isko **type 2 diabetes remission** kehte hain.\n\nLekin remission **not guaranteed** hai. Yeh depend karta hai ki vyakti ko diabetes kitni der se hai, kitna weight actually off rakha gaya hai, aur beta‑cell function mein individual differences. Sabse important baat, **the weight loss must be maintained**; bahut log initial loss ke baad weight regain kar lete hain kyunki body ka energy expenditure gir jata hai aur hunger‑stimulating hormones badh jate hain. Ongoing lifestyle strategies (balanced diet, regular physical activity, behavioral support) zaroori hain weight regain ko rokne ke liye.\n\nBariatric (metabolic) surgery high rates of remission de sakti hai, lekin yeh **only appropriate for certain candidates** hai (generally BMI ≥ 40, ya ≥ 35 with serious obesity‑related problems, aur Asian populations mein kabhi kabhi lower thresholds use hote hain). Surgery operative risks ke saath aati hai aur lifelong nutritional monitoring ki zaroorat hoti hai, isliye yeh universal solution nahi hai aur careful evaluation ke baad hi consider karna chahiye.\n\n**Key take‑aways**\n\n1. Ek modest 5‑10 % weight loss glycaemic control ko improve kar sakta hai aur kuch individuals mein remission tak le ja sakta hai.  \n2. Remission ka matlab hai normal glucose levels bina medication ke, lekin yeh universal nahi hai.  \n3. Sustained weight loss essential hai; metabolic adaptation aur increased hunger hormones ki wajah se weight regain common hai.  \n4. Bariatric surgery eligible patients mein remission achieve kar sakti hai lekin surgical risks aur lifelong follow‑up ki zaroorat hoti hai.  \n\nConsistent healthy habits ke through weight loss ko maintain karna sabse reliable tareeka hai remission ki chance ko badhane ke liye.",
+          "back_translation": "Weight loss of about 5 – 10 % of body weight can markedly improve blood‑sugar control. Some people—especially those whose diabetes has been present for a relatively short time—this loss brings fasting and post‑meal glucose levels back into the normal range **without the need for diabetes medication**. When normal glucose levels are sustained without medication, this is called **type 2 diabetes remission**.\n\nBut remission **is not guaranteed**. It depends on how long the individual has had diabetes, how much weight has actually been lost, and individual differences in beta‑cell function. The most important point is that **the weight loss must be maintained**; many people regain weight after the initial loss because the body’s energy expenditure drops and hunger‑stimulating hormones increase. Ongoing lifestyle strategies (balanced diet, regular physical activity, behavioral support) are necessary to prevent weight regain.\n\nBariatric (metabolic) surgery can provide high rates of remission, but it **is only appropriate for certain candidates** (generally BMI ≥ 40, or ≥ 35 with serious obesity‑related problems, and sometimes lower thresholds are used for Asian populations). Surgery comes with operative risks and requires lifelong nutritional monitoring, so it is not a universal solution and should be considered only after careful evaluation.\n\n**Key take‑aways**\n\n1. A modest 5‑10 % weight loss can improve glycaemic control and, in some individuals, lead to remission.  \n2. Remission means normal glucose levels without medication, but it is not universal.  \n3. Sustained weight loss is essential; metabolic adaptation and increased hunger hormones make weight regain common.  \n4. Bariatric surgery can achieve remission in eligible patients, but surgical risks and lifelong follow‑up are required.  \n\nMaintaining weight loss through consistent healthy habits is the most reliable way to increase the chance of remission."
+        }
+      },
+      "status": "ok"
+    }
+  ]
+}

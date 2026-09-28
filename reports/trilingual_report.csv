@@ -1,0 +1,15 @@
+id,safety,status,hinglish_detected,hi_overlap,hi_missing,hi_same_canonical,hinglish_overlap,hinglish_missing,hinglish_same_canonical,hinglish_raw_overlap,hinglish_raw_missing,hinglish_legacy_overlap,hinglish_legacy_missing,hinglish_legacy_same_canonical,variants_same_canonical
+T1,False,ok,True,1.0,0,True,1.0,0,True,0.0,4,1.0,0,True,3/3
+T2,True,ok,True,1.0,0,True,1.0,0,True,0.0,4,1.0,0,True,1/1
+T3,False,ok,True,0.6,1,False,1.0,0,True,0.0,4,1.0,0,True,1/2
+T4,True,ok,True,1.0,0,True,1.0,0,True,0.0,4,1.0,0,False,1/1
+T5,True,ok,True,1.0,0,True,1.0,0,True,0.0,4,1.0,0,True,0/0
+T6,False,ok,True,1.0,0,False,1.0,0,False,1.0,0,1.0,0,False,0/1
+T7,False,ok,True,1.0,0,False,1.0,0,True,0.6,1,1.0,0,False,0/0
+T8,False,ok,True,1.0,0,False,1.0,0,False,0.0,4,1.0,0,False,0/1
+T9,False,ok,True,1.0,0,False,1.0,0,False,0.6,1,1.0,0,False,0/1
+T10,False,ok,True,1.0,0,True,1.0,0,True,0.0,4,0.6,1,False,1/2
+T11,False,ok,True,1.0,0,True,1.0,0,True,0.6,1,1.0,0,True,0/0
+T12,False,ok,True,1.0,0,True,1.0,0,True,0.0,4,1.0,0,True,1/1
+T13,False,ok,True,0.6,1,False,1.0,0,False,0.14,3,1.0,0,False,0/1
+T14,True,ok,True,1.0,0,True,1.0,0,True,0.0,4,1.0,0,True,0/0

@@ -1,0 +1,15 @@
+# Secrets and local Vercel link
+.vercel
+.env*
+!.env.example
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+.hf-cache/
+
+# Generated scratch output
+eval_results.csv
+parity_fix_logs/
+data/*.tmp

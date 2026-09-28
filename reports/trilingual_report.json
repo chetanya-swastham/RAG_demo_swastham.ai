@@ -1,0 +1,2254 @@
+{
+  "mode": "retrieval-only",
+  "thresholds": {
+    "retrieval_overlap": 0.6,
+    "missing_evidence": 0,
+    "plan_consistency": 0.9,
+    "answer_similarity": 0.85,
+    "hallucination_rate": 0.2
+  },
+  "summary": {
+    "items": 14,
+    "evaluated": 14,
+    "errors": [],
+    "detection": {
+      "hinglish_detected": 14,
+      "english_misdetected": 0
+    },
+    "retrieval": {
+      "hi": {
+        "mean_overlap": 0.943,
+        "mean_rank_overlap": 0.935,
+        "passed": 14,
+        "total_missing_evidence": 2,
+        "same_canonical": 8,
+        "mean_query_similarity": 0.969,
+        "mean_score_drift": 0.011,
+        "n": 14
+      },
+      "hinglish": {
+        "mean_overlap": 1.0,
+        "mean_rank_overlap": 0.994,
+        "passed": 14,
+        "total_missing_evidence": 0,
+        "same_canonical": 10,
+        "mean_query_similarity": 0.991,
+        "mean_score_drift": 0.006,
+        "n": 14
+      },
+      "hinglish_legacy": {
+        "mean_overlap": 0.971,
+        "mean_rank_overlap": 0.966,
+        "passed": 14,
+        "total_missing_evidence": 1,
+        "same_canonical": 7,
+        "mean_query_similarity": null,
+        "mean_score_drift": 0.009,
+        "n": 14
+      },
+      "hinglish_raw": {
+        "mean_overlap": 0.21,
+        "mean_rank_overlap": 0.232,
+        "passed": 4,
+        "total_missing_evidence": 42,
+        "same_canonical": 0,
+        "mean_query_similarity": null,
+        "mean_score_drift": 0.094,
+        "n": 14
+      }
+    },
+    "variants": {
+      "total": 14,
+      "same_canonical": 8,
+      "mean_overlap": 0.943
+    },
+    "answers": {}
+  },
+  "items": [
+    {
+      "id": "T1",
+      "safety": false,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "Can I eat fruit if I have diabetes?",
+        "hi": "Can I eat fruit if I have diabetes?",
+        "hinglish": "Can I eat fruit if I have diabetes?"
+      },
+      "standard_hindi_query": "मुझे diabetes है क्या मैं fruits खा सकता हूँ",
+      "chunks": {
+        "en": [
+          {
+            "id": 49,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 24. Macronutrients, Glycaemic Index, and Meal Composition",
+            "score": 0.4852
+          },
+          {
+            "id": 24,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 7. Dietary Interventions",
+            "score": 0.4517
+          },
+          {
+            "id": 62,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+            "score": 0.4264
+          },
+          {
+            "id": 54,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.4247
+          }
+        ],
+        "hi": [
+          {
+            "id": 49,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 24. Macronutrients, Glycaemic Index, and Meal Composition",
+            "score": 0.4852
+          },
+          {
+            "id": 24,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 7. Dietary Interventions",
+            "score": 0.4517
+          },
+          {
+            "id": 62,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+            "score": 0.4264
+          },
+          {
+            "id": 54,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.4247
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 49,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 24. Macronutrients, Glycaemic Index, and Meal Composition",
+            "score": 0.4852
+          },
+          {
+            "id": 24,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 7. Dietary Interventions",
+            "score": 0.4517
+          },
+          {
+            "id": 62,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+            "score": 0.4264
+          },
+          {
+            "id": 54,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.4247
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            49,
+            24,
+            62,
+            54
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish": {
+          "chunk_ids": [
+            49,
+            24,
+            62,
+            54
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            76,
+            77,
+            52,
+            71
+          ],
+          "overlap": 0.0,
+          "rank_overlap": 0.0,
+          "missing_evidence": [
+            24,
+            49,
+            54,
+            62
+          ],
+          "missing_count": 4,
+          "score_drift": null
+        },
+        "hinglish_legacy": {
+          "chunk_ids": [
+            49,
+            24,
+            62,
+            54
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "english_query": "Can I eat fruit if I have diabetes?",
+          "same_canonical": true
+        }
+      },
+      "variants": [
+        {
+          "text": "kya mai fruit kha sakta hu diabetes me",
+          "normalised": "kya main fruit kha sakta hoon diabetes me",
+          "english_query": "Can I eat fruit if I have diabetes?",
+          "same_canonical": true,
+          "overlap": 1.0
+        },
+        {
+          "text": "kya main fruits kha sakta hoon agar diabetes hai",
+          "normalised": "kya main fruits kha sakta hoon agar diabetes hai",
+          "english_query": "Can I eat fruit if I have diabetes?",
+          "same_canonical": true,
+          "overlap": 1.0
+        },
+        {
+          "text": "mujhe diabetes hai can i eat fruit",
+          "normalised": "mujhe diabetes hai can i eat fruit",
+          "english_query": "Can I eat fruit if I have diabetes?",
+          "same_canonical": true,
+          "overlap": 1.0
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "T2",
+      "safety": true,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "Can I follow the Dixit Lifestyle two-meal plan while taking insulin for type 2 diabetes?",
+        "hi": "Can I follow the Dixit Lifestyle two-meal plan while taking insulin for type 2 diabetes?",
+        "hinglish": "Can I follow the Dixit Lifestyle two-meal plan while taking insulin for type 2 diabetes?"
+      },
+      "standard_hindi_query": "मैं type 2 diabetes के लिए insulin लेता हूँ क्या मैं dixit का two meal plan follow कर सकता हूँ",
+      "chunks": {
+        "en": [
+          {
+            "id": 32,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+            "score": 0.67
+          },
+          {
+            "id": 39,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 19. Synthetic Question–Answer Set (For RAG Evaluation and Fine-Tuning)",
+            "score": 0.654
+          },
+          {
+            "id": 34,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 15. Scientific Reception and Balanced Assessment",
+            "score": 0.6459
+          },
+          {
+            "id": 33,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 14. The Insulin Hypothesis",
+            "score": 0.6445
+          }
+        ],
+        "hi": [
+          {
+            "id": 32,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+            "score": 0.67
+          },
+          {
+            "id": 39,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 19. Synthetic Question–Answer Set (For RAG Evaluation and Fine-Tuning)",
+            "score": 0.654
+          },
+          {
+            "id": 34,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 15. Scientific Reception and Balanced Assessment",
+            "score": 0.6459
+          },
+          {
+            "id": 33,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 14. The Insulin Hypothesis",
+            "score": 0.6445
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 32,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+            "score": 0.67
+          },
+          {
+            "id": 39,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 19. Synthetic Question–Answer Set (For RAG Evaluation and Fine-Tuning)",
+            "score": 0.654
+          },
+          {
+            "id": 34,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 15. Scientific Reception and Balanced Assessment",
+            "score": 0.6459
+          },
+          {
+            "id": 33,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 14. The Insulin Hypothesis",
+            "score": 0.6445
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            32,
+            39,
+            34,
+            33
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish": {
+          "chunk_ids": [
+            32,
+            39,
+            34,
+            33
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            71,
+            61,
+            24,
+            62
+          ],
+          "overlap": 0.0,
+          "rank_overlap": 0.0,
+          "missing_evidence": [
+            32,
+            33,
+            34,
+            39
+          ],
+          "missing_count": 4,
+          "score_drift": null
+        },
+        "hinglish_legacy": {
+          "chunk_ids": [
+            32,
+            39,
+            34,
+            33
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "english_query": "Can I follow the Dixit Lifestyle two-meal plan while taking insulin for type 2 diabetes?",
+          "same_canonical": true
+        }
+      },
+      "variants": [
+        {
+          "text": "mai insulin leta hu type 2 diabetes ke liye, kya dixit two meal plan kar sakta hu",
+          "normalised": "main insulin leta hoon type 2 diabetes ke liye kya dixit two meal plan kar sakta hoon",
+          "english_query": "Can I follow the Dixit Lifestyle two-meal plan while taking insulin for type 2 diabetes?",
+          "same_canonical": true,
+          "overlap": 1.0
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "T3",
+      "safety": false,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "Should I have a snack before exercising?",
+        "hi": "Should I eat before exercising?",
+        "hinglish": "Should I have a snack before exercising?"
+      },
+      "standard_hindi_query": "exercise करने के पहले snack लेना चाहिए क्या",
+      "chunks": {
+        "en": [
+          {
+            "id": 32,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+            "score": 0.5097
+          },
+          {
+            "id": 54,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.4404
+          },
+          {
+            "id": 78,
+            "heading": "PART VI — MULTILINGUAL AND SYSTEM-DESIGN NOTES > 38. Illustrative 4-Week Starter Program",
+            "score": 0.4368
+          },
+          {
+            "id": 33,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 14. The Insulin Hypothesis",
+            "score": 0.424
+          }
+        ],
+        "hi": [
+          {
+            "id": 54,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.4852
+          },
+          {
+            "id": 32,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+            "score": 0.4526
+          },
+          {
+            "id": 78,
+            "heading": "PART VI — MULTILINGUAL AND SYSTEM-DESIGN NOTES > 38. Illustrative 4-Week Starter Program",
+            "score": 0.4123
+          },
+          {
+            "id": 41,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 19. Synthetic Question–Answer Set (For RAG Evaluation and Fine-Tuning)",
+            "score": 0.4021
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 32,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+            "score": 0.5097
+          },
+          {
+            "id": 54,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.4404
+          },
+          {
+            "id": 78,
+            "heading": "PART VI — MULTILINGUAL AND SYSTEM-DESIGN NOTES > 38. Illustrative 4-Week Starter Program",
+            "score": 0.4368
+          },
+          {
+            "id": 33,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 14. The Insulin Hypothesis",
+            "score": 0.424
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            54,
+            32,
+            78,
+            41
+          ],
+          "overlap": 0.6,
+          "rank_overlap": 0.69,
+          "missing_evidence": [
+            33
+          ],
+          "missing_count": 1,
+          "score_drift": 0.0422,
+          "same_canonical": false,
+          "query_similarity": 0.8504
+        },
+        "hinglish": {
+          "chunk_ids": [
+            32,
+            54,
+            78,
+            33
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            52,
+            77,
+            53,
+            76
+          ],
+          "overlap": 0.0,
+          "rank_overlap": 0.0,
+          "missing_evidence": [
+            32,
+            33,
+            54,
+            78
+          ],
+          "missing_count": 4,
+          "score_drift": null
+        },
+        "hinglish_legacy": {
+          "chunk_ids": [
+            32,
+            54,
+            78,
+            33
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "english_query": "Should I have a snack before exercising?",
+          "same_canonical": true
+        }
+      },
+      "variants": [
+        {
+          "text": "exercise karne se pahle snack lena chahie kya",
+          "normalised": "exercise karne se pehle snack lena chahiye kya",
+          "english_query": "Should I have a snack before exercising?",
+          "same_canonical": true,
+          "overlap": 1.0
+        },
+        {
+          "text": "kya workout ke phle snack lena chaiye",
+          "normalised": "kya workout ke pehle snack lena chahiye",
+          "english_query": "Should I take a snack before a workout?",
+          "same_canonical": false,
+          "overlap": 0.6
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "T4",
+      "safety": true,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "Can I follow the Dixit Lifestyle two-meal plan if I am pregnant?",
+        "hi": "Can I follow the Dixit Lifestyle two-meal plan if I am pregnant?",
+        "hinglish": "Can I follow the Dixit Lifestyle two-meal plan if I am pregnant?"
+      },
+      "standard_hindi_query": "मैं pregnant हूँ क्या मैं Dixit Lifestyle diet follow कर सकती हूँ",
+      "chunks": {
+        "en": [
+          {
+            "id": 65,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 31. Additional Synthetic Q&A (Extended Set)",
+            "score": 0.6492
+          },
+          {
+            "id": 36,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 16. Operationalising the Dixit Lifestyle in a Structured Program",
+            "score": 0.638
+          },
+          {
+            "id": 55,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.5582
+          },
+          {
+            "id": 64,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 31. Additional Synthetic Q&A (Extended Set)",
+            "score": 0.5436
+          }
+        ],
+        "hi": [
+          {
+            "id": 65,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 31. Additional Synthetic Q&A (Extended Set)",
+            "score": 0.6492
+          },
+          {
+            "id": 36,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 16. Operationalising the Dixit Lifestyle in a Structured Program",
+            "score": 0.638
+          },
+          {
+            "id": 55,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.5582
+          },
+          {
+            "id": 64,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 31. Additional Synthetic Q&A (Extended Set)",
+            "score": 0.5436
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 65,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 31. Additional Synthetic Q&A (Extended Set)",
+            "score": 0.6492
+          },
+          {
+            "id": 36,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 16. Operationalising the Dixit Lifestyle in a Structured Program",
+            "score": 0.638
+          },
+          {
+            "id": 55,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.5582
+          },
+          {
+            "id": 64,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 31. Additional Synthetic Q&A (Extended Set)",
+            "score": 0.5436
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            65,
+            36,
+            55,
+            64
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish": {
+          "chunk_ids": [
+            65,
+            36,
+            55,
+            64
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            8,
+            62,
+            52,
+            53
+          ],
+          "overlap": 0.0,
+          "rank_overlap": 0.0,
+          "missing_evidence": [
+            36,
+            55,
+            64,
+            65
+          ],
+          "missing_count": 4,
+          "score_drift": null
+        },
+        "hinglish_legacy": {
+          "chunk_ids": [
+            65,
+            36,
+            55,
+            64
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0095,
+          "english_query": "Can I follow the Dixit Lifestyle two-meal plan while pregnant?",
+          "same_canonical": false
+        }
+      },
+      "variants": [
+        {
+          "text": "mai pregnant hu kya dixit diet kar sakti hu",
+          "normalised": "main pregnant hoon kya dixit diet kar sakti hoon",
+          "english_query": "Can I follow the Dixit Lifestyle two-meal plan if I am pregnant?",
+          "same_canonical": true,
+          "overlap": 1.0
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "T5",
+      "safety": true,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "Is the Dixit Lifestyle two-meal plan safe for a 12-year-old child?",
+        "hi": "Is the Dixit Lifestyle two-meal plan safe for a 12-year-old child?",
+        "hinglish": "Is the Dixit Lifestyle two-meal plan safe for a 12-year-old child?"
+      },
+      "standard_hindi_query": "क्या two meal plan मेरे 12 साल के बच्चे के लिए safe है",
+      "chunks": {
+        "en": [
+          {
+            "id": 65,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 31. Additional Synthetic Q&A (Extended Set)",
+            "score": 0.6297
+          },
+          {
+            "id": 55,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.6252
+          },
+          {
+            "id": 36,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 16. Operationalising the Dixit Lifestyle in a Structured Program",
+            "score": 0.6228
+          },
+          {
+            "id": 58,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 28. Obesity in Children and Adolescents",
+            "score": 0.5773
+          }
+        ],
+        "hi": [
+          {
+            "id": 65,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 31. Additional Synthetic Q&A (Extended Set)",
+            "score": 0.6297
+          },
+          {
+            "id": 55,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.6252
+          },
+          {
+            "id": 36,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 16. Operationalising the Dixit Lifestyle in a Structured Program",
+            "score": 0.6228
+          },
+          {
+            "id": 58,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 28. Obesity in Children and Adolescents",
+            "score": 0.5773
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 65,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 31. Additional Synthetic Q&A (Extended Set)",
+            "score": 0.6297
+          },
+          {
+            "id": 55,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.6252
+          },
+          {
+            "id": 36,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 16. Operationalising the Dixit Lifestyle in a Structured Program",
+            "score": 0.6228
+          },
+          {
+            "id": 58,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 28. Obesity in Children and Adolescents",
+            "score": 0.5773
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            65,
+            55,
+            36,
+            58
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish": {
+          "chunk_ids": [
+            65,
+            55,
+            36,
+            58
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            52,
+            57,
+            72,
+            51
+          ],
+          "overlap": 0.0,
+          "rank_overlap": 0.0,
+          "missing_evidence": [
+            36,
+            55,
+            58,
+            65
+          ],
+          "missing_count": 4,
+          "score_drift": null
+        },
+        "hinglish_legacy": {
+          "chunk_ids": [
+            65,
+            55,
+            36,
+            58
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "english_query": "Is the Dixit Lifestyle two-meal plan safe for a 12-year-old child?",
+          "same_canonical": true
+        }
+      },
+      "variants": [],
+      "status": "ok"
+    },
+    {
+      "id": "T6",
+      "safety": false,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "What are the BMI cut-offs for obesity in Indian adults?",
+        "hi": "What is the BMI range for obesity in Indian adults?",
+        "hinglish": "What is the BMI cut‑off for obesity in Indian adults?"
+      },
+      "standard_hindi_query": "indian adults में obesity के लिए BMI cut off क्या है",
+      "chunks": {
+        "en": [
+          {
+            "id": 1,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 1. Definition and Classification of Obesity",
+            "score": 0.7812
+          },
+          {
+            "id": 2,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 1. Definition and Classification of Obesity",
+            "score": 0.7254
+          },
+          {
+            "id": 3,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 2. Epidemiology: Global and Indian Burden",
+            "score": 0.6791
+          },
+          {
+            "id": 4,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 2. Epidemiology: Global and Indian Burden",
+            "score": 0.6712
+          }
+        ],
+        "hi": [
+          {
+            "id": 1,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 1. Definition and Classification of Obesity",
+            "score": 0.7357
+          },
+          {
+            "id": 2,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 1. Definition and Classification of Obesity",
+            "score": 0.6978
+          },
+          {
+            "id": 4,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 2. Epidemiology: Global and Indian Burden",
+            "score": 0.6475
+          },
+          {
+            "id": 3,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 2. Epidemiology: Global and Indian Burden",
+            "score": 0.6453
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 1,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 1. Definition and Classification of Obesity",
+            "score": 0.7845
+          },
+          {
+            "id": 2,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 1. Definition and Classification of Obesity",
+            "score": 0.7064
+          },
+          {
+            "id": 3,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 2. Epidemiology: Global and Indian Burden",
+            "score": 0.676
+          },
+          {
+            "id": 4,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 2. Epidemiology: Global and Indian Burden",
+            "score": 0.6575
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            1,
+            2,
+            4,
+            3
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 0.92,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0326,
+          "same_canonical": false,
+          "query_similarity": 0.9222
+        },
+        "hinglish": {
+          "chunk_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0098,
+          "same_canonical": false,
+          "query_similarity": 0.9737
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            1,
+            3,
+            4,
+            2
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 0.79,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.1007
+        },
+        "hinglish_legacy": {
+          "chunk_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0098,
+          "english_query": "What is the BMI cut‑off for obesity in Indian adults?",
+          "same_canonical": false
+        }
+      },
+      "variants": [
+        {
+          "text": "indian adults me obesity ka BMI cutoff kya hota hai",
+          "normalised": "indian adults me obesity ka BMI cutoff kya hota hai",
+          "english_query": "What is the BMI cutoff for obesity in Indian adults?",
+          "same_canonical": false,
+          "overlap": 1.0
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "T7",
+      "safety": false,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "What is the recommended waist circumference for an Indian adult?",
+        "hi": "What should my waist circumference be for an Indian adult?",
+        "hinglish": "What is the recommended waist circumference for an Indian adult?"
+      },
+      "standard_hindi_query": "indian adult के लिए मेरी waist circumference कितनी होनी चाहिए",
+      "chunks": {
+        "en": [
+          {
+            "id": 2,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 1. Definition and Classification of Obesity",
+            "score": 0.6594
+          },
+          {
+            "id": 40,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 19. Synthetic Question–Answer Set (For RAG Evaluation and Fine-Tuning)",
+            "score": 0.5349
+          },
+          {
+            "id": 1,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 1. Definition and Classification of Obesity",
+            "score": 0.5015
+          },
+          {
+            "id": 44,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 20. Synthetic Patient Vignettes (For Personalisation Testing)",
+            "score": 0.472
+          }
+        ],
+        "hi": [
+          {
+            "id": 2,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 1. Definition and Classification of Obesity",
+            "score": 0.6756
+          },
+          {
+            "id": 40,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 19. Synthetic Question–Answer Set (For RAG Evaluation and Fine-Tuning)",
+            "score": 0.5374
+          },
+          {
+            "id": 1,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 1. Definition and Classification of Obesity",
+            "score": 0.5022
+          },
+          {
+            "id": 44,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 20. Synthetic Patient Vignettes (For Personalisation Testing)",
+            "score": 0.4688
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 2,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 1. Definition and Classification of Obesity",
+            "score": 0.6594
+          },
+          {
+            "id": 40,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 19. Synthetic Question–Answer Set (For RAG Evaluation and Fine-Tuning)",
+            "score": 0.5349
+          },
+          {
+            "id": 1,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 1. Definition and Classification of Obesity",
+            "score": 0.5015
+          },
+          {
+            "id": 44,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 20. Synthetic Patient Vignettes (For Personalisation Testing)",
+            "score": 0.472
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            2,
+            40,
+            1,
+            44
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0056,
+          "same_canonical": false,
+          "query_similarity": 0.9611
+        },
+        "hinglish": {
+          "chunk_ids": [
+            2,
+            40,
+            1,
+            44
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            2,
+            71,
+            44,
+            40
+          ],
+          "overlap": 0.6,
+          "rank_overlap": 0.65,
+          "missing_evidence": [
+            1
+          ],
+          "missing_count": 1,
+          "score_drift": 0.1069
+        },
+        "hinglish_legacy": {
+          "chunk_ids": [
+            2,
+            40,
+            1,
+            44
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0056,
+          "english_query": "What should my waist circumference be for an Indian adult?",
+          "same_canonical": false
+        }
+      },
+      "variants": [],
+      "status": "ok"
+    },
+    {
+      "id": "T8",
+      "safety": false,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "Why should I track HbA1c instead of just my weight?",
+        "hi": "Why should I monitor HbA1c instead of just weight?",
+        "hinglish": "Why should I track HbA1c instead of just weight?"
+      },
+      "standard_hindi_query": "मुझे सिर्फ weight की जगह HbA1c track क्यों करना चाहिए",
+      "chunks": {
+        "en": [
+          {
+            "id": 79,
+            "heading": "PART VI — MULTILINGUAL AND SYSTEM-DESIGN NOTES > 38. Illustrative 4-Week Starter Program",
+            "score": 0.5429
+          },
+          {
+            "id": 20,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 6. Clinical Assessment and Diagnosis",
+            "score": 0.5205
+          },
+          {
+            "id": 40,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 19. Synthetic Question–Answer Set (For RAG Evaluation and Fine-Tuning)",
+            "score": 0.5005
+          },
+          {
+            "id": 46,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 21. Glossary of Key Terms",
+            "score": 0.4993
+          }
+        ],
+        "hi": [
+          {
+            "id": 20,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 6. Clinical Assessment and Diagnosis",
+            "score": 0.5463
+          },
+          {
+            "id": 46,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 21. Glossary of Key Terms",
+            "score": 0.5246
+          },
+          {
+            "id": 40,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 19. Synthetic Question–Answer Set (For RAG Evaluation and Fine-Tuning)",
+            "score": 0.4509
+          },
+          {
+            "id": 79,
+            "heading": "PART VI — MULTILINGUAL AND SYSTEM-DESIGN NOTES > 38. Illustrative 4-Week Starter Program",
+            "score": 0.4406
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 79,
+            "heading": "PART VI — MULTILINGUAL AND SYSTEM-DESIGN NOTES > 38. Illustrative 4-Week Starter Program",
+            "score": 0.518
+          },
+          {
+            "id": 20,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 6. Clinical Assessment and Diagnosis",
+            "score": 0.5082
+          },
+          {
+            "id": 46,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 21. Glossary of Key Terms",
+            "score": 0.493
+          },
+          {
+            "id": 40,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 19. Synthetic Question–Answer Set (For RAG Evaluation and Fine-Tuning)",
+            "score": 0.4679
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            20,
+            46,
+            40,
+            79
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 0.54,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0508,
+          "same_canonical": false,
+          "query_similarity": 0.8702
+        },
+        "hinglish": {
+          "chunk_ids": [
+            79,
+            20,
+            46,
+            40
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 0.92,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.019,
+          "same_canonical": false,
+          "query_similarity": 0.9865
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            45,
+            71,
+            48,
+            72
+          ],
+          "overlap": 0.0,
+          "rank_overlap": 0.0,
+          "missing_evidence": [
+            20,
+            40,
+            46,
+            79
+          ],
+          "missing_count": 4,
+          "score_drift": null
+        },
+        "hinglish_legacy": {
+          "chunk_ids": [
+            79,
+            20,
+            46,
+            40
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 0.92,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0332,
+          "english_query": "Why should I track HbA1c instead of only weight?",
+          "same_canonical": false
+        }
+      },
+      "variants": [
+        {
+          "text": "sirf weight nahi, HbA1c kyu track karna chahiye",
+          "normalised": "sirf weight nahi HbA1c kyun track karna chahiye",
+          "english_query": "Why should I track HbA1c instead of only weight?",
+          "same_canonical": false,
+          "overlap": 1.0
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "T9",
+      "safety": false,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "Can type 2 diabetes go into remission with weight loss?",
+        "hi": "Can weight loss lead to remission of type 2 diabetes?",
+        "hinglish": "Can weight loss lead to type 2 diabetes remission?"
+      },
+      "standard_hindi_query": "क्या weight loss से type 2 diabetes remission में जा सकती है",
+      "chunks": {
+        "en": [
+          {
+            "id": 13,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 5a. Comorbidity Deep Dive: Type 2 Diabetes",
+            "score": 0.6769
+          },
+          {
+            "id": 59,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 29. Long-Term Maintenance and Relapse Prevention",
+            "score": 0.6022
+          },
+          {
+            "id": 28,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 10. Bariatric (Metabolic) Surgery",
+            "score": 0.5954
+          },
+          {
+            "id": 63,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+            "score": 0.5342
+          }
+        ],
+        "hi": [
+          {
+            "id": 13,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 5a. Comorbidity Deep Dive: Type 2 Diabetes",
+            "score": 0.6945
+          },
+          {
+            "id": 59,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 29. Long-Term Maintenance and Relapse Prevention",
+            "score": 0.6099
+          },
+          {
+            "id": 28,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 10. Bariatric (Metabolic) Surgery",
+            "score": 0.5962
+          },
+          {
+            "id": 63,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+            "score": 0.5222
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 13,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 5a. Comorbidity Deep Dive: Type 2 Diabetes",
+            "score": 0.6809
+          },
+          {
+            "id": 59,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 29. Long-Term Maintenance and Relapse Prevention",
+            "score": 0.5993
+          },
+          {
+            "id": 28,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 10. Bariatric (Metabolic) Surgery",
+            "score": 0.5873
+          },
+          {
+            "id": 63,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+            "score": 0.5126
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            13,
+            59,
+            28,
+            63
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0096,
+          "same_canonical": false,
+          "query_similarity": 0.9731
+        },
+        "hinglish": {
+          "chunk_ids": [
+            13,
+            59,
+            28,
+            63
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0091,
+          "same_canonical": false,
+          "query_similarity": 0.9791
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            13,
+            28,
+            59,
+            71
+          ],
+          "overlap": 0.6,
+          "rank_overlap": 0.81,
+          "missing_evidence": [
+            63
+          ],
+          "missing_count": 1,
+          "score_drift": 0.0778
+        },
+        "hinglish_legacy": {
+          "chunk_ids": [
+            13,
+            59,
+            28,
+            63
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0091,
+          "english_query": "Can weight loss lead to type 2 diabetes remission?",
+          "same_canonical": false
+        }
+      },
+      "variants": [
+        {
+          "text": "weight kam karne se type 2 diabetes ka remission ho sakta hai kya",
+          "normalised": "weight kam karne se type 2 diabetes ka remission ho sakta hai kya",
+          "english_query": "Can weight loss lead to remission of type 2 diabetes?",
+          "same_canonical": false,
+          "overlap": 1.0
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "T10",
+      "safety": false,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "Why do I feel hungry all the time?",
+        "hi": "Why do I feel hungry all the time?",
+        "hinglish": "Why do I feel hungry all the time?"
+      },
+      "standard_hindi_query": "मुझे हर टाइम भूख क्यों लगती है?",
+      "chunks": {
+        "en": [
+          {
+            "id": 33,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 14. The Insulin Hypothesis",
+            "score": 0.3978
+          },
+          {
+            "id": 9,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 4. Behavioural and Environmental Risk Factors",
+            "score": 0.37
+          },
+          {
+            "id": 32,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+            "score": 0.3555
+          },
+          {
+            "id": 49,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 24. Macronutrients, Glycaemic Index, and Meal Composition",
+            "score": 0.3431
+          }
+        ],
+        "hi": [
+          {
+            "id": 33,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 14. The Insulin Hypothesis",
+            "score": 0.3978
+          },
+          {
+            "id": 9,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 4. Behavioural and Environmental Risk Factors",
+            "score": 0.37
+          },
+          {
+            "id": 32,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+            "score": 0.3555
+          },
+          {
+            "id": 49,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 24. Macronutrients, Glycaemic Index, and Meal Composition",
+            "score": 0.3431
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 33,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 14. The Insulin Hypothesis",
+            "score": 0.3978
+          },
+          {
+            "id": 9,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 4. Behavioural and Environmental Risk Factors",
+            "score": 0.37
+          },
+          {
+            "id": 32,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+            "score": 0.3555
+          },
+          {
+            "id": 49,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 24. Macronutrients, Glycaemic Index, and Meal Composition",
+            "score": 0.3431
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            33,
+            9,
+            32,
+            49
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish": {
+          "chunk_ids": [
+            33,
+            9,
+            32,
+            49
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            71,
+            72,
+            52,
+            48
+          ],
+          "overlap": 0.0,
+          "rank_overlap": 0.0,
+          "missing_evidence": [
+            9,
+            32,
+            33,
+            49
+          ],
+          "missing_count": 4,
+          "score_drift": null
+        },
+        "hinglish_legacy": {
+          "chunk_ids": [
+            9,
+            33,
+            49,
+            7
+          ],
+          "overlap": 0.6,
+          "rank_overlap": 0.6,
+          "missing_evidence": [
+            32
+          ],
+          "missing_count": 1,
+          "score_drift": 0.0145,
+          "english_query": "Why am I always hungry?",
+          "same_canonical": false
+        }
+      },
+      "variants": [
+        {
+          "text": "mujhe hamesha bhookh kyu lagti hai",
+          "normalised": "mujhe hamesha bhook kyun lagti hai",
+          "english_query": "Why am I always hungry?",
+          "same_canonical": false,
+          "overlap": 0.6
+        },
+        {
+          "text": "muje har samay bhuk kyon lagti h",
+          "normalised": "mujhe har samay bhook kyun lagti h",
+          "english_query": "Why do I feel hungry all the time?",
+          "same_canonical": true,
+          "overlap": 1.0
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "T11",
+      "safety": false,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "Why is obesity increasing in India?",
+        "hi": "Why is obesity increasing in India?",
+        "hinglish": "Why is obesity increasing in India?"
+      },
+      "standard_hindi_query": "india में obesity क्यों बढ़ रही है?",
+      "chunks": {
+        "en": [
+          {
+            "id": 3,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 2. Epidemiology: Global and Indian Burden",
+            "score": 0.7561
+          },
+          {
+            "id": 10,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 4. Behavioural and Environmental Risk Factors",
+            "score": 0.6821
+          },
+          {
+            "id": 4,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 2. Epidemiology: Global and Indian Burden",
+            "score": 0.666
+          },
+          {
+            "id": 14,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 5b. Comorbidity Deep Dive: Cardiovascular Disease",
+            "score": 0.6529
+          }
+        ],
+        "hi": [
+          {
+            "id": 3,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 2. Epidemiology: Global and Indian Burden",
+            "score": 0.7561
+          },
+          {
+            "id": 10,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 4. Behavioural and Environmental Risk Factors",
+            "score": 0.6821
+          },
+          {
+            "id": 4,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 2. Epidemiology: Global and Indian Burden",
+            "score": 0.666
+          },
+          {
+            "id": 14,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 5b. Comorbidity Deep Dive: Cardiovascular Disease",
+            "score": 0.6529
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 3,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 2. Epidemiology: Global and Indian Burden",
+            "score": 0.7561
+          },
+          {
+            "id": 10,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 4. Behavioural and Environmental Risk Factors",
+            "score": 0.6821
+          },
+          {
+            "id": 4,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 2. Epidemiology: Global and Indian Burden",
+            "score": 0.666
+          },
+          {
+            "id": 14,
+            "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 5b. Comorbidity Deep Dive: Cardiovascular Disease",
+            "score": 0.6529
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            3,
+            10,
+            4,
+            14
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish": {
+          "chunk_ids": [
+            3,
+            10,
+            4,
+            14
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            3,
+            4,
+            82,
+            10
+          ],
+          "overlap": 0.6,
+          "rank_overlap": 0.73,
+          "missing_evidence": [
+            14
+          ],
+          "missing_count": 1,
+          "score_drift": 0.1294
+        },
+        "hinglish_legacy": {
+          "chunk_ids": [
+            3,
+            10,
+            4,
+            14
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "english_query": "Why is obesity increasing in India?",
+          "same_canonical": true
+        }
+      },
+      "variants": [],
+      "status": "ok"
+    },
+    {
+      "id": "T12",
+      "safety": false,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "What is the Dixit Lifestyle two-meal plan?",
+        "hi": "What is the Dixit Lifestyle two-meal plan?",
+        "hinglish": "What is the Dixit Lifestyle two-meal plan?"
+      },
+      "standard_hindi_query": "Dixit Lifestyle diet simple words में क्या है",
+      "chunks": {
+        "en": [
+          {
+            "id": 36,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 16. Operationalising the Dixit Lifestyle in a Structured Program",
+            "score": 0.7181
+          },
+          {
+            "id": 55,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.702
+          },
+          {
+            "id": 57,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 27. Cultural and Religious Considerations",
+            "score": 0.6895
+          },
+          {
+            "id": 32,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+            "score": 0.6763
+          }
+        ],
+        "hi": [
+          {
+            "id": 36,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 16. Operationalising the Dixit Lifestyle in a Structured Program",
+            "score": 0.7181
+          },
+          {
+            "id": 55,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.702
+          },
+          {
+            "id": 57,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 27. Cultural and Religious Considerations",
+            "score": 0.6895
+          },
+          {
+            "id": 32,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+            "score": 0.6763
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 36,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 16. Operationalising the Dixit Lifestyle in a Structured Program",
+            "score": 0.7181
+          },
+          {
+            "id": 55,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.702
+          },
+          {
+            "id": 57,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 27. Cultural and Religious Considerations",
+            "score": 0.6895
+          },
+          {
+            "id": 32,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+            "score": 0.6763
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            36,
+            55,
+            57,
+            32
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish": {
+          "chunk_ids": [
+            36,
+            55,
+            57,
+            32
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            52,
+            82,
+            51,
+            71
+          ],
+          "overlap": 0.0,
+          "rank_overlap": 0.0,
+          "missing_evidence": [
+            32,
+            36,
+            55,
+            57
+          ],
+          "missing_count": 4,
+          "score_drift": null
+        },
+        "hinglish_legacy": {
+          "chunk_ids": [
+            36,
+            55,
+            57,
+            32
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "english_query": "What is the Dixit Lifestyle two-meal plan?",
+          "same_canonical": true
+        }
+      },
+      "variants": [
+        {
+          "text": "dixit lifestyle diet kya hota hai simple me batao",
+          "normalised": "Dixit Lifestyle diet kya hota hai simple me batao",
+          "english_query": "What is the Dixit Lifestyle two-meal plan?",
+          "same_canonical": true,
+          "overlap": 1.0
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "T13",
+      "safety": false,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "How much should I walk each day to lose weight?",
+        "hi": "How much should I walk daily to lose weight?",
+        "hinglish": "How much walking should I do daily for weight loss?"
+      },
+      "standard_hindi_query": "weight loss के लिए मुझे रोज कितना walk करना चाहिए?",
+      "chunks": {
+        "en": [
+          {
+            "id": 25,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 8. Physical Activity Guidelines",
+            "score": 0.508
+          },
+          {
+            "id": 26,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 8a. A Graduated Walking Progression",
+            "score": 0.4789
+          },
+          {
+            "id": 79,
+            "heading": "PART VI — MULTILINGUAL AND SYSTEM-DESIGN NOTES > 38. Illustrative 4-Week Starter Program",
+            "score": 0.4534
+          },
+          {
+            "id": 78,
+            "heading": "PART VI — MULTILINGUAL AND SYSTEM-DESIGN NOTES > 38. Illustrative 4-Week Starter Program",
+            "score": 0.398
+          }
+        ],
+        "hi": [
+          {
+            "id": 25,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 8. Physical Activity Guidelines",
+            "score": 0.4993
+          },
+          {
+            "id": 26,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 8a. A Graduated Walking Progression",
+            "score": 0.4633
+          },
+          {
+            "id": 79,
+            "heading": "PART VI — MULTILINGUAL AND SYSTEM-DESIGN NOTES > 38. Illustrative 4-Week Starter Program",
+            "score": 0.4422
+          },
+          {
+            "id": 42,
+            "heading": "PART IV — DESIGNING AN AI OBESITY GUIDANCE MODULE > 19. Synthetic Question–Answer Set (For RAG Evaluation and Fine-Tuning)",
+            "score": 0.3954
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 25,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 8. Physical Activity Guidelines",
+            "score": 0.5512
+          },
+          {
+            "id": 26,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 8a. A Graduated Walking Progression",
+            "score": 0.5215
+          },
+          {
+            "id": 79,
+            "heading": "PART VI — MULTILINGUAL AND SYSTEM-DESIGN NOTES > 38. Illustrative 4-Week Starter Program",
+            "score": 0.4882
+          },
+          {
+            "id": 78,
+            "heading": "PART VI — MULTILINGUAL AND SYSTEM-DESIGN NOTES > 38. Illustrative 4-Week Starter Program",
+            "score": 0.4384
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            25,
+            26,
+            79,
+            42
+          ],
+          "overlap": 0.6,
+          "rank_overlap": 0.94,
+          "missing_evidence": [
+            78
+          ],
+          "missing_count": 1,
+          "score_drift": 0.0119,
+          "same_canonical": false,
+          "query_similarity": 0.9858
+        },
+        "hinglish": {
+          "chunk_ids": [
+            25,
+            26,
+            79,
+            78
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0402,
+          "same_canonical": false,
+          "query_similarity": 0.9335
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            45,
+            25,
+            44,
+            71
+          ],
+          "overlap": 0.14,
+          "rank_overlap": 0.27,
+          "missing_evidence": [
+            26,
+            78,
+            79
+          ],
+          "missing_count": 3,
+          "score_drift": 0.0564
+        },
+        "hinglish_legacy": {
+          "chunk_ids": [
+            25,
+            26,
+            79,
+            78
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0402,
+          "english_query": "How much walking should I do daily for weight loss?",
+          "same_canonical": false
+        }
+      },
+      "variants": [
+        {
+          "text": "vajan kam karne ke liye roz kitna chalna chahiye",
+          "normalised": "vajan kam karne ke liye roz kitna chalna chahiye",
+          "english_query": "How much walking should be done daily for weight loss?",
+          "same_canonical": false,
+          "overlap": 1.0
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "T14",
+      "safety": true,
+      "detection": {
+        "hinglish_detected": true,
+        "english_misdetected": false
+      },
+      "canonical": {
+        "en": "Is fasting safe for someone with a history of binge eating?",
+        "hi": "Is fasting safe for someone with a history of binge eating?",
+        "hinglish": "Is fasting safe for someone with a history of binge eating?"
+      },
+      "standard_hindi_query": "मुझे binge eating की history रही है क्या fasting मेरे लिए safe है",
+      "chunks": {
+        "en": [
+          {
+            "id": 54,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.5294
+          },
+          {
+            "id": 24,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 7. Dietary Interventions",
+            "score": 0.5045
+          },
+          {
+            "id": 55,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.5034
+          },
+          {
+            "id": 35,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 15. Scientific Reception and Balanced Assessment",
+            "score": 0.4871
+          }
+        ],
+        "hi": [
+          {
+            "id": 54,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.5294
+          },
+          {
+            "id": 24,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 7. Dietary Interventions",
+            "score": 0.5045
+          },
+          {
+            "id": 55,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.5034
+          },
+          {
+            "id": 35,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 15. Scientific Reception and Balanced Assessment",
+            "score": 0.4871
+          }
+        ],
+        "hinglish": [
+          {
+            "id": 54,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.5294
+          },
+          {
+            "id": 24,
+            "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 7. Dietary Interventions",
+            "score": 0.5045
+          },
+          {
+            "id": 55,
+            "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+            "score": 0.5034
+          },
+          {
+            "id": 35,
+            "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 15. Scientific Reception and Balanced Assessment",
+            "score": 0.4871
+          }
+        ]
+      },
+      "retrieval": {
+        "hi": {
+          "chunk_ids": [
+            54,
+            24,
+            55,
+            35
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish": {
+          "chunk_ids": [
+            54,
+            24,
+            55,
+            35
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "same_canonical": true,
+          "query_similarity": 1.0
+        },
+        "hinglish_raw": {
+          "chunk_ids": [
+            56,
+            52,
+            71,
+            72
+          ],
+          "overlap": 0.0,
+          "rank_overlap": 0.0,
+          "missing_evidence": [
+            24,
+            35,
+            54,
+            55
+          ],
+          "missing_count": 4,
+          "score_drift": null
+        },
+        "hinglish_legacy": {
+          "chunk_ids": [
+            54,
+            24,
+            55,
+            35
+          ],
+          "overlap": 1.0,
+          "rank_overlap": 1.0,
+          "missing_evidence": [],
+          "missing_count": 0,
+          "score_drift": 0.0,
+          "english_query": "Is fasting safe for someone with a history of binge eating?",
+          "same_canonical": true
+        }
+      },
+      "variants": [],
+      "status": "ok"
+    }
+  ]
+}

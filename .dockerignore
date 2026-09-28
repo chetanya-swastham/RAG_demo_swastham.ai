@@ -1,0 +1,8 @@
+.env
+__pycache__/
+**/__pycache__/
+*.pdf
+parity_fix_logs/
+reports/
+.vercel/
+.env.local

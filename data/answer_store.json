@@ -1,0 +1,1524 @@
+{
+  "fingerprint": "e37441d3f1821883",
+  "queries": {
+    "i have diabetes can i eat fruits": "Can I eat fruit if I have diabetes?",
+    "can i eat fruits if i have diabetes": "Can I eat fruit if I have diabetes?",
+    "if i have diabetes can i eat fruit": "Can I eat fruit if I have diabetes?",
+    "can i eat fruit in diabetes": "Can I eat fruit if I have diabetes?",
+    "mujhe diabetes hai kya main fruits kha sakta hu": "Can I eat fruit if I have diabetes?",
+    "i have diabetes can i eat fruit": "Can I eat fruit if I have diabetes?",
+    "i take insulin for type 2 diabetes can i follow the dixit two meal plan": "Can I follow the Dixit Lifestyle two-meal plan while taking insulin for type 2 diabetes?",
+    "main type 2 diabetes ke liye insulin leta hoon kya main dixit ka two meal plan follow kar sakta hoon": "Can I follow the Dixit Lifestyle two-meal plan while taking insulin for type 2 diabetes?",
+    "i take insulin for type 2 diabetes can i follow a dixit two meal plan": "Can I follow the Dixit Lifestyle two-meal plan while taking insulin for type 2 diabetes?",
+    "should i have a snack before exercising": "Should I have a snack before exercising?",
+    "should i eat something before exercising": "Should I eat before exercising?",
+    "should you take a snack before exercising": "Should I have a snack before exercising?",
+    "exercise karne ke pehle snack lena chahiye kya": "Should I have a snack before exercising?",
+    "should you take a snack before a workout": "Should I take a snack before a workout?",
+    "i am pregnant can i follow the dixit lifestyle diet": "Can I follow the Dixit Lifestyle two-meal plan if I am pregnant?",
+    "main pregnant hoon kya main dixit lifestyle diet follow kar sakti hoon": "Can I follow the Dixit Lifestyle two-meal plan while pregnant?",
+    "i am pregnant can i follow the dixit diet": "Can I follow the Dixit Lifestyle two-meal plan if I am pregnant?",
+    "is the two meal plan safe for my 12 year old child": "Is the Dixit Lifestyle two-meal plan safe for a 12-year-old child?",
+    "kya two meal plan mere 12 saal ke bachche ke liye safe hai": "Is the Dixit Lifestyle two-meal plan safe for a 12-year-old child?",
+    "what are the bmi cut offs for obesity in indian adults": "What are the BMI cut-offs for obesity in Indian adults?",
+    "what is the bmi range for obesity in indian adults": "What is the BMI range for obesity in Indian adults?",
+    "what is the bmi cut off for obesity in indian adults": "What is the BMI cut‑off for obesity in Indian adults?",
+    "indian adults mein obesity ke liye bmi cut off kya hai": "What is the BMI cut‑off for obesity in Indian adults?",
+    "what is the bmi cutoff for obesity in indian adults": "What is the BMI cutoff for obesity in Indian adults?",
+    "what should my waist circumference be if i am an indian adult": "What is the recommended waist circumference for an Indian adult?",
+    "as an indian adult what should my waist circumference be": "What should my waist circumference be for an Indian adult?",
+    "what should be my waist circumference for an indian adult": "What is the recommended waist circumference for an Indian adult?",
+    "indian adult ke liye meri waist circumference kitni honi chahiye": "What should my waist circumference be for an Indian adult?",
+    "why do i need to track hba1c instead of my weight": "Why should I track HbA1c instead of just my weight?",
+    "why should i monitor hba1c instead of weight": "Why should I monitor HbA1c instead of just weight?",
+    "why should i track hba1c instead of weight": "Why should I track HbA1c instead of just weight?",
+    "mujhe sirf weight ki jagah hba1c track kyun karna chahiye": "Why should I track HbA1c instead of only weight?",
+    "why should you track hba1c not weight": "Why should I track HbA1c instead of only weight?",
+    "can type 2 diabetes go into remission with weight loss": "Can type 2 diabetes go into remission with weight loss?",
+    "can weight loss lead to remission of type 2 diabetes": "Can weight loss lead to remission of type 2 diabetes?",
+    "can weight loss lead to type 2 diabetes remission": "Can weight loss lead to type 2 diabetes remission?",
+    "kya weight loss se type 2 diabetes remission mein ja sakti hai": "Can weight loss lead to type 2 diabetes remission?",
+    "why do i feel hungry all the time": "Why do I feel hungry all the time?",
+    "mujhe har time bhook kyun lagti hai": "Why am I always hungry?",
+    "why am i always hungry": "Why am I always hungry?",
+    "why is obesity increasing in india": "Why is obesity increasing in India?",
+    "india mein obesity kyun badh rahi hai": "Why is obesity increasing in India?",
+    "what is the dixit lifestyle diet in simple terms": "What is the Dixit Lifestyle two-meal plan?",
+    "what is the dixit lifestyle diet in simple words": "What is the Dixit Lifestyle two-meal plan?",
+    "dixit lifestyle diet simple words mein kya hai": "What is the Dixit Lifestyle two-meal plan?",
+    "what is the dixit lifestyle diet explain it simply": "What is the Dixit Lifestyle two-meal plan?",
+    "how much should i walk every day to lose weight": "How much should I walk each day to lose weight?",
+    "how much should i walk daily to lose weight": "How much should I walk daily to lose weight?",
+    "how much walking should i do daily for weight loss": "How much walking should I do daily for weight loss?",
+    "weight loss ke liye mujhe roz kitna walk karna chahiye": "How much walking should I do daily for weight loss?",
+    "how much walking should be done daily for weight loss": "How much walking should be done daily for weight loss?",
+    "i have a history of binge eating is fasting safe for me": "Is fasting safe for someone with a history of binge eating?",
+    "mujhe binge eating ki history rahi hai kya fasting mere liye safe hai": "Is fasting safe for someone with a history of binge eating?",
+    "i have obesity what should i eat": "What should I eat for obesity?",
+    "i have obesity so what should i eat": "What should I eat if I have a high BMI?",
+    "i am going with obesity what should i eat": "What should I eat for obesity?",
+    "i am struggling with obesity what should i eat": "What should I eat for obesity?",
+    "i want to get mascullar fat what should i eat": "What should I eat to gain muscle mass?",
+    "i want to build muscle and reduce body fat what should i eat": "What should I eat to build muscle and reduce body fat?",
+    "i want to gain weight so what should i eat": "What should I eat to gain weight?",
+    "i am not feeling hungry what is the reason behind it": "What could cause loss of appetite?",
+    "can i follow the dixit lifestyle two meal plan while taking insulin for type 2 diabetes if i am pregnant": "Can I follow the Dixit Lifestyle two-meal plan while taking insulin for type 2 diabetes if I am pregnant?",
+    "i want to eat but i do not know what should i eat": "What should I eat?",
+    "what things should i keep in mind in obesity": "What should I keep in mind in obesity?",
+    "what should i eat in obesity": "What should I eat for obesity?",
+    "i have been given it by obi what should i eat": "What should I eat?"
+  },
+  "hinglish_queries": {
+    "mujhe diabetes hai kya main fruits kha sakta hoon": {
+      "normalised": "mujhe diabetes hai kya main fruits kha sakta hoon",
+      "masked": "mujhe [[TA]] hai kya main fruits kha sakta hoon",
+      "terms": [
+        "diabetes"
+      ],
+      "standard_hindi": "मुझे diabetes है क्या मैं fruits खा सकता हूँ",
+      "attempts": 1
+    },
+    "kya main fruit kha sakta hoon diabetes me": {
+      "normalised": "kya main fruit kha sakta hoon diabetes me",
+      "masked": "kya main fruit kha sakta hoon [[TA]] me",
+      "terms": [
+        "diabetes"
+      ],
+      "standard_hindi": "क्या मैं fruit खा सकता हूँ diabetes में",
+      "attempts": 1
+    },
+    "kya main fruits kha sakta hoon agar diabetes hai": {
+      "normalised": "kya main fruits kha sakta hoon agar diabetes hai",
+      "masked": "kya main fruits kha sakta hoon agar [[TA]] hai",
+      "terms": [
+        "diabetes"
+      ],
+      "standard_hindi": "क्या मैं fruits खा सकता हूँ अगर diabetes है",
+      "attempts": 1
+    },
+    "mujhe diabetes hai can i eat fruit": {
+      "normalised": "mujhe diabetes hai can i eat fruit",
+      "masked": "mujhe [[TA]] hai can i eat fruit",
+      "terms": [
+        "diabetes"
+      ],
+      "standard_hindi": "मुझे diabetes है can i eat fruit?",
+      "attempts": 1
+    },
+    "main type 2 diabetes ke liye insulin leta hoon kya main dixit ka two meal plan follow kar sakta hoon": {
+      "normalised": "main type 2 diabetes ke liye insulin leta hoon kya main dixit ka two meal plan follow kar sakta hoon",
+      "masked": "main [[TA]] ke liye [[TB]] leta hoon kya main dixit ka two meal plan follow kar sakta hoon",
+      "terms": [
+        "insulin",
+        "type 2 diabetes"
+      ],
+      "standard_hindi": "मैं type 2 diabetes के लिए insulin लेता हूँ क्या मैं dixit का two meal plan follow कर सकता हूँ",
+      "attempts": 1
+    },
+    "main insulin leta hoon type 2 diabetes ke liye kya dixit two meal plan kar sakta hoon": {
+      "normalised": "main insulin leta hoon type 2 diabetes ke liye kya dixit two meal plan kar sakta hoon",
+      "masked": "main [[TA]] leta hoon [[TB]] ke liye kya dixit two meal plan kar sakta hoon",
+      "terms": [
+        "insulin",
+        "type 2 diabetes"
+      ],
+      "standard_hindi": "मैं insulin लेता हूँ type 2 diabetes के लिए क्या dixit two meal plan कर सकता हूँ",
+      "attempts": 1
+    },
+    "exercise karne ke pehle snack lena chahiye kya": {
+      "normalised": "exercise karne ke pehle snack lena chahiye kya",
+      "masked": "exercise karne ke pehle snack lena chahiye kya",
+      "terms": [],
+      "standard_hindi": "exercise करने के पहले snack लेना चाहिए क्या",
+      "attempts": 1
+    },
+    "exercise karne se pehle snack lena chahiye kya": {
+      "normalised": "exercise karne se pehle snack lena chahiye kya",
+      "masked": "exercise karne se pehle snack lena chahiye kya",
+      "terms": [],
+      "standard_hindi": "exercise करने से पहले snack लेना चाहिए क्या",
+      "attempts": 1
+    },
+    "kya workout ke pehle snack lena chahiye": {
+      "normalised": "kya workout ke pehle snack lena chahiye",
+      "masked": "kya workout ke pehle snack lena chahiye",
+      "terms": [],
+      "standard_hindi": "क्या workout के पहले snack लेना चाहिए?",
+      "attempts": 1
+    },
+    "main pregnant hoon kya main Dixit Lifestyle diet follow kar sakti hoon": {
+      "normalised": "main pregnant hoon kya main Dixit Lifestyle diet follow kar sakti hoon",
+      "masked": "main pregnant hoon kya main [[TA]] diet follow kar sakti hoon",
+      "terms": [
+        "Dixit Lifestyle"
+      ],
+      "standard_hindi": "मैं pregnant हूँ क्या मैं Dixit Lifestyle diet follow कर सकती हूँ",
+      "attempts": 1
+    },
+    "main pregnant hoon kya dixit diet kar sakti hoon": {
+      "normalised": "main pregnant hoon kya dixit diet kar sakti hoon",
+      "masked": "main pregnant hoon kya dixit diet kar sakti hoon",
+      "terms": [],
+      "standard_hindi": "मैं pregnant हूँ क्या dixit diet कर सकती हूँ?",
+      "attempts": 1
+    },
+    "kya two meal plan mere 12 saal ke bachche ke liye safe hai": {
+      "normalised": "kya two meal plan mere 12 saal ke bachche ke liye safe hai",
+      "masked": "kya two meal plan mere 12 saal ke bachche ke liye safe hai",
+      "terms": [],
+      "standard_hindi": "क्या two meal plan मेरे 12 साल के बच्चे के लिए safe है",
+      "attempts": 1
+    },
+    "indian adults mein obesity ke liye BMI cut off kya hai": {
+      "normalised": "indian adults mein obesity ke liye BMI cut off kya hai",
+      "masked": "indian adults mein [[TA]] ke liye [[TB]] cut off kya hai",
+      "terms": [
+        "BMI",
+        "obesity"
+      ],
+      "standard_hindi": "indian adults में obesity के लिए BMI cut off क्या है",
+      "attempts": 1
+    },
+    "indian adults me obesity ka BMI cutoff kya hota hai": {
+      "normalised": "indian adults me obesity ka BMI cutoff kya hota hai",
+      "masked": "indian adults me [[TA]] ka [[TB]] cutoff kya hota hai",
+      "terms": [
+        "BMI",
+        "obesity"
+      ],
+      "standard_hindi": "इंडियन एडॉल्ट्स में obesity का BMI कटऑफ़ क्या होता है",
+      "attempts": 1
+    },
+    "indian adult ke liye meri waist circumference kitni honi chahiye": {
+      "normalised": "indian adult ke liye meri waist circumference kitni honi chahiye",
+      "masked": "indian adult ke liye meri [[TA]] kitni honi chahiye",
+      "terms": [
+        "waist circumference"
+      ],
+      "standard_hindi": "indian adult के लिए मेरी waist circumference कितनी होनी चाहिए",
+      "attempts": 1
+    },
+    "mujhe sirf weight ki jagah HbA1c track kyun karna chahiye": {
+      "normalised": "mujhe sirf weight ki jagah HbA1c track kyun karna chahiye",
+      "masked": "mujhe sirf weight ki jagah [[TA]] track kyun karna chahiye",
+      "terms": [
+        "HbA1c"
+      ],
+      "standard_hindi": "मुझे सिर्फ weight की जगह HbA1c track क्यों करना चाहिए",
+      "attempts": 1
+    },
+    "sirf weight nahi HbA1c kyun track karna chahiye": {
+      "normalised": "sirf weight nahi HbA1c kyun track karna chahiye",
+      "masked": "sirf weight nahi [[TA]] kyun track karna chahiye",
+      "terms": [
+        "HbA1c"
+      ],
+      "standard_hindi": "सिर्फ weight नहीं HbA1c क्यों track करना चाहिए",
+      "attempts": 1
+    },
+    "kya weight loss se type 2 diabetes remission mein ja sakti hai": {
+      "normalised": "kya weight loss se type 2 diabetes remission mein ja sakti hai",
+      "masked": "kya weight loss se [[TA]] [[TB]] mein ja sakti hai",
+      "terms": [
+        "remission",
+        "type 2 diabetes"
+      ],
+      "standard_hindi": "क्या weight loss से type 2 diabetes remission में जा सकती है",
+      "attempts": 1
+    },
+    "weight kam karne se type 2 diabetes ka remission ho sakta hai kya": {
+      "normalised": "weight kam karne se type 2 diabetes ka remission ho sakta hai kya",
+      "masked": "weight kam karne se [[TA]] ka [[TB]] ho sakta hai kya",
+      "terms": [
+        "remission",
+        "type 2 diabetes"
+      ],
+      "standard_hindi": "weight कम करने से type 2 diabetes का remission हो सकता है क्या",
+      "attempts": 1
+    },
+    "mujhe har time bhook kyun lagti hai": {
+      "normalised": "mujhe har time bhook kyun lagti hai",
+      "masked": "mujhe har time bhook kyun lagti hai",
+      "terms": [],
+      "standard_hindi": "मुझे हर टाइम भूख क्यों लगती है?",
+      "attempts": 1
+    },
+    "mujhe hamesha bhook kyun lagti hai": {
+      "normalised": "mujhe hamesha bhook kyun lagti hai",
+      "masked": "mujhe hamesha bhook kyun lagti hai",
+      "terms": [],
+      "standard_hindi": "मुझे हमेशा भूख क्यों लगती है",
+      "attempts": 1
+    },
+    "mujhe har samay bhook kyun lagti h": {
+      "normalised": "mujhe har samay bhook kyun lagti h",
+      "masked": "mujhe har samay bhook kyun lagti h",
+      "terms": [],
+      "standard_hindi": "मुझे हर समय भूख क्यों लगती है",
+      "attempts": 1
+    },
+    "india mein obesity kyun badh rahi hai": {
+      "normalised": "india mein obesity kyun badh rahi hai",
+      "masked": "india mein [[TA]] kyun badh rahi hai",
+      "terms": [
+        "obesity"
+      ],
+      "standard_hindi": "india में obesity क्यों बढ़ रही है?",
+      "attempts": 1
+    },
+    "Dixit Lifestyle diet simple words mein kya hai": {
+      "normalised": "Dixit Lifestyle diet simple words mein kya hai",
+      "masked": "[[TA]] diet simple words mein kya hai",
+      "terms": [
+        "Dixit Lifestyle"
+      ],
+      "standard_hindi": "Dixit Lifestyle diet simple words में क्या है",
+      "attempts": 1
+    },
+    "Dixit Lifestyle diet kya hota hai simple me batao": {
+      "normalised": "Dixit Lifestyle diet kya hota hai simple me batao",
+      "masked": "[[TA]] diet kya hota hai simple me batao",
+      "terms": [
+        "Dixit Lifestyle"
+      ],
+      "standard_hindi": "Dixit Lifestyle diet क्या होता है simple में बताओ",
+      "attempts": 1
+    },
+    "weight loss ke liye mujhe roz kitna walk karna chahiye": {
+      "normalised": "weight loss ke liye mujhe roz kitna walk karna chahiye",
+      "masked": "weight loss ke liye mujhe roz kitna walk karna chahiye",
+      "terms": [],
+      "standard_hindi": "weight loss के लिए मुझे रोज कितना walk करना चाहिए?",
+      "attempts": 1
+    },
+    "vajan kam karne ke liye roz kitna chalna chahiye": {
+      "normalised": "vajan kam karne ke liye roz kitna chalna chahiye",
+      "masked": "vajan kam karne ke liye roz kitna chalna chahiye",
+      "terms": [],
+      "standard_hindi": "वजन कम करने के लिए रोज कितना चलना चाहिए",
+      "attempts": 1
+    },
+    "mujhe binge eating ki history rahi hai kya fasting mere liye safe hai": {
+      "normalised": "mujhe binge eating ki history rahi hai kya fasting mere liye safe hai",
+      "masked": "mujhe binge eating ki history rahi hai kya fasting mere liye safe hai",
+      "terms": [],
+      "standard_hindi": "मुझे binge eating की history रही है क्या fasting मेरे लिए safe है",
+      "attempts": 1
+    },
+    "mujhe obesity hai toh what should i eat": {
+      "normalised": "mujhe obesity hai toh what should i eat",
+      "masked": "mujhe [[TA]] hai toh what should i eat",
+      "terms": [
+        "obesity"
+      ],
+      "standard_hindi": "मुझे obesity है तो what should i eat",
+      "attempts": 1
+    },
+    "mujhe obesity hai mujhe kya khana chiye": {
+      "normalised": "mujhe obesity hai mujhe kya khana chiye",
+      "masked": "mujhe [[TA]] hai mujhe kya khana chiye",
+      "terms": [
+        "obesity"
+      ],
+      "standard_hindi": "मुझे obesity है मुझे क्या खाना चाहिए",
+      "attempts": 1
+    },
+    "mujhe mota hona hai toh uske liye what should i eat": {
+      "normalised": "mujhe mota hona hai toh uske liye what should i eat",
+      "masked": "mujhe mota hona hai toh uske liye what should i eat",
+      "terms": [],
+      "standard_hindi": "मुझे मोटा होना है तो उसके लिए what should i eat?",
+      "attempts": 1
+    },
+    "mujhe bhook nahi lag rhi what is the reason behind it": {
+      "normalised": "mujhe bhook nahi lag rhi what is the reason behind it",
+      "masked": "mujhe bhook nahi lag rhi what is the reason behind it",
+      "terms": [],
+      "standard_hindi": "मुझे भूख नहीं लग रही what is the reason behind it",
+      "attempts": 1
+    },
+    "obesity me mujhe kya khana chiye": {
+      "normalised": "obesity me mujhe kya khana chiye",
+      "masked": "[[TA]] me mujhe kya khana chiye",
+      "terms": [
+        "obesity"
+      ],
+      "standard_hindi": "obesity में मुझे क्या खाना चाहिए?",
+      "attempts": 1
+    }
+  },
+  "answers": {
+    "can i eat fruit if i have diabetes": {
+      "retrieved_chunks": [
+        {
+          "id": 49,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 24. Macronutrients, Glycaemic Index, and Meal Composition",
+          "text": "Carbohydrates, protein, and fat all influence insulin response differently, and understanding this helps explain why the Dixit Lifestyle's \"salad or nuts first\" rule is mechanistically reasonable even though the plan does not formally count macronutrients. Refined carbohydrates (white rice, maida-based foods, sugar) are digested and absorbed quickly, producing a sharp rise in blood glucose and a correspondingly sharp insulin response. Fibre-rich vegetables, legumes, and whole grains are digested more slowly and produce a flatter glucose curve. Protein and fat further slow gastric emptying and glucose absorption when eaten alongside carbohydrate.",
+          "safety_critical": false,
+          "score": 0.48516690731048584
+        },
+        {
+          "id": 24,
+          "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 7. Dietary Interventions",
+          "text": "ng-term adherence is a common challenge and such diets require caution in individuals on insulin or sulfonylurea medication due to hypoglycaemia risk.\n\nIntermittent fasting, as a broad category, restricts the time window in which eating occurs (for example, an 8-hour eating window, or alternate-day fasting) rather than restricting food type. The proposed mechanism overlaps substantially with the Dixit Lifestyle rationale: fewer eating occasions allow insulin to fall between meals, permitting fat mobilisation. Evidence suggests intermittent fasting approaches can be as effective as continuous caloric restriction for weight loss in many individuals, with some additional benefit for insulin sensitivity, though results vary by protocol and population, and firm long-term outcome data specific to Indian populations remain limited.\n\nThe Mediterranean dietary pattern — emphasising vegetables, legumes, whole grains, fish, and olive oil while limiting red meat and processed food — has the strongest evidence base among named diets for reducing cardiovascular risk and is often recommended as a general template regardless of the specific weight-loss method chosen, since it addresses food quality rather than only quantity or timing.",
+          "safety_critical": true,
+          "score": 0.4517185091972351
+        },
+        {
+          "id": 62,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+          "text": "king for most people. Evidence strength — strong and long-established. Key caution — adherence tends to decline over time without behavioural support.\n\n**Ketogenic / very-low-carbohydrate diet:** Mechanism — carbohydrate restriction lowers insulin and shifts metabolism toward fat oxidation. Food restriction — high; most carbohydrate sources excluded. Structural burden — high; requires significant food substitution and label awareness. Evidence strength — effective for short-to-medium-term loss; long-term adherence and cardiovascular data are more mixed. Key caution — requires medical supervision on glucose-lowering medication; not recommended for extended periods without professional guidance.\n\n**Mediterranean diet:** Mechanism — improved food quality (fibre, healthy fats, reduced processed food) rather than a specific timing or macronutrient rule. Food restriction — moderate; shifts food quality more than quantity. Structural burden — low to moderate; broadly compatible with many cuisines including Indian vegetarian patterns. Evidence strength — strongest cardiovascular outcome evidence among named diets. Key caution — not primarily designed as a rapid weight-loss protocol; benefits accrue over sustained use.",
+          "safety_critical": false,
+          "score": 0.4263908863067627
+        },
+        {
+          "id": 54,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+          "text": "**Myth: \"Skipping meals slows your metabolism so much that you can't lose weight.\"** Short-term studies on structured meal-timing approaches, including intermittent fasting protocols, generally do not show the dramatic metabolic slowdown this myth implies over the timeframes most people practise them; prolonged severe caloric restriction over many months can reduce resting metabolic rate somewhat, but that is a separate phenomenon from simply reducing meal frequency while eating enough at each meal.\n\n**Myth: \"Fat in food directly becomes body fat, so a low-fat diet is always best for weight loss.\"** Dietary fat and body fat are not the same thing; weight gain depends on total energy balance and hormonal context, not on the fat content of any single food in isolation. Healthy fats (nuts, seeds, olive oil, fatty fish) support satiety and hormone function and are compatible with weight loss when total intake is appropriate.\n\n**Myth: \"If my BMI is normal, I don't need to worry about obesity-related disease.\"** As discussed in Section 2, a substantial share of Indians with a normal BMI still carry elevated visceral fat and metabolic risk (the \"metabolically unhealthy normal weight\" or \"skinny-fat\" pattern). Waist circumference and lab markers matter independent of BMI.",
+          "safety_critical": false,
+          "score": 0.42472922801971436
+        }
+      ],
+      "answer_plan": {
+        "required_points": [
+          "Fruit contains carbohydrates that affect blood glucose levels",
+          "Whole fruits with fiber cause a slower glucose rise than refined carbs",
+          "Portion size and overall carbohydrate intake should be considered",
+          "People on insulin or sulfonylurea medications need to monitor timing and amount to avoid hypoglycaemia"
+        ],
+        "important_conditions": [
+          "Caution for individuals using insulin or sulfonylurea drugs; they should adjust medication under medical supervision when changing carbohydrate intake",
+          "Monitor blood glucose response when adding fruit to the diet"
+        ],
+        "restrictions": [
+          "Do not claim that fruit is universally safe or unsafe for all diabetics",
+          "Do not recommend specific fruit types or quantities without individualized guidance",
+          "Avoid stating that fruit can replace medication or that it will cure diabetes"
+        ],
+        "evidence": [
+          "[Chunk 49] Carbohydrates, including those from fruit, influence insulin response; fibre‑rich foods produce a flatter glucose curve",
+          "[Chunk 24] Dietary changes require caution in individuals on insulin or sulfonylurea medication due to hypoglycaemia risk"
+        ]
+      },
+      "canonical_answer": "Fruit contains carbohydrates, so eating it will raise your blood‑glucose level. Because whole fruits also provide fiber, the carbohydrate is absorbed more slowly than refined carbs (such as white rice or sugar), producing a flatter glucose rise. When you add fruit to your meals you should consider the portion size and how it fits into your total daily carbohydrate allowance. If you use insulin or a sulfonylurea (a medication that stimulates insulin release), changing the amount or timing of fruit can affect your blood‑glucose and may increase the risk of hypoglycaemia; any adjustments to medication should be made only under medical supervision. Therefore, when you start eating fruit, monitor your blood‑glucose response and, if you are on insulin or sulfonylurea drugs, work with your healthcare provider to adjust doses as needed.",
+      "validation": {
+        "passed": true,
+        "score": 0.9,
+        "checks": [
+          {
+            "name": "required_points_coverage",
+            "passed": true,
+            "coverage": 1.0,
+            "missing": [],
+            "details": "4/4 required points covered"
+          },
+          {
+            "name": "evidence_grounding",
+            "passed": true,
+            "grounding_ratio": 0.6,
+            "details": "3/5 sentences grounded in evidence"
+          },
+          {
+            "name": "restriction_compliance",
+            "passed": true,
+            "violations": [],
+            "details": "0 potential restriction violations"
+          },
+          {
+            "name": "safety_cautions",
+            "passed": true,
+            "required": [],
+            "missing": [],
+            "referral_present": true,
+            "details": "No safety caution required"
+          }
+        ],
+        "feedback": ""
+      },
+      "attempts": 1,
+      "hinglish": {
+        "answer": "Fruit mein carbohydrates hote hain, isliye usse khane se aapka blood‑glucose level badhega. Kyuki whole fruits fiber bhi provide karte hain, carbohydrate refined carbs (jaise white rice ya sugar) ke mukable dheere absorb hota hai, jis se glucose rise flatter hoti hai. Jab aap fruit ko apne meals mein add karte hain to portion size aur uska aapke total daily carbohydrate allowance mein fit hona consider karna chahiye. Agar aap insulin ya sulfonylurea (ek medication jo insulin release stimulate karta hai) use karte hain, to fruit ki amount ya timing change karne se aapke blood‑glucose par effect pad sakta hai aur hypoglycaemia ka risk badh sakta hai; medication mein koi bhi adjustment sirf medical supervision ke under hi kiya jaana chahiye. Isliye, jab aap fruit khana start karte hain, to apna blood‑glucose response monitor karein aur agar aap insulin ya sulfonylurea drugs par hain, to doses adjust karne ke liye apne healthcare provider ke saath kaam karein as needed.",
+        "back_translation": "Fruit contains carbohydrates, so eating it will raise your blood‑glucose level. Because whole fruits also provide fiber, the carbohydrate is absorbed more slowly than refined carbs (such as white rice or sugar), resulting in a flatter glucose rise. When you add fruit to your meals, you should consider the portion size and how it fits into your total daily carbohydrate allowance. If you take insulin or sulfonylurea (a medication that stimulates insulin release), changing the amount or timing of fruit can affect your blood‑glucose and increase the risk of hypoglycaemia; any medication adjustment should be made only under medical supervision. Therefore, when you start eating fruit, monitor your blood‑glucose response and, if you are on insulin or sulfonylurea drugs, work with your healthcare provider to adjust doses as needed.",
+        "parity": {
+          "parity_passed": true,
+          "checks": [
+            {
+              "name": "numbers_match",
+              "passed": true,
+              "value": 1.0,
+              "missing_in_hindi": [],
+              "extra_in_hindi": [],
+              "details": "EN [] vs HI []"
+            },
+            {
+              "name": "cautions_preserved",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN ['diabetes_medication'] referral=False | HI ['diabetes_medication'] referral=False"
+            },
+            {
+              "name": "recommendation_match",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN recs=['increase', 'monitor', 'start'] | HI recs=['increase', 'monitor', 'start', 'take']"
+            },
+            {
+              "name": "content_coverage",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN→HI 100% of English content kept; HI→EN 100% of Hindi content grounded in English"
+            }
+          ]
+        },
+        "attempts": 1
+      },
+      "hindi": {
+        "answer": "फल में कार्बोहाइड्रेट होते हैं, इसलिए इसे खाने से आपका ब्लड‑ग्लूकोज़ स्तर बढ़ेगा। क्योंकि पूरे फल में फाइबर भी होता है, कार्बोहाइड्रेट का अवशोषण परिष्कृत कार्ब्स (जैसे सफेद चावल या शुगर) की तुलना में अधिक धीरे‑धीरे होता है, जिससे ग्लूकोज़ में एक सपाट वृद्धि होती है। जब आप अपने भोजन में फल जोड़ते हैं तो आपको भाग के आकार पर विचार करना चाहिए और यह देखना चाहिए कि यह आपके कुल दैनिक कार्बोहाइड्रेट अलाउंस में कैसे फिट बैठता है। यदि आप इंसुलिन या सल्फोनाइलयूरिया (एक दवा जो इंसुलिन रिलीज़ को उत्तेजित करती है) का उपयोग करते हैं, तो फल की मात्रा या समय में परिवर्तन आपके ब्लड‑ग्लूकोज़ को प्रभावित कर सकता है और हाइपोग्लाइसीमिया के जोखिम को बढ़ा सकता है; किसी भी दवा में समायोजन केवल चिकित्सकीय पर्यवेक्षण में ही किया जाना चाहिए। इसलिए, जब आप फल खाना शुरू करें, तो अपने ब्लड‑ग्लूकोज़ प्रतिक्रिया की निगरानी करें और यदि आप इंसुलिन या सल्फोनाइलयूरिया दवाओं पर हैं, तो आवश्यकतानुसार खुराक समायोजित करने के लिए अपने हेल्थकेयर प्रोफेशनल के साथ काम करें।",
+        "back_translation": "Fruit contains carbohydrates, so eating it will raise your blood‑glucose level. Because whole fruit also contains fiber, the absorption of carbohydrates occurs more slowly than refined carbs (such as white rice or sugar), resulting in a flat increase in glucose. When you add fruit to your meals you should consider portion size and see how it fits into your total daily carbohydrate allowance. If you take insulin or sulfonylurea (a medicine that stimulates insulin release), changes in the amount or timing of fruit can affect your blood‑glucose and increase the risk of hypoglycemia; any adjustment to medicines should be made only under medical supervision. Therefore, when you start eating fruit, monitor your blood‑glucose response and, if you are on insulin or sulfonylurea medicines, work with your healthcare professional to adjust the dose as needed.",
+        "parity": {
+          "parity_passed": true,
+          "checks": [
+            {
+              "name": "numbers_match",
+              "passed": true,
+              "value": 1.0,
+              "missing_in_hindi": [],
+              "extra_in_hindi": [],
+              "details": "EN [] vs HI []"
+            },
+            {
+              "name": "cautions_preserved",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN ['diabetes_medication'] referral=False | HI ['diabetes_medication'] referral=False"
+            },
+            {
+              "name": "recommendation_match",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN recs=['increase', 'monitor', 'start'] | HI recs=['increase', 'monitor', 'start', 'take']"
+            },
+            {
+              "name": "content_coverage",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN→HI 100% of English content kept; HI→EN 100% of Hindi content grounded in English"
+            }
+          ]
+        },
+        "attempts": 1
+      }
+    },
+    "can type 2 diabetes go into remission with weight loss": {
+      "retrieved_chunks": [
+        {
+          "id": 13,
+          "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 5a. Comorbidity Deep Dive: Type 2 Diabetes",
+          "text": "Type 2 diabetes and obesity are so closely linked in India that they are often discussed as a single \"diabesity\" continuum rather than two separate conditions. Visceral fat drives insulin resistance (Section 3), and as beta-cell insulin secretion eventually fails to fully compensate, fasting and post-meal glucose levels rise, first into the prediabetic range (fasting glucose 100–125 mg/dl, or HbA1c 5.7–6.4%) and then into diabetes (fasting glucose ≥126 mg/dl, or HbA1c ≥6.5%, confirmed on repeat testing). Weight loss of even 5–10% of body weight has been shown in multiple studies to meaningfully improve glycaemic control and, in some people with shorter disease duration, can bring glucose into a non-diabetic range without medication — this is the basis for the term \"remission,\" which requires sustained normal glucose without medication and is not guaranteed or universal.",
+          "safety_critical": false,
+          "score": 0.6768694519996643
+        },
+        {
+          "id": 59,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 29. Long-Term Maintenance and Relapse Prevention",
+          "text": "Weight regain after initial loss is common across virtually all interventions — dietary, pharmacological, and surgical — and should be anticipated and planned for rather than treated as a sign of personal failure. Metabolic adaptation (a somewhat lowered energy expenditure at a reduced body weight) and a physiological increase in hunger-driving hormones after weight loss both make maintenance genuinely harder than the initial loss phase, which is a biological reality rather than a motivation problem.",
+          "safety_critical": false,
+          "score": 0.6021912693977356
+        },
+        {
+          "id": 28,
+          "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 10. Bariatric (Metabolic) Surgery",
+          "text": "Bariatric surgery is generally indicated for individuals with a BMI of 40 or above, or 35 and above with significant obesity-related comorbidities (such as poorly controlled type 2 diabetes), and revised Asian-specific criteria in India sometimes lower these thresholds given the population's higher metabolic risk at a given BMI. Common procedures include sleeve gastrectomy and Roux-en-Y gastric bypass. Outcomes data show substantial and durable weight loss for most patients along with high rates of type 2 diabetes remission, particularly when surgery occurs earlier in the disease course, though surgery carries surgical risk and requires lifelong nutritional follow-up and is not a substitute for sustained lifestyle change.",
+          "safety_critical": false,
+          "score": 0.5953906178474426
+        },
+        {
+          "id": 63,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+          "text": "vascular outcome evidence among named diets. Key caution — not primarily designed as a rapid weight-loss protocol; benefits accrue over sustained use.\n\n**Bariatric surgery:** Mechanism — anatomical restriction and hormonal changes affecting appetite and metabolism. Food restriction — significant, particularly in the initial post-surgical period. Structural burden — high initially (surgery, recovery, lifelong follow-up); low ongoing daily burden thereafter relative to sustained dieting. Evidence strength — strong for substantial, durable weight loss and diabetes remission in appropriate candidates. Key caution — surgical risk and need for lifelong nutritional monitoring; reserved for BMI thresholds described in Section 10.",
+          "safety_critical": false,
+          "score": 0.5341747999191284
+        }
+      ],
+      "answer_plan": {
+        "required_points": [
+          "Weight loss of 5–10% can markedly improve glycaemic control and may lead to type 2 diabetes remission in some individuals, especially with shorter disease duration",
+          "Remission is defined as sustained normal glucose levels without medication and is not guaranteed for everyone",
+          "Bariatric/metabolic surgery can produce substantial and durable weight loss with high rates of diabetes remission, particularly when done early, but it carries surgical risks and requires lifelong nutritional follow‑up",
+          "Weight regain after initial loss is common and should be anticipated"
+        ],
+        "important_conditions": [
+          "Remission is not universal; it requires sustained normal glucose without medication",
+          "Weight regain is a biological reality and must be planned for",
+          "Surgical interventions have inherent risks and require lifelong monitoring; they are not a substitute for sustained lifestyle change"
+        ],
+        "restrictions": [
+          "Do not claim that weight loss will always cause remission",
+          "Do not recommend bariatric surgery for all patients",
+          "Do not suggest that weight loss guarantees permanent diabetes cure"
+        ],
+        "evidence": [
+          "[Chunk 13] Weight loss of even 5–10% of body weight has been shown ... can bring glucose into a non‑diabetic range without medication — this is the basis for the term \"remission,\" which requires sustained normal glucose without medication and is not guaranteed or universal.",
+          "[Chunk 28] Bariatric surgery ... outcomes data show substantial and durable weight loss ... with high rates of type 2 diabetes remission, particularly when surgery occurs earlier in the disease course, though surgery carries surgical risk and requires lifelong nutritional follow‑up.",
+          "[Chunk 59] Weight regain after initial loss is common ... metabolic adaptation and increased hunger‑driving hormones make maintenance harder than the initial loss phase."
+        ]
+      },
+      "canonical_answer": "Weight loss of 5–10 % of body weight can markedly improve blood‑sugar control. In people who have had type 2 diabetes for a relatively short time, that amount of loss can sometimes bring fasting glucose and HbA1c into the non‑diabetic range **without the need for medication**. When normal glucose levels are sustained off all diabetes drugs, this state is called **remission**.  \n\n- **Remission is not guaranteed** – it requires continued normal glucose values and no medication, and many people do not achieve it even after losing weight.  \n- **Weight regain is common**. After the initial loss, the body’s lower energy expenditure and higher hunger‑driving hormones make maintaining the lower weight biologically difficult. Planning for long‑term maintenance is essential.  \n\n**Bariatric/metabolic surgery** can produce large, durable weight loss and has high rates of type 2 diabetes remission, especially when performed early in the disease course. However:  \n\n- Surgery carries operative risks and requires lifelong nutritional monitoring.  \n- It is not a substitute for ongoing lifestyle change and is not appropriate for every patient.  \n\nIn summary, modest weight loss can lead to diabetes remission in some individuals, but remission is not universal, weight regain must be anticipated, and surgical options, while effective for many, involve significant risks and lifelong follow‑up.",
+      "validation": {
+        "passed": true,
+        "score": 1.0,
+        "checks": [
+          {
+            "name": "required_points_coverage",
+            "passed": true,
+            "coverage": 1.0,
+            "missing": [],
+            "details": "4/4 required points covered"
+          },
+          {
+            "name": "evidence_grounding",
+            "passed": true,
+            "grounding_ratio": 1.0,
+            "details": "11/11 sentences grounded in evidence"
+          },
+          {
+            "name": "restriction_compliance",
+            "passed": true,
+            "violations": [],
+            "details": "0 potential restriction violations"
+          },
+          {
+            "name": "safety_cautions",
+            "passed": true,
+            "required": [],
+            "missing": [],
+            "referral_present": true,
+            "details": "No safety caution required"
+          }
+        ],
+        "feedback": ""
+      },
+      "attempts": 1
+    },
+    "can weight loss lead to remission of type 2 diabetes": {
+      "retrieved_chunks": [
+        {
+          "id": 13,
+          "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 5a. Comorbidity Deep Dive: Type 2 Diabetes",
+          "text": "Type 2 diabetes and obesity are so closely linked in India that they are often discussed as a single \"diabesity\" continuum rather than two separate conditions. Visceral fat drives insulin resistance (Section 3), and as beta-cell insulin secretion eventually fails to fully compensate, fasting and post-meal glucose levels rise, first into the prediabetic range (fasting glucose 100–125 mg/dl, or HbA1c 5.7–6.4%) and then into diabetes (fasting glucose ≥126 mg/dl, or HbA1c ≥6.5%, confirmed on repeat testing). Weight loss of even 5–10% of body weight has been shown in multiple studies to meaningfully improve glycaemic control and, in some people with shorter disease duration, can bring glucose into a non-diabetic range without medication — this is the basis for the term \"remission,\" which requires sustained normal glucose without medication and is not guaranteed or universal.",
+          "safety_critical": false,
+          "score": 0.6945208311080933
+        },
+        {
+          "id": 59,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 29. Long-Term Maintenance and Relapse Prevention",
+          "text": "Weight regain after initial loss is common across virtually all interventions — dietary, pharmacological, and surgical — and should be anticipated and planned for rather than treated as a sign of personal failure. Metabolic adaptation (a somewhat lowered energy expenditure at a reduced body weight) and a physiological increase in hunger-driving hormones after weight loss both make maintenance genuinely harder than the initial loss phase, which is a biological reality rather than a motivation problem.",
+          "safety_critical": false,
+          "score": 0.6099092960357666
+        },
+        {
+          "id": 28,
+          "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 10. Bariatric (Metabolic) Surgery",
+          "text": "Bariatric surgery is generally indicated for individuals with a BMI of 40 or above, or 35 and above with significant obesity-related comorbidities (such as poorly controlled type 2 diabetes), and revised Asian-specific criteria in India sometimes lower these thresholds given the population's higher metabolic risk at a given BMI. Common procedures include sleeve gastrectomy and Roux-en-Y gastric bypass. Outcomes data show substantial and durable weight loss for most patients along with high rates of type 2 diabetes remission, particularly when surgery occurs earlier in the disease course, though surgery carries surgical risk and requires lifelong nutritional follow-up and is not a substitute for sustained lifestyle change.",
+          "safety_critical": false,
+          "score": 0.5962470173835754
+        },
+        {
+          "id": 63,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+          "text": "vascular outcome evidence among named diets. Key caution — not primarily designed as a rapid weight-loss protocol; benefits accrue over sustained use.\n\n**Bariatric surgery:** Mechanism — anatomical restriction and hormonal changes affecting appetite and metabolism. Food restriction — significant, particularly in the initial post-surgical period. Structural burden — high initially (surgery, recovery, lifelong follow-up); low ongoing daily burden thereafter relative to sustained dieting. Evidence strength — strong for substantial, durable weight loss and diabetes remission in appropriate candidates. Key caution — surgical risk and need for lifelong nutritional monitoring; reserved for BMI thresholds described in Section 10.",
+          "safety_critical": false,
+          "score": 0.5221577286720276
+        }
+      ],
+      "answer_plan": {
+        "required_points": [
+          "Weight loss of 5–10% of body weight can meaningfully improve glycaemic control and may lead to remission of type 2 diabetes in some individuals, especially with shorter disease duration.",
+          "Remission is defined as sustained normal glucose levels without medication and is not guaranteed for everyone.",
+          "Bariatric (metabolic) surgery can produce substantial and durable weight loss with high rates of type 2 diabetes remission, particularly when performed early, but it carries surgical risks and requires lifelong nutritional monitoring.",
+          "Weight regain is common after initial loss due to metabolic adaptation and increased hunger hormones, so maintenance planning is essential."
+        ],
+        "important_conditions": [
+          "Remission is not universal; it requires sustained normal glucose without medication.",
+          "Weight regain is common; metabolic adaptation makes maintenance harder.",
+          "Bariatric surgery involves surgical risk and lifelong follow‑up; it is not a substitute for sustained lifestyle change."
+        ],
+        "restrictions": [
+          "Do not claim that weight loss will always cause diabetes remission.",
+          "Do not recommend bariatric surgery for all patients without noting eligibility criteria and risks.",
+          "Avoid stating that weight loss guarantees permanent diabetes cure."
+        ],
+        "evidence": [
+          "[Chunk 13] Weight loss of even 5–10% of body weight has been shown ... can bring glucose into a non‑diabetic range without medication — this is the basis for the term \"remission,\" which requires sustained normal glucose without medication and is not guaranteed or universal.",
+          "[Chunk 59] Weight regain after initial loss is common ... metabolic adaptation ... make maintenance harder than the initial loss phase.",
+          "[Chunk 28] Bariatric surgery ... outcomes data show substantial and durable weight loss ... high rates of type 2 diabetes remission, particularly when surgery occurs earlier ... surgery carries surgical risk and requires lifelong nutritional follow‑up.",
+          "[Chunk 63] Key caution — surgical risk and need for lifelong nutritional monitoring; reserved for BMI thresholds described."
+        ]
+      },
+      "canonical_answer": "Weight loss can have a powerful effect on type 2 diabetes, but it does not guarantee a cure.\n\n**How much weight loss helps**  \nLosing just 5–10 % of body weight has been shown in multiple studies to improve glycaemic control markedly. In people who have had diabetes for a relatively short time, that amount of loss can bring fasting glucose and HbA1c into the non‑diabetic range **without the need for medication**. When normal glucose levels are sustained off medication, the condition is called **remission**. Remission is possible, but it is **not universal** and must be maintained over time.\n\n**What remission means**  \nRemission requires:\n* Normal fasting and post‑meal glucose (or HbA1c) levels.\n* No diabetes‑lowering drugs for a sustained period.\nIt is not a permanent “cure”; if weight is regained or other metabolic stressors return, hyperglycaemia can recur.\n\n**Bariatric (metabolic) surgery**  \nFor people with a BMI ≥ 40 kg/m², or ≥ 35 kg/m² with significant obesity‑related problems such as poorly controlled diabetes, bariatric surgery (e.g., sleeve gastrectomy, Roux‑en‑Y gastric bypass) can produce large, durable weight loss. In appropriate candidates, especially when surgery is done early in the disease course, remission rates are high.  \n\n**Key cautions about surgery**  \n* It carries the usual surgical risks (infection, bleeding, anaesthetic complications).  \n* Lifelong nutritional monitoring and supplementation are required.  \n* It is **not a substitute for ongoing lifestyle change**; weight regain can still occur if dietary and activity habits are not maintained.  \n\n**Weight‑regain challenge**  \nAfter any successful weight‑loss effort—dietary, pharmacologic, or surgical—many people experience some regain. The body adapts by lowering energy expenditure and increasing hunger‑stimulating hormones, making maintenance harder than the initial loss phase. Planning for long‑term support (regular follow‑up, physical activity, balanced nutrition) is essential.\n\n**Bottom line**  \n* A modest 5–10 % weight loss can lead to diabetes remission in some individuals, particularly those with a shorter duration of disease.  \n* Remission is defined by sustained normal glucose without medication and is **not guaranteed for everyone**.  \n* Bariatric surgery offers a powerful option for eligible patients (BMI ≥ 40 or ≥ 35 with comorbidities) and can achieve high remission rates, but it involves surgical risk and lifelong nutritional follow‑up.  \n* Because weight regain is common, a solid maintenance plan is crucial for lasting benefit.",
+      "validation": {
+        "passed": true,
+        "score": 0.97,
+        "checks": [
+          {
+            "name": "required_points_coverage",
+            "passed": true,
+            "coverage": 1.0,
+            "missing": [],
+            "details": "4/4 required points covered"
+          },
+          {
+            "name": "evidence_grounding",
+            "passed": true,
+            "grounding_ratio": 0.88,
+            "details": "21/24 sentences grounded in evidence"
+          },
+          {
+            "name": "restriction_compliance",
+            "passed": true,
+            "violations": [],
+            "details": "0 potential restriction violations"
+          },
+          {
+            "name": "safety_cautions",
+            "passed": true,
+            "required": [],
+            "missing": [],
+            "referral_present": true,
+            "details": "No safety caution required"
+          }
+        ],
+        "feedback": ""
+      },
+      "attempts": 2,
+      "hindi": {
+        "answer": "वज़न कम करना टाइप 2 डायबिटीज (मधुमेह) पर शक्तिशाली प्रभाव डाल सकता है, लेकिन यह इलाज की गारंटी नहीं देता।\n\n**कितना वज़न कम करना मदद करता है**  \nशरीर के वज़न का केवल 5–10 % कम करने से कई अध्ययनों में ग्लाइसेमिक नियंत्रण में उल्लेखनीय सुधार दिखा है। उन लोगों में जिनका डायबिटीज़ का समय अपेक्षाकृत छोटा है, यह मात्रा उपवास ग्लूकोज़ और HbA1c को गैर‑डायबिटीज़ सीमा में **दवा की आवश्यकता के बिना** ला सकती है। जब सामान्य ग्लूकोज़ स्तर दवा के बिना बनाए रखे जाते हैं, तो इस स्थिति को **रिमिशन** कहा जाता है। रिमिशन संभव है, लेकिन यह **सभी के लिए सार्वभौमिक नहीं** है और इसे समय के साथ बनाए रखना आवश्यक है।\n\n**रिमिशन का क्या मतलब है**  \nरिमिशन के लिए आवश्यक है:  \n* सामान्य उपवास और भोजन‑के‑बाद ग्लूकोज़ (या HbA1c) स्तर।  \n* निरंतर अवधि के लिए कोई डायबिटीज‑कम करने वाली दवा न लेना।  \nयह स्थायी “क्योर” नहीं है; यदि वज़न फिर से बढ़ता है या अन्य मेटाबोलिक तनावकारक लौटते हैं, तो हाइपरग्लाइसेमिया फिर से हो सकता है।\n\n**बैरियाट्रिक (मेटाबोलिक) सर्जरी**  \nBMI ≥ 40 kg/m² वाले लोगों के लिए, या ≥ 35 kg/m² के साथ महत्वपूर्ण मोटापा‑संबंधी समस्याएँ जैसे कि खराब नियंत्रित डायबिटीज़, बैरियाट्रिक सर्जरी (जैसे, स्लिव गैस्ट्रेक्टॉमी, रू‑एन‑वाई गैस्ट्रिक बायपास) बड़े, टिकाऊ वज़न कम करने का परिणाम दे सकती है। उपयुक्त उम्मीदवारों में, विशेषकर जब रोग के शुरुआती चरण में सर्जरी की जाती है, रिमिशन दरें उच्च होती हैं।  \n\n**सर्जरी के बारे में मुख्य सावधानियाँ**  \n* इसमें सामान्य सर्जिकल जोखिम होते हैं (संक्रमण, रक्तस्राव, एनेस्थीसिया जटिलताएँ)।  \n* जीवन भर पोषण निगरानी और सप्लीमेंटेशन आवश्यक है।  \n* यह **चल रहे जीवनशैली परिवर्तन का विकल्प नहीं** है; यदि आहार और शारीरिक गतिविधि की आदतें बनाए नहीं रखी जातीं तो वज़न फिर से बढ़ सकता है।  \n\n**वज़न‑वापसी की चुनौती**  \nकिसी भी सफल वज़न‑कम करने के प्रयास—आहार, दवा‑आधारित, या सर्जिकल—के बाद कई लोग कुछ वज़न वापस पाते हैं। शरीर ऊर्जा खर्च को कम करके और भूख‑उत्तेजक हार्मोन बढ़ाकर अनुकूलित होता है, जिससे रखरखाव प्रारंभिक कमी चरण से कठिन हो जाता है। दीर्घकालिक समर्थन (नियमित फॉलो‑अप, शारीरिक गतिविधि, संतुलित पोषण) की योजना बनाना आवश्यक है।\n\n**निचला निष्कर्ष**  \n* एक मध्यम 5–10 % वज़न कम करना कुछ व्यक्तियों में, विशेषकर उन लोगों में जिनका रोग अवधि छोटा है, डायबिटीज़ रिमिशन की ओर ले जा सकता है।  \n* रिमिशन को दवा के बिना निरंतर सामान्य ग्लूकोज़ द्वारा परिभाषित किया जाता है और यह **हर किसी के लिए गारंटीकृत नहीं** है।  \n* बैरियाट्रिक सर्जरी योग्य रोगियों (BMI ≥ 40 या ≥ 35 के साथ सह-रोग) के लिए एक शक्तिशाली विकल्प प्रदान करती है और उच्च रिमिशन दर हासिल कर सकती है, लेकिन इसमें सर्जिकल जोखिम और जीवन भर पोषण फॉलो‑अप शामिल है।  \n* क्योंकि वज़न‑वापसी आम है, स्थायी लाभ के लिए एक ठोस रखरखाव योजना आवश्यक है।",
+        "back_translation": "Weight loss can have a powerful effect on type 2 diabetes, but it does not guarantee a cure.\n\n**How much weight loss helps**  \nReducing body weight by only 5–10 % has shown a notable improvement in glycemic control in many studies. In people whose diabetes duration is relatively short, this amount can bring fasting glucose and HbA1c into the non‑diabetic range **without the need for medication**. When normal glucose levels are maintained without medication, this condition is called **remission**. Remission is possible, but it is **not universal for everyone** and must be maintained over time.\n\n**What remission means**  \nRemission requires:  \n* Normal fasting and post‑meal glucose (or HbA1c) levels.  \n* No diabetes‑lowering medication taken for a continuous period.  \nIt is not a permanent “cure”; if weight is regained or other metabolic stressors return, hyperglycemia can recur.\n\n**Bariatric (metabolic) surgery**  \nFor people with BMI ≥ 40 kg/m², or ≥ 35 kg/m² with significant obesity‑related problems such as poorly controlled diabetes, bariatric surgery (e.g., sleeve gastrectomy, Roux‑en‑Y gastric bypass) can produce large, durable weight loss. In appropriate candidates, especially when surgery is performed in the early stage of disease, remission rates are high.\n\n**Key cautions about surgery**  \n* It carries typical surgical risks (infection, bleeding, anesthesia complications).  \n* Lifelong nutrition monitoring and supplementation are required.  \n* It **is not a substitute for ongoing lifestyle change**; if dietary and physical activity habits are not maintained, weight can be regained.\n\n**The challenge of weight regain**  \nAfter any successful weight‑loss effort—dietary, medication‑based, or surgical—many people regain some weight. The body adapts by lowering energy expenditure and increasing appetite‑stimulating hormones, making maintenance harder than the initial loss phase. Planning long‑term support (regular follow‑up, physical activity, balanced nutrition) is essential.\n\n**Bottom line**  \n* A moderate 5–10 % weight loss can lead to diabetes remission in some individuals, especially those with a short disease duration.  \n* Remission is defined by continuous normal glucose without medication and is **not guaranteed for everyone**.  \n* Bariatric surgery offers a powerful option for eligible patients (BMI ≥ 40 or ≥ 35 with comorbidities) and can achieve high remission rates, but it involves surgical risk and lifelong nutrition follow‑up.  \n* Because weight regain is common, a solid maintenance plan is required for lasting benefit.",
+        "parity": {
+          "parity_passed": true,
+          "checks": [
+            {
+              "name": "numbers_match",
+              "passed": true,
+              "value": 1.0,
+              "missing_in_hindi": [],
+              "extra_in_hindi": [],
+              "details": "EN ['1', '10', '2', '35', '40', '5'] vs HI ['1', '10', '2', '35', '40', '5']"
+            },
+            {
+              "name": "cautions_preserved",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN ['diabetes_medication'] referral=False | HI ['diabetes_medication'] referral=False"
+            },
+            {
+              "name": "recommendation_match",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN recs=['follow', 'monitor'] | HI recs=['follow', 'monitor', 'take']"
+            },
+            {
+              "name": "content_coverage",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN→HI 100% of English content kept; HI→EN 100% of Hindi content grounded in English"
+            }
+          ]
+        },
+        "attempts": 1
+      }
+    },
+    "can weight loss lead to type 2 diabetes remission": {
+      "retrieved_chunks": [
+        {
+          "id": 13,
+          "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 5a. Comorbidity Deep Dive: Type 2 Diabetes",
+          "text": "Type 2 diabetes and obesity are so closely linked in India that they are often discussed as a single \"diabesity\" continuum rather than two separate conditions. Visceral fat drives insulin resistance (Section 3), and as beta-cell insulin secretion eventually fails to fully compensate, fasting and post-meal glucose levels rise, first into the prediabetic range (fasting glucose 100–125 mg/dl, or HbA1c 5.7–6.4%) and then into diabetes (fasting glucose ≥126 mg/dl, or HbA1c ≥6.5%, confirmed on repeat testing). Weight loss of even 5–10% of body weight has been shown in multiple studies to meaningfully improve glycaemic control and, in some people with shorter disease duration, can bring glucose into a non-diabetic range without medication — this is the basis for the term \"remission,\" which requires sustained normal glucose without medication and is not guaranteed or universal.",
+          "safety_critical": false,
+          "score": 0.6808626651763916
+        },
+        {
+          "id": 59,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 29. Long-Term Maintenance and Relapse Prevention",
+          "text": "Weight regain after initial loss is common across virtually all interventions — dietary, pharmacological, and surgical — and should be anticipated and planned for rather than treated as a sign of personal failure. Metabolic adaptation (a somewhat lowered energy expenditure at a reduced body weight) and a physiological increase in hunger-driving hormones after weight loss both make maintenance genuinely harder than the initial loss phase, which is a biological reality rather than a motivation problem.",
+          "safety_critical": false,
+          "score": 0.5992614030838013
+        },
+        {
+          "id": 28,
+          "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 10. Bariatric (Metabolic) Surgery",
+          "text": "Bariatric surgery is generally indicated for individuals with a BMI of 40 or above, or 35 and above with significant obesity-related comorbidities (such as poorly controlled type 2 diabetes), and revised Asian-specific criteria in India sometimes lower these thresholds given the population's higher metabolic risk at a given BMI. Common procedures include sleeve gastrectomy and Roux-en-Y gastric bypass. Outcomes data show substantial and durable weight loss for most patients along with high rates of type 2 diabetes remission, particularly when surgery occurs earlier in the disease course, though surgery carries surgical risk and requires lifelong nutritional follow-up and is not a substitute for sustained lifestyle change.",
+          "safety_critical": false,
+          "score": 0.5872873067855835
+        },
+        {
+          "id": 63,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+          "text": "vascular outcome evidence among named diets. Key caution — not primarily designed as a rapid weight-loss protocol; benefits accrue over sustained use.\n\n**Bariatric surgery:** Mechanism — anatomical restriction and hormonal changes affecting appetite and metabolism. Food restriction — significant, particularly in the initial post-surgical period. Structural burden — high initially (surgery, recovery, lifelong follow-up); low ongoing daily burden thereafter relative to sustained dieting. Evidence strength — strong for substantial, durable weight loss and diabetes remission in appropriate candidates. Key caution — surgical risk and need for lifelong nutritional monitoring; reserved for BMI thresholds described in Section 10.",
+          "safety_critical": false,
+          "score": 0.5126050710678101
+        }
+      ],
+      "answer_plan": {
+        "required_points": [
+          "Weight loss of 5–10% can improve glycaemic control and may induce type 2 diabetes remission in some individuals",
+          "Remission is defined as sustained normal glucose levels without medication",
+          "Remission is not guaranteed and depends on factors such as disease duration",
+          "Weight regain is common and maintenance strategies are needed"
+        ],
+        "important_conditions": [
+          "Remission is not universal; it requires sustained weight loss and may not occur in all patients",
+          "Weight regain after loss is common due to metabolic adaptation and increased hunger hormones",
+          "Bariatric surgery can achieve remission but carries surgical risks and requires lifelong nutritional follow‑up"
+        ],
+        "restrictions": [
+          "Do not claim that weight loss will always cure type 2 diabetes",
+          "Do not recommend bariatric surgery for everyone without mentioning eligibility criteria and risks"
+        ],
+        "evidence": [
+          "[Chunk 13] Weight loss of even 5–10% of body weight has been shown ... can bring glucose into a non‑diabetic range without medication — this is the basis for the term \"remission,\" which requires sustained normal glucose without medication and is not guaranteed or universal.",
+          "[Chunk 59] Weight regain after initial loss is common ... metabolic adaptation and increased hunger‑driving hormones make maintenance harder.",
+          "[Chunk 28] Bariatric surgery shows high rates of type 2 diabetes remission, but surgery carries surgical risk and requires lifelong nutritional follow‑up."
+        ]
+      },
+      "canonical_answer": "Weight loss of about 5 – 10 % of body weight can markedly improve blood‑sugar control. In some people—especially those whose diabetes has been present for a relatively short time—this amount of loss can bring fasting and post‑meal glucose levels back into the normal range **without the need for diabetes medication**. When normal glucose levels are sustained off medication, it is called **type 2 diabetes remission**.\n\nHowever, remission is **not guaranteed**. It depends on factors such as how long the person has had diabetes, how much weight is actually kept off, and individual differences in beta‑cell function. Most importantly, **the weight loss must be maintained**; many people regain weight after the initial loss because the body’s energy expenditure drops and hunger‑stimulating hormones rise. Ongoing lifestyle strategies (balanced diet, regular physical activity, behavioral support) are needed to prevent regain.\n\nBariatric (metabolic) surgery can produce high rates of remission, but it is **only appropriate for certain candidates** (generally BMI ≥ 40, or ≥ 35 with serious obesity‑related problems, with lower thresholds sometimes used in Asian populations). Surgery carries operative risks and requires lifelong nutritional monitoring, so it is not a universal solution and should be considered after careful evaluation.\n\n**Key take‑aways**\n\n1. A modest 5‑10 % weight loss can improve glycaemic control and may lead to remission in some individuals.  \n2. Remission means normal glucose levels without medication, but it is not universal.  \n3. Sustained weight loss is essential; weight regain is common due to metabolic adaptation and increased hunger hormones.  \n4. Bariatric surgery can achieve remission in eligible patients but involves surgical risks and lifelong follow‑up.  \n\nMaintaining the weight loss through consistent healthy habits is the most reliable way to increase the chance of remission.",
+      "validation": {
+        "passed": true,
+        "score": 0.96,
+        "checks": [
+          {
+            "name": "required_points_coverage",
+            "passed": true,
+            "coverage": 1.0,
+            "missing": [],
+            "details": "4/4 required points covered"
+          },
+          {
+            "name": "evidence_grounding",
+            "passed": true,
+            "grounding_ratio": 0.86,
+            "details": "12/14 sentences grounded in evidence"
+          },
+          {
+            "name": "restriction_compliance",
+            "passed": true,
+            "violations": [],
+            "details": "0 potential restriction violations"
+          },
+          {
+            "name": "safety_cautions",
+            "passed": true,
+            "required": [],
+            "missing": [],
+            "referral_present": true,
+            "details": "No safety caution required"
+          }
+        ],
+        "feedback": ""
+      },
+      "attempts": 1,
+      "hinglish": {
+        "answer": "Weight loss of about 5 – 10 % of body weight can markedly improve blood‑sugar control. Kuch logon—especially jo logon ka diabetes relatively short time se hai—yeh loss fasting aur post‑meal glucose levels ko normal range mein wapas le aata hai **without the need for diabetes medication**. Jab normal glucose levels medication ke bina sustain ho jate hain, isko **type 2 diabetes remission** kehte hain.\n\nLekin remission **not guaranteed** hai. Yeh depend karta hai ki vyakti ko diabetes kitni der se hai, kitna weight actually off rakha gaya hai, aur beta‑cell function mein individual differences. Sabse important baat, **the weight loss must be maintained**; bahut log initial loss ke baad weight regain kar lete hain kyunki body ka energy expenditure gir jata hai aur hunger‑stimulating hormones badh jate hain. Ongoing lifestyle strategies (balanced diet, regular physical activity, behavioral support) zaroori hain weight regain ko rokne ke liye.\n\nBariatric (metabolic) surgery high rates of remission de sakti hai, lekin yeh **only appropriate for certain candidates** hai (generally BMI ≥ 40, ya ≥ 35 with serious obesity‑related problems, aur Asian populations mein kabhi kabhi lower thresholds use hote hain). Surgery operative risks ke saath aati hai aur lifelong nutritional monitoring ki zaroorat hoti hai, isliye yeh universal solution nahi hai aur careful evaluation ke baad hi consider karna chahiye.\n\n**Key take‑aways**\n\n1. Ek modest 5‑10 % weight loss glycaemic control ko improve kar sakta hai aur kuch individuals mein remission tak le ja sakta hai.  \n2. Remission ka matlab hai normal glucose levels bina medication ke, lekin yeh universal nahi hai.  \n3. Sustained weight loss essential hai; metabolic adaptation aur increased hunger hormones ki wajah se weight regain common hai.  \n4. Bariatric surgery eligible patients mein remission achieve kar sakti hai lekin surgical risks aur lifelong follow‑up ki zaroorat hoti hai.  \n\nConsistent healthy habits ke through weight loss ko maintain karna sabse reliable tareeka hai remission ki chance ko badhane ke liye.",
+        "back_translation": "Weight loss of about 5 – 10 % of body weight can markedly improve blood‑sugar control. Some people—especially those whose diabetes has been present for a relatively short time—this loss brings fasting and post‑meal glucose levels back into the normal range **without the need for diabetes medication**. When normal glucose levels are sustained without medication, this is called **type 2 diabetes remission**.\n\nBut remission **is not guaranteed**. It depends on how long the individual has had diabetes, how much weight has actually been lost, and individual differences in beta‑cell function. The most important point is that **the weight loss must be maintained**; many people regain weight after the initial loss because the body’s energy expenditure drops and hunger‑stimulating hormones increase. Ongoing lifestyle strategies (balanced diet, regular physical activity, behavioral support) are necessary to prevent weight regain.\n\nBariatric (metabolic) surgery can provide high rates of remission, but it **is only appropriate for certain candidates** (generally BMI ≥ 40, or ≥ 35 with serious obesity‑related problems, and sometimes lower thresholds are used for Asian populations). Surgery comes with operative risks and requires lifelong nutritional monitoring, so it is not a universal solution and should be considered only after careful evaluation.\n\n**Key take‑aways**\n\n1. A modest 5‑10 % weight loss can improve glycaemic control and, in some individuals, lead to remission.  \n2. Remission means normal glucose levels without medication, but it is not universal.  \n3. Sustained weight loss is essential; metabolic adaptation and increased hunger hormones make weight regain common.  \n4. Bariatric surgery can achieve remission in eligible patients, but surgical risks and lifelong follow‑up are required.  \n\nMaintaining weight loss through consistent healthy habits is the most reliable way to increase the chance of remission.",
+        "parity": {
+          "parity_passed": true,
+          "checks": [
+            {
+              "name": "numbers_match",
+              "passed": true,
+              "value": 1.0,
+              "missing_in_hindi": [],
+              "extra_in_hindi": [],
+              "details": "EN ['1', '10', '2', '3', '35', '4', '40', '5'] vs HI ['1', '10', '2', '3', '35', '4', '40', '5']"
+            },
+            {
+              "name": "cautions_preserved",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN ['diabetes_medication'] referral=False | HI ['diabetes_medication'] referral=False"
+            },
+            {
+              "name": "recommendation_match",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN recs=['follow', 'increase', 'monitor', 'take'] | HI recs=['follow', 'increase', 'monitor', 'take']"
+            },
+            {
+              "name": "content_coverage",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN→HI 100% of English content kept; HI→EN 100% of Hindi content grounded in English"
+            }
+          ]
+        },
+        "attempts": 1
+      }
+    },
+    "what should i eat for obesity": {
+      "retrieved_chunks": [
+        {
+          "id": 54,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+          "text": "**Myth: \"Skipping meals slows your metabolism so much that you can't lose weight.\"** Short-term studies on structured meal-timing approaches, including intermittent fasting protocols, generally do not show the dramatic metabolic slowdown this myth implies over the timeframes most people practise them; prolonged severe caloric restriction over many months can reduce resting metabolic rate somewhat, but that is a separate phenomenon from simply reducing meal frequency while eating enough at each meal.\n\n**Myth: \"Fat in food directly becomes body fat, so a low-fat diet is always best for weight loss.\"** Dietary fat and body fat are not the same thing; weight gain depends on total energy balance and hormonal context, not on the fat content of any single food in isolation. Healthy fats (nuts, seeds, olive oil, fatty fish) support satiety and hormone function and are compatible with weight loss when total intake is appropriate.\n\n**Myth: \"If my BMI is normal, I don't need to worry about obesity-related disease.\"** As discussed in Section 2, a substantial share of Indians with a normal BMI still carry elevated visceral fat and metabolic risk (the \"metabolically unhealthy normal weight\" or \"skinny-fat\" pattern). Waist circumference and lab markers matter independent of BMI.",
+          "safety_critical": false,
+          "score": 0.5711551308631897
+        },
+        {
+          "id": 24,
+          "heading": "PART II — CONVENTIONAL MANAGEMENT APPROACHES > 7. Dietary Interventions",
+          "text": "ng-term adherence is a common challenge and such diets require caution in individuals on insulin or sulfonylurea medication due to hypoglycaemia risk.\n\nIntermittent fasting, as a broad category, restricts the time window in which eating occurs (for example, an 8-hour eating window, or alternate-day fasting) rather than restricting food type. The proposed mechanism overlaps substantially with the Dixit Lifestyle rationale: fewer eating occasions allow insulin to fall between meals, permitting fat mobilisation. Evidence suggests intermittent fasting approaches can be as effective as continuous caloric restriction for weight loss in many individuals, with some additional benefit for insulin sensitivity, though results vary by protocol and population, and firm long-term outcome data specific to Indian populations remain limited.\n\nThe Mediterranean dietary pattern — emphasising vegetables, legumes, whole grains, fish, and olive oil while limiting red meat and processed food — has the strongest evidence base among named diets for reducing cardiovascular risk and is often recommended as a general template regardless of the specific weight-loss method chosen, since it addresses food quality rather than only quantity or timing.",
+          "safety_critical": true,
+          "score": 0.5207608938217163
+        },
+        {
+          "id": 63,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+          "text": "vascular outcome evidence among named diets. Key caution — not primarily designed as a rapid weight-loss protocol; benefits accrue over sustained use.\n\n**Bariatric surgery:** Mechanism — anatomical restriction and hormonal changes affecting appetite and metabolism. Food restriction — significant, particularly in the initial post-surgical period. Structural burden — high initially (surgery, recovery, lifelong follow-up); low ongoing daily burden thereafter relative to sustained dieting. Evidence strength — strong for substantial, durable weight loss and diabetes remission in appropriate candidates. Key caution — surgical risk and need for lifelong nutritional monitoring; reserved for BMI thresholds described in Section 10.",
+          "safety_critical": false,
+          "score": 0.4809511601924896
+        },
+        {
+          "id": 55,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+          "text": "d metabolic risk (the \"metabolically unhealthy normal weight\" or \"skinny-fat\" pattern). Waist circumference and lab markers matter independent of BMI.\n\n**Myth: \"The Dixit diet lets you eat anything as long as it's only twice a day.\"** While the plan does not formally restrict food type the way a calorie-counted diet does, its own guidance (salad/nuts first, no added sugar, home-style meals) already constrains food quality substantially; treating \"two meals\" as licence for large, energy-dense, ultra-processed meals undermines the mechanism the plan relies on.\n\n**Myth: \"Crash dieting is the fastest safe way to lose significant weight.\"** Very-low-calorie crash diets often produce rapid short-term loss followed by rapid regain, and can cause muscle loss, gallstone risk, and nutrient deficiency; sustainable approaches — including a well-implemented two-meal structure, Mediterranean-pattern eating, or physician-supervised pharmacotherapy — are more likely to produce durable results.\n\n**Myth: \"Weight gain is simply a matter of willpower.\"** As covered in Sections 3 and 4, obesity has substantial physiological, genetic, hormonal, and environmental drivers; framing it purely as a willpower failure is both inaccurate and counterproductive, and an AI system should avoid language that implies moral judgement about a user's weight.",
+          "safety_critical": false,
+          "score": 0.4774094820022583
+        }
+      ],
+      "answer_plan": {
+        "required_points": [
+          "Emphasize a balanced, nutrient‑dense diet such as the Mediterranean pattern (vegetables, legumes, whole grains, fish, olive oil, limited red meat and processed foods).",
+          "Include healthy fats (nuts, seeds, olive oil, fatty fish) to support satiety and hormone function.",
+          "Suggest structured meal timing (e.g., two main meals with a salad/nut starter, limited added sugar) rather than unrestricted “eat anything” approaches.",
+          "Mention that intermittent fasting can be an option for some people, but evidence shows it is comparable to continuous calorie restriction and long‑term data are limited.",
+          "Warn against crash diets and very‑low‑calorie regimens due to risk of nutrient deficiency, muscle loss, gallstones, and rapid weight regain."
+        ],
+        "important_conditions": [
+          "Individuals on insulin or sulfonylurea medications must be cautious with calorie‑restricted or intermittent‑fasting plans because of hypoglycaemia risk.",
+          "Any dietary change should be sustainable and avoid extreme restriction; rapid weight‑loss promises are not supported.",
+          "Nutritional monitoring is essential if severe restriction is used, especially for people with diabetes or on weight‑loss drugs."
+        ],
+        "restrictions": [
+          "Do not claim that any specific diet will guarantee weight loss or cure obesity.",
+          "Do not recommend bariatric surgery or pharmacotherapy unless BMI thresholds and medical evaluation are met.",
+          "Avoid moral judgments about willpower or personal blame."
+        ],
+        "evidence": [
+          "[Chunk 24] Mediterranean dietary pattern emphasises vegetables, legumes, whole grains, fish, olive oil and is recommended for cardiovascular risk reduction and weight‑loss support.",
+          "[Chunk 24] Intermittent fasting can be as effective as continuous calorie restriction but long‑term outcome data are limited.",
+          "[Chunk 24] Caution for individuals on insulin or sulfonylurea meds due to hypoglycaemia risk with restrictive diets.",
+          "[Chunk 55] Crash diets cause rapid loss then regain, muscle loss, gallstone risk, and nutrient deficiency; sustainable approaches are preferred.",
+          "[Chunk 55] Healthy fats (nuts, seeds, olive oil, fatty fish) support satiety and hormone function and are compatible with weight loss when total intake is appropriate."
+        ]
+      },
+      "canonical_answer": "**Eat a balanced, nutrient‑dense diet**  \n- Follow a Mediterranean‑style pattern: fill most of your plate with vegetables, legumes, whole‑grain foods and fruit; include fish (especially fatty fish) a few times a week; use olive oil as the main added fat; keep red meat, processed meats and ultra‑processed foods to a minimum.  \n\n**Add healthy fats**  \n- Incorporate nuts, seeds, olive oil and fatty fish. These fats increase satiety, support hormone balance and can be part of a weight‑loss plan when total calories are appropriate.  \n\n**Structure your meals**  \n- Rather than “eat anything,” use a consistent meal schedule such as two main meals per day. Begin each meal with a salad or a small portion of nuts, avoid added sugars, and keep the rest of the meal home‑cooked and nutrient‑rich. This structured timing helps control overall intake without severe restriction.  \n\n**Intermittent fasting as an option**  \n- Time‑restricted eating (e.g., an 8‑hour eating window) or alternate‑day fasting can be used by some people. Evidence shows it can produce weight loss comparable to continuous calorie restriction, but long‑term outcome data are limited.  \n\n**Avoid crash or very‑low‑calorie diets**  \n- Extremely low‑calorie “crash” diets often lead to rapid weight loss followed by quick regain, loss of muscle mass, gallstone formation and nutrient deficiencies. Sustainable, moderate approaches are safer and more effective.  \n\n**Special safety notes**  \n- If you take insulin or sulfonylurea medications, be very careful with calorie‑restricted or intermittent‑fasting plans because they can cause hypoglycaemia.  \n- Any dietary change should be realistic and maintainable; extreme restriction or promises of rapid weight loss are not supported by evidence.  \n- When severe restriction is considered (e.g., for medical reasons), nutritional monitoring is essential, especially for people with diabetes or those on weight‑loss drugs.  \n\n**Bottom line**  \nChoose a Mediterranean‑based eating pattern rich in vegetables, legumes, whole grains, fish and healthy fats, eat within a consistent meal schedule (such as two balanced meals with a salad/nut starter), consider intermittent fasting only if it fits your lifestyle, and stay away from crash diets. Monitor blood sugar closely if you are on insulin or sulfonylureas, and aim for a sustainable plan rather than quick fixes.",
+      "validation": {
+        "passed": true,
+        "score": 1.0,
+        "checks": [
+          {
+            "name": "required_points_coverage",
+            "passed": true,
+            "coverage": 1.0,
+            "missing": [],
+            "details": "5/5 required points covered"
+          },
+          {
+            "name": "evidence_grounding",
+            "passed": true,
+            "grounding_ratio": 1.0,
+            "details": "18/18 sentences grounded in evidence"
+          },
+          {
+            "name": "restriction_compliance",
+            "passed": true,
+            "violations": [],
+            "details": "0 potential restriction violations"
+          },
+          {
+            "name": "safety_cautions",
+            "passed": true,
+            "required": [],
+            "missing": [],
+            "referral_present": true,
+            "details": "No safety caution required"
+          }
+        ],
+        "feedback": ""
+      },
+      "attempts": 1,
+      "hindi": {
+        "answer": "**संतुलित, पोषक‑घनत्व वाला आहार लें**  \n- मेडिटेरेनियन‑स्टाइल पैटर्न का पालन करें: अपने प्लेट का अधिकांश भाग सब्जियों, दालों, साबुत‑अनाज वाले खाद्य और फल से भरें; सप्ताह में कुछ बार मछली (विशेषकर फैटी फिश) शामिल करें; मुख्य अतिरिक्त वसा के रूप में जैतून का तेल उपयोग करें; लाल मांस, प्रोसेस्ड मीट और अल्ट्रा‑प्रोसेस्ड फूड को न्यूनतम रखें।  \n\n**स्वस्थ वसा जोड़ें**  \n- नट्स, बीज, जैतून का तेल और फैटी फिश को शामिल करें। ये वसा तृप्ति बढ़ाते हैं, हार्मोन संतुलन का समर्थन करते हैं और जब कुल कैलोरी उपयुक्त हों तो वजन‑कम करने की योजना का हिस्सा बन सकते हैं।  \n\n**अपने भोजन को संरचित करें**  \n- “कुछ भी खाएँ” की बजाय दो मुख्य भोजन प्रति दिन जैसे स्थिर भोजन समय‑सारणी का उपयोग करें। प्रत्येक भोजन की शुरुआत सलाद या थोड़ी मात्रा में नट्स से करें, अतिरिक्त शर्करा से बचें, और शेष भोजन घर में पका हुआ और पोषक‑समृद्ध रखें। यह संरचित समय‑सारणी कुल सेवन को नियंत्रित करने में मदद करती है बिना कठोर प्रतिबंध के।  \n\n**इंटरमिटेंट फास्टिंग एक विकल्प के रूप में**  \n- टाइम‑रिस्ट्रिक्टेड ईटिंग (उदाहरण के लिए 8‑घंटे का खाने का विंडो) या वैकल्पिक‑दिन फास्टिंग कुछ लोगों द्वारा उपयोग की जा सकती है। प्रमाण दिखाते हैं कि यह निरंतर कैलोरी प्रतिबंध के समान वजन घटाने का परिणाम दे सकता है, लेकिन दीर्घकालिक परिणाम डेटा सीमित हैं।  \n\n**क्रैश या बहुत‑कम‑कैलोरी डाइट से बचें**  \n- अत्यधिक कम‑कैलोरी “क्रैश” डाइट अक्सर तेज़ वजन घटाने के बाद तेज़ पुनःवजन, मांसपेशी द्रव्यमान की हानि, पित्ताशय पथरी बनना और पोषक‑अभाव का कारण बनती है। स्थायी, मध्यम दृष्टिकोण अधिक सुरक्षित और प्रभावी होते हैं।  \n\n**विशेष सुरक्षा नोट्स**  \n- यदि आप इंसुलिन या सल्फोनिलयूरिया दवाएं लेते हैं, तो कैलोरी‑प्रतिबंधित या इंटरमिटेंट‑फास्टिंग योजनाओं के साथ बहुत सावधान रहें क्योंकि वे हाइपोग्लाइसीमिया का कारण बन सकते हैं।  \n- कोई भी आहार परिवर्तन वास्तविक और बनाए रखने योग्य होना चाहिए; अत्यधिक प्रतिबंध या तेज़ वजन घटाने के वादे प्रमाण द्वारा समर्थित नहीं हैं।  \n- जब गंभीर प्रतिबंध पर विचार किया जाता है (उदाहरण के लिए चिकित्सीय कारणों से), तो पोषण निगरानी आवश्यक है, विशेषकर डायबिटीज़ वाले लोगों या वजन‑कम करने वाली दवाओं पर रहने वाले लोगों के लिए।  \n\n**निचला निष्कर्ष**  \nमेडिटेरेनियन‑आधारित खाने के पैटर्न को चुनें जिसमें सब्जियां, दालें, साबुत अनाज, मछली और स्वस्थ वसा समृद्ध हों, एक स्थिर भोजन समय‑सारणी (जैसे दो संतुलित भोजन जिसमें सलाद/नट स्टार्टर हो) के भीतर खाएँ, इंटरमिटेंट फास्टिंग केवल तभी विचार करें जब वह आपके जीवनशैली में फिट हो, और क्रैश डाइट से दूर रहें। यदि आप इंसुलिन या सल्फोनिलयूरिया ले रहे हैं तो ब्लड शुगर को निकटता से मॉनिटर करें, और तेज़ समाधान के बजाय एक स्थायी योजना का लक्ष्य रखें।",
+        "back_translation": "**Take a balanced, nutrient‑dense diet**  \n- Follow a Mediterranean‑style pattern: fill most of your plate with vegetables, legumes, whole‑grain foods, and fruit; include fish (especially fatty fish) a few times a week; use olive oil as the main added fat; keep red meat, processed meat, and ultra‑processed food to a minimum.  \n\n**Add healthy fats**  \n- Include nuts, seeds, olive oil, and fatty fish. These fats increase satiety, support hormone balance, and can be part of a weight‑loss plan when total calories are appropriate.  \n\n**Structure your meals**  \n- Instead of “eat anything,” use two main meals per day such as a stable meal schedule. Start each meal with a salad or a small amount of nuts, avoid added sugar, and keep the remaining food home‑cooked and nutrient‑rich. This structured schedule helps control total intake without rigid restrictions.  \n\n**Intermittent fasting as an option**  \n- Time‑restricted eating (for example an 8‑hour eating window) or alternate‑day fasting can be used by some people. Evidence shows it can produce weight loss results similar to continuous calorie restriction, but long‑term outcome data are limited.  \n\n**Avoid crash or very‑low‑calorie diets**  \n- Extremely low‑calorie “crash” diets often cause rapid weight regain, loss of muscle mass, gallstones, and nutrient deficiencies after rapid weight loss. Sustainable, moderate approaches are safer and more effective.  \n\n**Special safety notes**  \n- If you take insulin or sulfonylurea medicines, be very careful with calorie‑restricted or intermittent‑fasting plans because they can cause hypoglycemia.  \n- Any diet change must be realistic and maintainable; extreme restriction or promises of rapid weight loss are not supported by evidence.  \n- When severe restriction is considered (for example for therapeutic reasons), nutrition monitoring is required, especially for people with diabetes or those on weight‑loss medicines.  \n\n**Bottom line**  \nChoose a Mediterranean‑based eating pattern rich in vegetables, legumes, whole grains, fish, and healthy fats, eat within a stable meal schedule (such as two balanced meals with a salad/nut starter), consider intermittent fasting only if it fits your lifestyle, and stay away from crash diets. If you are taking insulin or sulfonylurea, closely monitor blood sugar, and aim for a sustainable plan rather than a quick fix.",
+        "parity": {
+          "parity_passed": true,
+          "checks": [
+            {
+              "name": "numbers_match",
+              "passed": true,
+              "value": 1.0,
+              "missing_in_hindi": [],
+              "extra_in_hindi": [],
+              "details": "EN ['8'] vs HI ['8']"
+            },
+            {
+              "name": "cautions_preserved",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN ['diabetes_medication'] referral=False | HI ['diabetes_medication'] referral=False"
+            },
+            {
+              "name": "recommendation_match",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN recs=['avoid', 'follow', 'increase', 'limit', 'monitor', 'start', 'take'] | HI recs=['avoid', 'follow', 'increase', 'limit', 'monitor', 'start', 'take']"
+            },
+            {
+              "name": "content_coverage",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN→HI 100% of English content kept; HI→EN 100% of Hindi content grounded in English"
+            }
+          ]
+        },
+        "attempts": 1
+      },
+      "hinglish": {
+        "answer": "**Eat a balanced, nutrient‑dense diet**  \n- Mediterranean‑style pattern follow karo: apne plate ka most part vegetables, legumes, whole‑grain foods aur fruit se bharo; hafte mein kuch baar fish (especially fatty fish) shamil karo; olive oil ko main added fat ke roop mein use karo; red meat, processed meats aur ultra‑processed foods ko minimum rakho.  \n\n**Add healthy fats**  \n- Nuts, seeds, olive oil aur fatty fish ko incorporate karo. Ye fats satiety badhate hain, hormone balance support karte hain aur jab total calories appropriate ho to weight‑loss plan ka part ho sakte hain.  \n\n**Structure your meals**  \n- “Kuch bhi khana” ki bajaye, ek consistent meal schedule use karo jaise din mein do main meals. Har meal ki shuruaat ek salad ya thodi si nuts ki portion se karo, added sugars avoid karo, aur baaki ka meal home‑cooked aur nutrient‑rich rakho. Ye structured timing overall intake ko control karne mein madad karti hai bina severe restriction ke.  \n\n**Intermittent fasting as an option**  \n- Time‑restricted eating (jaise 8‑hour eating window) ya alternate‑day fasting kuch log use kar sakte hain. Evidence dikhata hai ki ye weight loss produce kar sakta hai jo continuous calorie restriction ke barabar hota hai, lekin long‑term outcome data limited hain.  \n\n**Avoid crash or very‑low‑calorie diets**  \n- Extremely low‑calorie “crash” diets aksar rapid weight loss ke baad quick regain, muscle mass loss, gallstone formation aur nutrient deficiencies ka karan bante hain. Sustainable, moderate approaches safer aur more effective hain.  \n\n**Special safety notes**  \n- Agar aap insulin ya sulfonylurea medications lete hain, to calorie‑restricted ya intermittent‑fasting plans ke saath bahut careful rehna zaroori hai kyunki ye hypoglycaemia cause kar sakte hain.  \n- Kisi bhi dietary change ko realistic aur maintainable hona chahiye; extreme restriction ya rapid weight loss ke promises evidence se supported nahi hain.  \n- Jab severe restriction consider ki jati hai (jaise medical reasons ke liye), nutritional monitoring essential hai, especially diabetes ya weight‑loss drugs le rahe logon ke liye.  \n\n**Bottom line**  \nMediterranean‑based eating pattern choose karo jo vegetables, legumes, whole grains, fish aur healthy fats se rich ho, consistent meal schedule (jaise do balanced meals with a salad/nut starter) ke andar khana, intermittent fasting sirf tab consider karo jab wo aapke lifestyle mein fit ho, aur crash diets se door raho. Agar aap insulin ya sulfonylureas le rahe hain to blood sugar ko closely monitor karo, aur quick fixes ki bajaye ek sustainable plan aim karo.",
+        "back_translation": "**Eat a balanced, nutrient‑dense diet**  \n- Follow a Mediterranean‑style pattern: fill most of your plate with vegetables, legumes, whole‑grain foods and fruit; include fish (especially fatty fish) a few times a week; use olive oil as the main added fat; keep red meat, processed meats and ultra‑processed foods to a minimum.  \n\n**Add healthy fats**  \n- Incorporate nuts, seeds, olive oil and fatty fish. These fats increase satiety, support hormone balance and can be part of a weight‑loss plan when total calories are appropriate.  \n\n**Structure your meals**  \n- Instead of “anything goes,” use a consistent meal schedule such as two main meals a day. Start each meal with a salad or a small portion of nuts, avoid added sugars, and keep the rest of the meal home‑cooked and nutrient‑rich. This structured timing helps control overall intake without severe restriction.  \n\n**Intermittent fasting as an option**  \n- Time‑restricted eating (for example an 8‑hour eating window) or alternate‑day fasting can be used by some people. Evidence shows it can produce weight loss comparable to continuous calorie restriction, but long‑term outcome data are limited.  \n\n**Avoid crash or very‑low‑calorie diets**  \n- Extremely low‑calorie “crash” diets often lead to rapid weight loss followed by quick regain, loss of muscle mass, gallstone formation and nutrient deficiencies. Sustainable, moderate approaches are safer and more effective.  \n\n**Special safety notes**  \n- If you take insulin or sulfonylurea medicines, you must be very careful with calorie‑restricted or intermittent‑fasting plans because they can cause hypoglycaemia.  \n- Any dietary change should be realistic and maintainable; extreme restriction or promises of rapid weight loss are not supported by evidence.  \n- When severe restriction is considered (for medical reasons), nutritional monitoring is essential, especially for people taking diabetes or weight‑loss drugs.  \n\n**Bottom line**  \nChoose a Mediterranean‑based eating pattern rich in vegetables, legumes, whole grains, fish and healthy fats, eat within a consistent meal schedule (such as two balanced meals with a salad/nut starter), consider intermittent fasting only if it fits your lifestyle, and stay away from crash diets. If you take insulin or sulfonylureas, closely monitor blood sugar, and aim for a sustainable plan rather than quick fixes.",
+        "parity": {
+          "parity_passed": true,
+          "checks": [
+            {
+              "name": "numbers_match",
+              "passed": true,
+              "value": 1.0,
+              "missing_in_hindi": [],
+              "extra_in_hindi": [],
+              "details": "EN ['8'] vs HI ['8']"
+            },
+            {
+              "name": "cautions_preserved",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN ['diabetes_medication'] referral=False | HI ['diabetes_medication'] referral=False"
+            },
+            {
+              "name": "recommendation_match",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN recs=['avoid', 'follow', 'increase', 'limit', 'monitor', 'start', 'take'] | HI recs=['avoid', 'follow', 'increase', 'limit', 'monitor', 'start', 'take']"
+            },
+            {
+              "name": "content_coverage",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN→HI 100% of English content kept; HI→EN 100% of Hindi content grounded in English"
+            }
+          ]
+        },
+        "attempts": 1
+      }
+    },
+    "what should i eat to gain weight": {
+      "retrieved_chunks": [
+        {
+          "id": 54,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 26. Common Obesity and Diet Myths, Addressed",
+          "text": "**Myth: \"Skipping meals slows your metabolism so much that you can't lose weight.\"** Short-term studies on structured meal-timing approaches, including intermittent fasting protocols, generally do not show the dramatic metabolic slowdown this myth implies over the timeframes most people practise them; prolonged severe caloric restriction over many months can reduce resting metabolic rate somewhat, but that is a separate phenomenon from simply reducing meal frequency while eating enough at each meal.\n\n**Myth: \"Fat in food directly becomes body fat, so a low-fat diet is always best for weight loss.\"** Dietary fat and body fat are not the same thing; weight gain depends on total energy balance and hormonal context, not on the fat content of any single food in isolation. Healthy fats (nuts, seeds, olive oil, fatty fish) support satiety and hormone function and are compatible with weight loss when total intake is appropriate.\n\n**Myth: \"If my BMI is normal, I don't need to worry about obesity-related disease.\"** As discussed in Section 2, a substantial share of Indians with a normal BMI still carry elevated visceral fat and metabolic risk (the \"metabolically unhealthy normal weight\" or \"skinny-fat\" pattern). Waist circumference and lab markers matter independent of BMI.",
+          "safety_critical": false,
+          "score": 0.410205602645874
+        },
+        {
+          "id": 78,
+          "heading": "PART VI — MULTILINGUAL AND SYSTEM-DESIGN NOTES > 38. Illustrative 4-Week Starter Program",
+          "text": "*This is a synthetic illustrative program combining the eating-pattern and walking-progression guidance above into a single reference timeline. It is a template for discussion, not an individualised prescription.*\n\n**Week 1 — Foundation.** Eating: identify natural hunger points and move toward two defined meals per day, each beginning with salad or a small portion of nuts, with no snacking in between; added sugar removed from tea/coffee. Activity: 15–20 minutes of comfortable-pace walking, most days. Tracking: record waist circumference and note energy levels daily; no scale-weight expectation yet.\n\n**Week 2 — Consolidation.** Eating: continue the two-meal structure; introduce a consistent protein source (dal, paneer, egg, or curd) at each meal per Section 24. Activity: 20 minutes of walking, introducing a brisker pace for the last 5 minutes. Tracking: note any hunger or energy dips and whether they are improving as the body adjusts.\n\n**Week 3 — Building consistency.** Eating: maintain the pattern; begin substituting a portion of refined grains (white rice, maida items) with lower-GI alternatives from Section 37 where practical. Activity: 25–30 minutes of walking at a consistently brisker pace. Tracking: first re-check of waist circumference; compare against week 1.",
+          "safety_critical": false,
+          "score": 0.37463700771331787
+        },
+        {
+          "id": 51,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 24. Macronutrients, Glycaemic Index, and Meal Composition",
+          "text": "requiring the person to abandon familiar staples entirely — a more sustainable adjustment for most Indian households than wholesale diet replacement.\n\nProtein intake deserves specific attention during any weight-loss effort, including the Dixit two-meal structure, because adequate protein (commonly cited guidance is roughly 0.8–1.2 g per kg body weight per day for most adults trying to lose weight, higher for those also strength training) helps preserve lean muscle mass and supports satiety, which matters more when total eating occasions are reduced, since each meal needs to carry the person further. Within a two-meal structure, ensuring each meal includes a clear protein source — dal, paneer, curd, eggs, chicken, fish, or a combination of grains and legumes for vegetarians — is a practical way to translate general nutrition science into the plan's simpler framework.",
+          "safety_critical": false,
+          "score": 0.35043567419052124
+        },
+        {
+          "id": 53,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 25. Sample Two-Meal Templates Across Indian Regional Cuisines",
+          "text": "ir salad. Follow with bhakri (jowar or bajra), a varan (dal) or usal (sprouted legume curry), a bhaji, and buttermilk instead of a sweetened beverage.\n\n**Bengali style:** Begin with a small salad or cucumber slices. Follow with a modest portion of rice, a dal, a vegetable torkari, and a fish or paneer preparation, avoiding the traditional sweet course at the end of the meal.\n\n**Vegan adaptation (any region):** Replace curd/paneer with soy-based alternatives, tofu, or a larger legume portion to maintain protein content, and use nuts or seeds as the \"first course\" fibre-and-fat element in place of dairy-based options.",
+          "safety_critical": false,
+          "score": 0.3392067551612854
+        }
+      ],
+      "answer_plan": {
+        "required_points": [
+          "The provided evidence does not contain specific guidance on foods or dietary patterns for weight gain."
+        ],
+        "important_conditions": [],
+        "restrictions": [
+          "Do not provide weight‑gain recommendations that are not supported by the evidence.",
+          "Do not suggest specific calorie targets or supplements."
+        ],
+        "evidence": [
+          "[Chunk 54] discusses myths about weight loss and emphasizes total energy balance, but does not give advice for gaining weight.",
+          "[Chunk 78] outlines a two‑meal structure aimed at weight loss/maintenance, not weight gain.",
+          "[Chunk 51] focuses on protein needs for weight loss and muscle preservation, not for weight gain.",
+          "[Chunk 53] provides sample two‑meal templates for Indian cuisines aimed at balanced nutrition, not specifically for gaining weight."
+        ]
+      },
+      "canonical_answer": "The provided evidence does not contain specific guidance on foods or dietary patterns for weight gain.",
+      "validation": {
+        "passed": true,
+        "score": 1.0,
+        "checks": [
+          {
+            "name": "required_points_coverage",
+            "passed": true,
+            "coverage": 1.0,
+            "missing": [],
+            "details": "1/1 required points covered"
+          },
+          {
+            "name": "evidence_grounding",
+            "passed": true,
+            "grounding_ratio": 1.0,
+            "details": "1/1 sentences grounded in evidence"
+          },
+          {
+            "name": "restriction_compliance",
+            "passed": true,
+            "violations": [],
+            "details": "0 potential restriction violations"
+          },
+          {
+            "name": "safety_cautions",
+            "passed": true,
+            "required": [],
+            "missing": [],
+            "referral_present": true,
+            "details": "No safety caution required"
+          }
+        ],
+        "feedback": ""
+      },
+      "attempts": 1,
+      "hinglish": {
+        "answer": "Diye gaye evidence mein weight gain ke liye foods ya dietary patterns ke baare mein specific guidance nahi hai.",
+        "back_translation": "The provided evidence does not contain specific guidance about foods or dietary patterns for weight gain.",
+        "parity": {
+          "parity_passed": true,
+          "checks": [
+            {
+              "name": "numbers_match",
+              "passed": true,
+              "value": 1.0,
+              "missing_in_hindi": [],
+              "extra_in_hindi": [],
+              "details": "EN [] vs HI []"
+            },
+            {
+              "name": "cautions_preserved",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN [] referral=False | HI [] referral=False"
+            },
+            {
+              "name": "recommendation_match",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN recs=[] | HI recs=[]"
+            },
+            {
+              "name": "content_coverage",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN→HI 100% of English content kept; HI→EN 100% of Hindi content grounded in English"
+            }
+          ]
+        },
+        "attempts": 1
+      }
+    },
+    "what could cause loss of appetite": {
+      "retrieved_chunks": [
+        {
+          "id": 19,
+          "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 5g. Comorbidity Deep Dive: Mental Health",
+          "text": "Depression and anxiety are more common among people living with obesity, and the relationship runs in both directions: low mood can drive reduced activity and emotional or binge eating, while weight-related stigma and reduced quality of life can independently contribute to depression and anxiety. An AI obesity-guidance system should watch for language suggesting significant low mood, hopelessness, or disordered eating patterns (bingeing, purging, extreme restriction) and treat these as a priority for professional referral, rather than continuing with standard diet and exercise guidance as if the underlying emotional context were absent.",
+          "safety_critical": false,
+          "score": 0.404135137796402
+        },
+        {
+          "id": 9,
+          "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 4. Behavioural and Environmental Risk Factors",
+          "text": "Dietary shifts are the most consistently cited driver of India's rising obesity rates. The \"nutrition transition\" describes the rapid replacement of traditional diets — built around whole grains, legumes, vegetables, and modest portions — with ultra-processed foods high in refined carbohydrates, added sugar, and industrial vegetable oils, occurring faster than health infrastructure or public awareness has adapted. Frequent snacking and grazing throughout the day, rather than fewer, more defined meals, is specifically implicated in sustained elevated insulin levels, which is the behavioural pattern the Dixit Lifestyle model targets directly.\n\nSedentary behaviour has increased alongside urbanisation, as physically demanding occupations and active commuting are replaced by desk work and motorised transport. Sleep disruption and irregular sleep timing are independently associated with weight gain, partly through effects on ghrelin and leptin (hunger and satiety hormones) and partly through their effect on next-day food choices and insulin sensitivity. Chronic psychological stress raises cortisol, which promotes visceral fat storage and can drive stress-related overeating, particularly of high-sugar, high-fat \"comfort foods.\"",
+          "safety_critical": false,
+          "score": 0.399701327085495
+        },
+        {
+          "id": 7,
+          "heading": "PART I — CLINICAL FOUNDATIONS OF OBESITY > 3. Pathophysiology of Obesity",
+          "text": "nflammation and leptin resistance, meaning the brain stops responding appropriately to leptin's satiety signal even though leptin levels are elevated.\n\nInsulin resistance is central to the metabolic consequences of obesity, particularly abdominal obesity. Visceral fat releases free fatty acids and inflammatory cytokines directly into the portal circulation, impairing the liver's and muscles' response to insulin. The pancreas compensates by secreting more insulin (hyperinsulinemia), which itself promotes further fat storage and can create a self-reinforcing cycle: elevated insulin favours fat storage over fat mobilisation, particularly around the abdomen, which then worsens insulin resistance further. This insulin-centred mechanism is the physiological basis that meal-frequency-reduction approaches, including the Dixit Lifestyle model, invoke as their rationale.",
+          "safety_critical": false,
+          "score": 0.38749921321868896
+        },
+        {
+          "id": 61,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 30. Comparative Summary: Dixit Lifestyle vs Other Popular Approaches",
+          "text": "**Dixit Lifestyle (two meals/day):** Mechanism — reduced meal frequency lowers average daily insulin exposure. Food restriction — minimal beyond no added sugar and a salad/nuts-first rule. Structural burden — low; two meals, hunger-cued timing. Evidence strength — moderate; supported by related intermittent-fasting literature and some Dixit-specific published follow-up data, not by large dedicated randomised controlled trials. Key caution — meal gaps can be risky on insulin/sulfonylurea therapy without medical adjustment.\n\n**Classic calorie-restricted diet:** Mechanism — direct energy deficit regardless of timing or macronutrient source. Food restriction — variable, often portion-based across all food groups. Structural burden — moderate to high; requires ongoing tracking for most people. Evidence strength — strong and long-established. Key caution — adherence tends to decline over time without behavioural support.",
+          "safety_critical": true,
+          "score": 0.3648630380630493
+        }
+      ],
+      "answer_plan": {
+        "required_points": [
+          "Depression and anxiety can lead to reduced appetite",
+          "Chronic psychological stress may affect appetite",
+          "Sleep disruption can influence hunger hormones and appetite",
+          "Hormonal factors such as leptin resistance and insulin resistance are linked to appetite regulation"
+        ],
+        "important_conditions": [
+          "Low mood, hopelessness, or disordered eating patterns should trigger professional mental‑health referral rather than standard diet advice"
+        ],
+        "restrictions": [
+          "Do not suggest specific medical diagnoses or treatments not mentioned in the evidence",
+          "Do not claim that the listed factors are the only possible causes of loss of appetite"
+        ],
+        "evidence": [
+          "[Chunk 19] Depression and anxiety are more common among people with obesity and can drive reduced activity and emotional or binge eating; low mood should be a priority for professional referral.",
+          "[Chunk 9] Chronic psychological stress raises cortisol, which can affect eating behavior; sleep disruption affects ghrelin and leptin, hormones that regulate hunger and satiety.",
+          "[Chunk 7] Inflammation and leptin resistance impair the brain's response to satiety signals; insulin resistance influences metabolic pathways related to appetite."
+        ]
+      },
+      "canonical_answer": "Loss of appetite can be influenced by several inter‑related factors:\n\n- **Depression and anxiety** – Low mood and heightened anxiety are common in people with obesity and can reduce the desire to eat. When someone shows signs of persistent low mood, hopelessness, or disordered eating patterns (such as bingeing, purging, or extreme restriction), they should be referred to a mental‑health professional rather than receiving only standard diet advice.\n\n- **Chronic psychological stress** – Ongoing stress raises cortisol levels, which can alter eating behavior and may lead to reduced appetite in some individuals.\n\n- **Sleep disruption** – Poor or irregular sleep affects the hormones ghrelin and leptin that regulate hunger and satiety, potentially decreasing appetite.\n\n- **Hormonal factors** – Conditions such as leptin resistance (where the brain no longer responds properly to leptin’s satiety signal) and insulin resistance can interfere with normal appetite regulation.\n\nThese factors are among many that can contribute to a reduced appetite, and their presence warrants a holistic assessment that includes mental‑health screening when appropriate.",
+      "validation": {
+        "passed": true,
+        "score": 0.93,
+        "checks": [
+          {
+            "name": "required_points_coverage",
+            "passed": true,
+            "coverage": 1.0,
+            "missing": [],
+            "details": "4/4 required points covered"
+          },
+          {
+            "name": "evidence_grounding",
+            "passed": true,
+            "grounding_ratio": 0.71,
+            "details": "5/7 sentences grounded in evidence"
+          },
+          {
+            "name": "restriction_compliance",
+            "passed": true,
+            "violations": [],
+            "details": "0 potential restriction violations"
+          },
+          {
+            "name": "safety_cautions",
+            "passed": true,
+            "required": [],
+            "missing": [],
+            "referral_present": true,
+            "details": "No safety caution required"
+          }
+        ],
+        "feedback": ""
+      },
+      "attempts": 1,
+      "hinglish": {
+        "answer": "Loss of appetite kai inter‑related factors se influence ho sakta hai:\n\n- **Depression and anxiety** – Low mood aur heightened anxiety obesity wale logon mein common hain aur khane ki ichha ko kam kar sakte hain. Jab koi vyakti persistent low mood, hopelessness, ya disordered eating patterns (jaise bingeing, purging, ya extreme restriction) dikhata hai, to use mental‑health professional ke paas refer karna chahiye, sirf standard diet advice dene se nahi.\n\n- **Chronic psychological stress** – Ongoing stress cortisol levels ko badhata hai, jo eating behavior ko alter kar sakta hai aur kuch individuals mein reduced appetite ka karan ban sakta hai.\n\n- **Sleep disruption** – Poor ya irregular sleep hormones ghrelin aur leptin ko affect karti hai jo hunger aur satiety ko regulate karte hain, isse appetite potentially decrease ho sakta hai.\n\n- **Hormonal factors** – Conditions jaise leptin resistance (jahan brain leptin ke satiety signal ko properly respond nahi karta) aur insulin resistance normal appetite regulation ko interfere kar sakte hain.\n\nYe factors bahut saare hain jo reduced appetite mein contribute karte hain, aur inki presence ek holistic assessment ki zaroorat hoti hai jisme mental‑health screening bhi shamil hona chahiye jab appropriate ho.",
+        "back_translation": "Loss of appetite can be influenced by several inter‑related factors:\n\n- **Depression and anxiety** – Low mood and heightened anxiety are common in people with obesity and can reduce the desire to eat. When a person shows persistent low mood, hopelessness, or disordered eating patterns (such as bingeing, purging, or extreme restriction), they should be referred to a mental‑health professional, not just given standard diet advice.\n\n- **Chronic psychological stress** – Ongoing stress raises cortisol levels, which can alter eating behavior and may become a cause of reduced appetite in some individuals.\n\n- **Sleep disruption** – Poor or irregular sleep affects the hormones ghrelin and leptin that regulate hunger and satiety, which can potentially decrease appetite.\n\n- **Hormonal factors** – Conditions such as leptin resistance (where the brain does not properly respond to leptin’s satiety signal) and insulin resistance can interfere with normal appetite regulation.\n\nThese are many factors that contribute to reduced appetite, and their presence requires a holistic assessment that includes mental‑health screening when appropriate.",
+        "parity": {
+          "parity_passed": true,
+          "checks": [
+            {
+              "name": "numbers_match",
+              "passed": true,
+              "value": 1.0,
+              "missing_in_hindi": [],
+              "extra_in_hindi": [],
+              "details": "EN [] vs HI []"
+            },
+            {
+              "name": "cautions_preserved",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN ['eating_disorder'] referral=False | HI ['eating_disorder'] referral=False"
+            },
+            {
+              "name": "recommendation_match",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN recs=['reduce'] | HI recs=['reduce']"
+            },
+            {
+              "name": "content_coverage",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN→HI 100% of English content kept; HI→EN 100% of Hindi content grounded in English"
+            }
+          ]
+        },
+        "attempts": 1
+      }
+    },
+    "can i follow the dixit lifestyle two meal plan while taking insulin for type 2 diabetes if i am pregnant": {
+      "retrieved_chunks": [
+        {
+          "id": 36,
+          "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 16. Operationalising the Dixit Lifestyle in a Structured Program",
+          "text": "A practical implementation typically includes: (a) establishing the person's genuine hunger-based meal timing rather than imposing fixed clock hours; (b) a standard meal template beginning with salad/nuts, followed by a home-style meal moderate in refined carbohydrate and free of added sugar; (c) a firm no-snacking rule between the two meals, water permitted freely; (d) a daily walk of 40–45 minutes, timed for consistency; (e) tracking progress primarily through waist circumference, HbA1c, and how clothes fit, rather than daily scale weight, since meal-timing approaches can show metabolic improvement before significant scale-weight change; and (f) explicit contraindication screening before starting — pregnancy or breastfeeding, insulin or sulfonylurea use without physician oversight, a history of disordered eating, type 1 diabetes, or significant underweight status should all route the user to a physician rather than to self-directed adoption of the plan.\n\n---",
+          "safety_critical": true,
+          "score": 0.5848356485366821
+        },
+        {
+          "id": 32,
+          "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 13. Core Principles of the Dixit Diet Plan",
+          "text": "The plan's central instruction is to eat only two meals a day, timed to whenever the person genuinely feels hungry rather than at fixed clock times, with nothing consumed (aside from water, and in some versions unsweetened tea or black coffee) between those two meals. Meals are meant to be eaten within roughly 5 to 7 minutes rather than lingered over, based on the reasoning that this limits opportunity for overeating and reduces prolonged stimulation of insulin release.\n\nMeal composition guidance typically recommends beginning the meal with raw vegetables, salad, or nuts before moving to cooked food, on the theory that fibre and fat consumed first slow subsequent glucose absorption and blunt the insulin spike from the rest of the meal. Added sugar is discouraged. Unlike calorie-restrictive diets, the plan places comparatively little emphasis on restricting food type or quantity within the two meals, arguing that meal-frequency reduction and the resulting lower average insulin exposure matter more than calorie counting — this is the plan's most distinctive and most contested claim relative to mainstream dietetics.\n\nA daily walk of approximately 45 minutes is the standard physical-activity component, chosen for its accessibility and its established effect on insulin sensitivity, positioned as complementary to, not a substitute for, the eating pattern.",
+          "safety_critical": true,
+          "score": 0.5737503170967102
+        },
+        {
+          "id": 34,
+          "heading": "PART III — THE DIXIT LIFESTYLE MODEL > 15. Scientific Reception and Balanced Assessment",
+          "text": "The Dixit Lifestyle model sits between two positions that an AI system should represent fairly rather than adopt wholesale. On one side, published follow-up data from Dr. Dixit and colleagues, including a study on lifestyle modification and HbA1c reduction, and independently, a growing international evidence base on time-restricted eating, support the plausibility that reduced meal frequency and defined eating windows can improve glycaemic control and support weight loss for many people, and some participants and independent commentators report meaningful, sustained results.\n\nOn the other side, the Indian Medical Association and multiple diabetologists have publicly stated that the specific claims made for the Dixit plan — including claims of diabetes \"reversal\" — are not backed by large randomised controlled trials specific to this protocol, and have raised safety concerns about applying a fixed two-meal, gap-eating pattern to people on insulin or sulfonylurea therapy, where prolonged fasting gaps can precipitate dangerous hypoglycaemia without medical supervision and medication adjustment. Fact-checking organisations have also noted that some viral claims attributed to the plan overstate what has been formally studied.",
+          "safety_critical": true,
+          "score": 0.5697684288024902
+        },
+        {
+          "id": 65,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 31. Additional Synthetic Q&A (Extended Set)",
+          "text": "change. If there's no change at all in any marker after a genuinely consistent 3-month trial, it's reasonable to review the approach with a physician.\n\n**Q14.** Is it okay to do this plan while pregnant?\n**A14.** No — this guidance is not appropriate during pregnancy or breastfeeding, when caloric and nutrient needs are elevated and different. Please follow your obstetrician's nutrition guidance instead during this period.\n\n**Q15.** My child is overweight — should they follow the Dixit two-meal plan?\n**A15.** No. Meal-timing restriction protocols designed for adults are not appropriate for growing children and adolescents. Please see Section 28 and consult a paediatrician for age-appropriate guidance.\n\n**Q16.** Does eating only twice a day mean I'll feel weak or unable to concentrate?\n**A16.** Some people experience temporary hunger or low energy in the first one to two weeks while the body adjusts, but most who continue the practice report this settles as the body adapts to the new pattern. Persistent weakness, dizziness, or inability to function should not be pushed through — that warrants stopping and speaking with a physician.",
+          "safety_critical": true,
+          "score": 0.5697345733642578
+        }
+      ],
+      "answer_plan": {
+        "required_points": [
+          "The Dixit Lifestyle two-meal plan is contraindicated during pregnancy",
+          "Using insulin (or sulfonylureas) while on the plan requires physician oversight and is not safe to adopt self‑directed",
+          "Therefore you should not follow the plan while pregnant and on insulin without consulting your doctor"
+        ],
+        "important_conditions": [
+          "Pregnancy and breastfeeding are explicit contraindications for the plan; nutritional needs are higher and require obstetric guidance",
+          "Insulin or sulfonylurea therapy can cause dangerous hypoglycaemia with prolonged fasting gaps; medical supervision and medication adjustment are required"
+        ],
+        "restrictions": [
+          "Do not claim the plan is safe for pregnant individuals on insulin",
+          "Do not recommend self‑directed adoption of the two‑meal protocol in this situation",
+          "Do not suggest the plan can replace professional obstetric or diabetes care"
+        ],
+        "evidence": [
+          "[Chunk 36] ... explicit contraindication screening before starting — pregnancy or breastfeeding, insulin or sulfonylurea use without physician oversight ... should route the user to a physician rather than self‑directed adoption of the plan.",
+          "[Chunk 34] ... safety concerns about applying a fixed two‑meal, gap‑eating pattern to people on insulin or sulfonylurea therapy, where prolonged fasting gaps can precipitate dangerous hypoglycaemia without medical supervision.",
+          "[Chunk 65] Q14. Is it okay to do this plan while pregnant? A14. No — this guidance is not appropriate during pregnancy or breastfeeding, when caloric and nutrient needs are elevated and different. Please follow your obstetrician's nutrition guidance instead during this period."
+        ]
+      },
+      "canonical_answer": "The Dixit Lifestyle two‑meal plan should **not be used during pregnancy**. Pregnancy (and breastfeeding) are listed as explicit contraindications because caloric and nutrient requirements are higher and must be guided by an obstetrician.\n\nIf you are taking insulin (or a sulfonylurea), the plan also requires **physician oversight**. The long fasting periods between the two meals can cause dangerous hypoglycaemia in people on these medications unless the drug doses are adjusted under medical supervision.\n\n**Therefore, you should not adopt the Dixit two‑meal protocol while you are pregnant and on insulin without first consulting your doctor.** Your obstetrician and diabetes‑care team can determine a safe eating pattern and any needed medication changes.",
+      "validation": {
+        "passed": true,
+        "score": 1.0,
+        "checks": [
+          {
+            "name": "required_points_coverage",
+            "passed": true,
+            "coverage": 1.0,
+            "missing": [],
+            "details": "3/3 required points covered"
+          },
+          {
+            "name": "evidence_grounding",
+            "passed": true,
+            "grounding_ratio": 1.0,
+            "details": "5/5 sentences grounded in evidence"
+          },
+          {
+            "name": "restriction_compliance",
+            "passed": true,
+            "violations": [],
+            "details": "0 potential restriction violations"
+          },
+          {
+            "name": "safety_cautions",
+            "passed": true,
+            "required": [
+              "diabetes_medication",
+              "pregnancy"
+            ],
+            "missing": [],
+            "referral_present": true,
+            "details": "Required: ['diabetes_medication', 'pregnancy']; missing: []; doctor referral: True"
+          }
+        ],
+        "feedback": ""
+      },
+      "attempts": 1,
+      "hinglish": {
+        "answer": "Dixit Lifestyle two‑meal plan **pregnancy ke dauran use nahi karna chahiye**. Pregnancy (aur breastfeeding) ko explicit contraindications ke roop mein list kiya gaya hai kyunki caloric aur nutrient requirements zyada hoti hain aur isko ek obstetrician ke guidance mein hi manage karna zaroori hai.\n\nAgar aap insulin (ya ek sulfonylurea) le rahe hain, to plan ko **physician oversight** ki bhi zaroorat hoti hai. Do meals ke beech ke long fasting periods logon mein jo in medications par hain, unmein dangerous hypoglycaemia cause kar sakte hain jab tak drug doses ko medical supervision ke under adjust na kiya jaye.\n\n**Isliye, aapko Dixit two‑meal protocol ko adopt nahi karna chahiye jab aap pregnant hain aur insulin le rahe hain bina pehle apne doctor se consult kiye.** Aapka obstetrician aur diabetes‑care team ek safe eating pattern aur zaroori medication changes determine kar sakte hain.",
+        "back_translation": "The Dixit Lifestyle two‑meal plan should not be used during pregnancy. Pregnancy (and breastfeeding) are listed as explicit contraindications because caloric and nutrient requirements are higher, and it must be managed only under the guidance of an obstetrician.\n\nIf you are taking insulin (or a sulfonylurea), the plan also requires physician oversight. The long fasting periods between the two meals can cause dangerous hypoglycaemia in people on these medications until drug doses are adjusted under medical supervision.\n\nTherefore, you should not adopt the Dixit two‑meal protocol when you are pregnant and taking insulin without first consulting your doctor. Your obstetrician and diabetes‑care team can determine a safe eating pattern and any necessary medication changes.",
+        "parity": {
+          "parity_passed": true,
+          "checks": [
+            {
+              "name": "numbers_match",
+              "passed": true,
+              "value": 1.0,
+              "missing_in_hindi": [],
+              "extra_in_hindi": [],
+              "details": "EN [] vs HI []"
+            },
+            {
+              "name": "cautions_preserved",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN ['diabetes_medication', 'pregnancy'] referral=True | HI ['diabetes_medication', 'pregnancy'] referral=True"
+            },
+            {
+              "name": "recommendation_match",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN recs=['consult', 'doctor', 'physician'] | HI recs=['consult', 'doctor', 'physician']"
+            },
+            {
+              "name": "content_coverage",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN→HI 100% of English content kept; HI→EN 100% of Hindi content grounded in English"
+            }
+          ]
+        },
+        "attempts": 1
+      }
+    },
+    "what should i eat": {
+      "retrieved_chunks": [
+        {
+          "id": 53,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 25. Sample Two-Meal Templates Across Indian Regional Cuisines",
+          "text": "ir salad. Follow with bhakri (jowar or bajra), a varan (dal) or usal (sprouted legume curry), a bhaji, and buttermilk instead of a sweetened beverage.\n\n**Bengali style:** Begin with a small salad or cucumber slices. Follow with a modest portion of rice, a dal, a vegetable torkari, and a fish or paneer preparation, avoiding the traditional sweet course at the end of the meal.\n\n**Vegan adaptation (any region):** Replace curd/paneer with soy-based alternatives, tofu, or a larger legume portion to maintain protein content, and use nuts or seeds as the \"first course\" fibre-and-fat element in place of dairy-based options.",
+          "safety_critical": false,
+          "score": 0.4294213056564331
+        },
+        {
+          "id": 51,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 24. Macronutrients, Glycaemic Index, and Meal Composition",
+          "text": "requiring the person to abandon familiar staples entirely — a more sustainable adjustment for most Indian households than wholesale diet replacement.\n\nProtein intake deserves specific attention during any weight-loss effort, including the Dixit two-meal structure, because adequate protein (commonly cited guidance is roughly 0.8–1.2 g per kg body weight per day for most adults trying to lose weight, higher for those also strength training) helps preserve lean muscle mass and supports satiety, which matters more when total eating occasions are reduced, since each meal needs to carry the person further. Within a two-meal structure, ensuring each meal includes a clear protein source — dal, paneer, curd, eggs, chicken, fish, or a combination of grains and legumes for vegetarians — is a practical way to translate general nutrition science into the plan's simpler framework.",
+          "safety_critical": false,
+          "score": 0.4028831124305725
+        },
+        {
+          "id": 77,
+          "heading": "PART VI — MULTILINGUAL AND SYSTEM-DESIGN NOTES > 37. Indian Foods by Approximate Glycaemic Index Category",
+          "text": "kaged fruit juice, sweets and mithai, deep-fried snacks (samosa, pakora, vada in excess), white bread, cornflakes and other refined breakfast cereals.\n\n**Protein-focused options across dietary preferences:** Vegetarian — dal (all varieties), paneer, curd/yoghurt, soy chunks/tofu, sprouted legumes, milk. Non-vegetarian — eggs, chicken, fish, lean cuts of mutton. Vegan — tofu, soy chunks, legumes and dals, peanuts and other nuts, seeds (chia, flax, pumpkin).",
+          "safety_critical": false,
+          "score": 0.399929940700531
+        },
+        {
+          "id": 52,
+          "heading": "PART V — NUTRITION, CULTURE, AND PRACTICAL IMPLEMENTATION > 25. Sample Two-Meal Templates Across Indian Regional Cuisines",
+          "text": "These templates illustrate how the Dixit Lifestyle's core rules (salad or nuts first, home-style meal, no added sugar, no snacking between meals) can be adapted to different regional cuisines rather than requiring a single national template.\n\n**North Indian style:** Begin with a bowl of cucumber-tomato-onion salad or a small handful of soaked almonds and walnuts. Follow with two multigrain or bajra rotis, a dal (moong or masoor), a vegetable sabzi, and a small bowl of curd. Avoid sugar in tea; if tea is taken, keep it outside the no-snacking window rule the person has chosen for themselves.\n\n**South Indian style:** Begin with a small salad of cucumber and carrot, or a few soaked peanuts. Follow with a moderate portion of brown or hand-pounded rice, sambar rich in vegetables and lentils, a portion of curd, and a vegetable poriyal. Idli or dosa with sambar and chutney (without added sugar in the chutney) is a reasonable alternative meal, particularly if paired with extra vegetables.\n\n**Maharashtrian style (the cuisine most associated with Dr. Dixit's own audience):** Begin with kakadi (cucumber) or koshimbir salad. Follow with bhakri (jowar or bajra), a varan (dal) or usal (sprouted legume curry), a bhaji, and buttermilk instead of a sweetened beverage.",
+          "safety_critical": false,
+          "score": 0.39330631494522095
+        }
+      ],
+      "answer_plan": {
+        "required_points": [
+          "Eat a balanced meal following the two‑meal template: start with a salad or nuts, then a home‑cooked main with whole grains, vegetables, and a clear protein source, and finish with a low‑fat dairy or plant‑based option.",
+          "Include adequate protein (≈0.8–1.2 g per kg body weight per day) in each meal to preserve muscle and promote satiety.",
+          "Choose regional variations (North Indian, South Indian, Maharashtrian, Bengali, or vegan adaptations) that follow the same structure.",
+          "Avoid added sugars and snacking between the two meals."
+        ],
+        "important_conditions": [
+          "Ensure each meal contains a protein source such as dal, paneer, curd, eggs, chicken, fish, tofu, soy chunks, legumes, nuts or seeds.",
+          "For vegans replace dairy with soy‑based alternatives, tofu, or larger legume portions.",
+          "Limit high‑glycaemic foods like sweetened fruit juice, sweets, deep‑fried snacks, white bread, and refined cereals."
+        ],
+        "restrictions": [
+          "Do not claim this plan will guarantee weight loss or treat any medical condition.",
+          "Do not recommend eliminating entire food groups without professional guidance.",
+          "Do not suggest specific calorie counts or medical prescriptions."
+        ],
+        "evidence": [
+          "[Chunk 53] Sample two‑meal templates across Indian regional cuisines show salad/nuts first, whole‑grain base, dal/paneer/curd or fish/paneer, and no sweetened beverage.",
+          "[Chunk 51] Protein intake of 0.8–1.2 g/kg is recommended for adults losing weight; each meal should include dal, paneer, curd, eggs, chicken, fish, or grain‑legume combos.",
+          "[Chunk 77] Lists protein‑focused options for vegetarians, non‑vegetarians, and vegans, and warns against high‑GI foods like sweets, deep‑fried snacks, and refined cereals.",
+          "[Chunk 52] Describes North, South, and Maharashtrian style two‑meal templates with salad first, multigrain rotis or rice, dal/legume, vegetables, and curd, emphasizing no added sugar and no snacking."
+        ]
+      },
+      "canonical_answer": "**How to structure your meals**\n\n1. **Two‑meal template** – Eat only two main meals a day, each built in the same order:  \n   * **First course:** a small salad (cucumber, tomato, carrot, etc.) or a handful of nuts/seeds. This adds fibre and healthy fat.  \n   * **Main course:** a home‑cooked plate that includes  \n     * a whole‑grain base (multigrain or bajra/jowar rotis, brown rice, bhakri, etc.),  \n     * plenty of cooked vegetables, and  \n     * a clear protein source (see point 2).  \n   * **Finish:** a low‑fat dairy option (curd, buttermilk, yoghurt) or, for vegans, a soy‑based alternative such as tofu, soy‑milk or a larger portion of legumes/nuts.\n\n2. **Protein in every meal** – Aim for about **0.8–1.2 g of protein per kg body weight each day**. Split this across the two meals so each one contains a solid protein source, for example:  \n   * **Vegetarian:** dal, paneer, curd, soy chunks, tofu, sprouted legumes, milk.  \n   * **Non‑vegetarian:** eggs, chicken, fish, lean mutton.  \n   * **Vegan:** tofu, soy chunks, a larger legume/bean portion, peanuts, seeds, soy‑based yoghurt.\n\n3. **Regional variations (same structure)**  \n   * **North Indian:** salad or soaked almonds → 2 multigrain/bajra rotis + dal (moong or masoor) + vegetable sabzi + curd.  \n   * **South Indian:** salad or peanuts → brown rice or idli/dosa + sambar (lentils + vegetables) + curd + vegetable poriyal.  \n   * **Maharashtrian:** cucumber/koshimbir salad → bhakri (jowar/bajra) + varan (dal) or usal (sprouted legume curry) + bhaji + buttermilk.  \n   * **Bengali:** salad → modest rice portion + dal + vegetable torkari + fish or paneer; no sweet course.  \n   * **Vegan adaptation (any region):** replace curd/paneer with soy‑based alternatives, tofu, or extra legumes; keep nuts/seeds as the first course.\n\n4. **Avoid added sugars and between‑meal snacking** – Do not drink sweetened fruit juices, eat sweets, deep‑fried snacks (samosa, pakora, vada), white bread, cornflakes or other refined cereals. Keep the window between the two meals free of any food or sugary drinks.\n\n---\n\n### Key points to remember\n- **Protein each meal** is essential for muscle preservation and satiety.  \n- **Whole grains and vegetables** provide fibre and steady energy.  \n- **Low‑fat dairy or plant‑based equivalents** finish the meal without added sugar.  \n- **No added sugars or extra snacks** between the two meals help keep blood‑sugar swings low.  \n\nFollow this structure daily, adjusting the specific dishes to your regional preferences or vegan needs, and you’ll have a balanced, nutrient‑dense eating pattern.",
+      "validation": {
+        "passed": true,
+        "score": 0.98,
+        "checks": [
+          {
+            "name": "required_points_coverage",
+            "passed": true,
+            "coverage": 1.0,
+            "missing": [],
+            "details": "4/4 required points covered"
+          },
+          {
+            "name": "evidence_grounding",
+            "passed": true,
+            "grounding_ratio": 0.93,
+            "details": "26/28 sentences grounded in evidence"
+          },
+          {
+            "name": "restriction_compliance",
+            "passed": true,
+            "violations": [],
+            "details": "0 potential restriction violations"
+          },
+          {
+            "name": "safety_cautions",
+            "passed": true,
+            "required": [],
+            "missing": [],
+            "referral_present": true,
+            "details": "No safety caution required"
+          }
+        ],
+        "feedback": ""
+      },
+      "attempts": 1,
+      "hindi": {
+        "answer": "**How to structure your meals**\n\n1. **Two‑meal template** – दिन में केवल दो मुख्य भोजन खाएँ, प्रत्येक को एक ही क्रम में बनाएँ:  \n   * **First course:** एक छोटा सलाद (खीरा, टमाटर, गाजर, आदि) या एक मुट्ठी नट्स/बीज। यह फाइबर और स्वस्थ वसा जोड़ता है।  \n   * **Main course:** एक घर का बना प्लेट जिसमें शामिल हो  \n     * एक सम्पूर्ण‑अनाज आधार (मल्टीग्रेन या बाजरा/ज्वार रोटियाँ, ब्राउन राइस, भाकरी, आदि),  \n     * बहुत सारी पकी हुई सब्जियाँ, और  \n     * एक स्पष्ट प्रोटीन स्रोत (बिंदु 2 देखें)।  \n   * **Finish:** एक कम‑वसा वाला डेयरी विकल्प (दही, छाछ, योगर्ट) या, वेगन के लिए, सोया‑आधारित विकल्प जैसे टोफू, सोया‑दूध या दाल/नट्स का बड़ा भाग।\n\n2. **Protein in every meal** – प्रतिदिन **0.8–1.2 g प्रोटीन प्रति kg शरीर वजन** का लक्ष्य रखें। इसे दो भोजन में बाँटें ताकि प्रत्येक में एक ठोस प्रोटीन स्रोत हो, उदाहरण के लिए:  \n   * **Vegetarian:** दाल, पनीर, दही, सोया चंक्स, टोफू, अंकुरित दालें, दूध।  \n   * **Non‑vegetarian:** अंडे, चिकन, मछली, दुबला मटन।  \n   * **Vegan:** टोफू, सोया चंक्स, दाल/बीन्स का बड़ा भाग, मूंगफली, बीज, सोया‑आधारित योगर्ट।\n\n3. **Regional variations (same structure)**  \n   * **North Indian:** सलाद या भीगे हुए बादाम → 2 मल्टीग्रेन/बाजरा रोटियाँ + दाल (मूंग या मसूर) + सब्जी + दही।  \n   * **South Indian:** सलाद या मूंगफली → ब्राउन राइस या इडली/डोसा + सांभर (दाल + सब्जियाँ) + दही + सब्जी पोरियल।  \n   * **Maharashtrian:** खीरा/कोशिंबीर सलाद → भाकरी (ज्वार/बाजरा) + वरण (दाल) या उसाल (अंकुरित दाल करी) + भाजी + छाछ।  \n   * **Bengali:** सलाद → मध्यम मात्रा में चावल + दाल + सब्जी टॉर्कारी + मछली या पनीर; मीठा कोर्स नहीं।  \n   * **Vegan adaptation (any region):** दही/पनीर को सोया‑आधारित विकल्प, टोफू, या अतिरिक्त दालों से बदलें; नट्स/बीज को पहले कोर्स के रूप में रखें।\n\n4. **Avoid added sugars and between‑meal snacking** – मीठे फल के जूस न पिएँ, मिठाइयाँ न खाएँ, डीप‑फ्राइड स्नैक्स (समोसा, पकोड़ा, वडा) न खाएँ, सफ़ेद ब्रेड, कॉर्नफ़्लेक्स या अन्य परिष्कृत अनाज न खाएँ। दो भोजन के बीच का समय किसी भी भोजन या शर्करा वाले पेय से मुक्त रखें।\n\n---\n\n### Key points to remember\n- **Protein each meal** मांसपेशियों की रक्षा और तृप्ति के लिए आवश्यक है।  \n- **Whole grains and vegetables** फाइबर और स्थिर ऊर्जा प्रदान करते हैं।  \n- **Low‑fat dairy or plant‑based equivalents** भोजन को बिना अतिरिक्त शर्करा के समाप्त करते हैं।  \n- **No added sugars or extra snacks** दो भोजन के बीच ब्लड‑शुगर के उतार‑चढ़ाव को कम रखने में मदद करते हैं।  \n\n**Follow** this structure daily, adjusting the specific dishes to your regional preferences or vegan needs, and you’ll have a balanced, nutrient‑dense eating pattern.",
+        "back_translation": "**How to structure your meals**\n\n1. **Two‑meal template** – eat only two main meals a day, prepare each in the same order:  \n   * **First course:** a small salad (cucumber, tomato, carrot, etc.) or a handful of nuts/seeds. This adds fiber and healthy fat.  \n   * **Main course:** a home‑cooked plate that includes  \n     * a whole‑grain base (multigrain or millet/sorghum rotis, brown rice, bhakri, etc.),  \n     * plenty of cooked vegetables, and  \n     * a clear protein source (see point 2).  \n   * **Finish:** a low‑fat dairy option (yogurt, buttermilk, yogurt) or, for vegans, a soy‑based option such as tofu, soy milk or a large portion of lentils/nuts.\n\n2. **Protein in every meal** – aim for **0.8–1.2 g protein per kg body weight** each day. Divide this across the two meals so that each contains a solid protein source, for example:  \n   * **Vegetarian:** lentils, paneer, yogurt, soy chunks, tofu, sprouted legumes, milk.  \n   * **Non‑vegetarian:** eggs, chicken, fish, lean mutton.  \n   * **Vegan:** tofu, soy chunks, a large portion of lentils/beans, peanuts, seeds, soy‑based yogurt.\n\n3. **Regional variations (same structure)**  \n   * **North Indian:** salad or soaked almonds → 2 multigrain/millet rotis + dal (moong or masoor) + vegetable + yogurt.  \n   * **South Indian:** salad or peanuts → brown rice or idli/dosa + sambar (dal + vegetables) + yogurt + vegetable poriyal.  \n   * **Maharashtrian:** cucumber/koshimbir salad → bhakri (sorghum/millet) + varan (dal) or usal (sprouted dal curry) + bhaji + buttermilk.  \n   * **Bengali:** salad → moderate portion of rice + dal + vegetable tarkari + fish or paneer; no sweet course.  \n   * **Vegan adaptation (any region):** replace yogurt/paneer with soy‑based alternatives, tofu, or extra lentils; keep nuts/seeds as the first course.\n\n4. **Avoid added sugars and between‑meal snacking** – do not drink sweet fruit juices, do not eat sweets, do not eat deep‑fried snacks (samosa, pakora, vada), do not eat white bread, cornflakes or other refined grains. Keep the time between the two meals free of any food or sugary drinks.\n\n---\n\n### Key points to remember\n- **Protein each meal** is needed to protect muscle and provide satiety.  \n- **Whole grains and vegetables** provide fiber and steady energy.  \n- **Low‑fat dairy or plant‑based equivalents** finish the meal without extra sugar.  \n- **No added sugars or extra snacks** helps keep blood‑sugar fluctuations low between the two meals.  \n\n**Follow** this structure daily, adjusting the specific dishes to your regional preferences or vegan needs, and you’ll have a balanced, nutrient‑dense eating pattern.",
+        "parity": {
+          "parity_passed": true,
+          "checks": [
+            {
+              "name": "numbers_match",
+              "passed": true,
+              "value": 1.0,
+              "missing_in_hindi": [],
+              "extra_in_hindi": [],
+              "details": "EN ['0.8', '1', '1.2', '2', '3', '4'] vs HI ['0.8', '1', '1.2', '2', '3', '4']"
+            },
+            {
+              "name": "cautions_preserved",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN [] referral=False | HI [] referral=False"
+            },
+            {
+              "name": "recommendation_match",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN recs=['avoid', 'follow'] | HI recs=['avoid', 'follow']"
+            },
+            {
+              "name": "content_coverage",
+              "passed": true,
+              "value": 1.0,
+              "details": "EN→HI 100% of English content kept; HI→EN 100% of Hindi content grounded in English"
+            }
+          ]
+        },
+        "attempts": 2
+      }
+    }
+  }
+}

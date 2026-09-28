@@ -1,0 +1,4 @@
+id,safety,status,hinglish_detected,hi_overlap,hi_missing,hi_same_canonical,hinglish_overlap,hinglish_missing,hinglish_same_canonical,hinglish_raw_overlap,hinglish_raw_missing,variants_same_canonical,en_hallucination,hi_plan_consistency,hi_answer_similarity,hi_hallucination,hi_parity,hinglish_plan_consistency,hinglish_answer_similarity,hinglish_hallucination,hinglish_parity
+T1,False,ok,True,1.0,0,True,1.0,0,True,0.0,4,3/3,0.4,1.0,0.9882,0.0,True,1.0,0.9971,0.4,True
+T2,True,ok,True,1.0,0,True,1.0,0,True,0.0,4,1/1,0.0,0.8068,0.9212,0.1,True,0.9097,0.9561,0.0909,True
+T9,False,ok,True,1.0,0,False,1.0,0,False,0.6,1,0/1,0.0,0.8758,0.8891,0.1667,True,0.8343,0.9452,0.1429,True

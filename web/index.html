@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swastham — Forward-Translation Health RAG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="navbar">
+            <div class="brand">
+                <span class="brand-icon">🩺</span>
+                <span class="brand-name">Swastham<span class="brand-accent">.ai</span></span>
+                <span class="brand-tag">Health RAG</span>
+            </div>
+
+            <nav class="nav-tabs">
+                <button class="nav-tab active" data-tab="ask" id="tab-ask">Ask Question</button>
+                <button class="nav-tab" data-tab="compare" id="tab-compare">Parity Compare</button>
+                <button class="nav-tab" data-tab="voice" id="tab-voice">Voice Agent</button>
+            </nav>
+
+            <div class="nav-actions">
+                <span class="btn-settings" id="llm-status" title="LLM status">
+                    <span id="key-status-dot" class="dot-status"></span>
+                    <span id="llm-status-text">Checking…</span>
+                </span>
+            </div>
+        </header>
+
+        <div class="error-banner hidden" id="error-banner"></div>
+
+        <main class="main-content">
+            <!-- TAB 1: ASK QUESTION -->
+            <section class="tab-view active" id="view-ask">
+                <div class="search-box-card">
+                    <div class="search-header">
+                        <h2>Ask a Health Question</h2>
+                        <div class="lang-selector">
+                            <button class="lang-pill active" data-lang="auto" id="pill-auto">Auto-Detect</button>
+                            <button class="lang-pill" data-lang="en" id="pill-en">English</button>
+                            <button class="lang-pill" data-lang="hi" id="pill-hi">हिन्दी</button>
+                            <button class="lang-pill" data-lang="hinglish" id="pill-hinglish">Hinglish</button>
+                        </div>
+                    </div>
+
+                    <div class="input-area">
+                        <textarea id="query-input" rows="3" placeholder="उदा: इंसुलिन प्रतिरोध क्या है? / What are the BMI cutoffs for Indian adults? / Mujhe diabetes hai, kya main fruits kha sakta hu?"></textarea>
+                        <button class="btn-mic" id="btn-mic" type="button" title="Speak your question" aria-label="Speak your question">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3Zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-2.08A7 7 0 0 0 19 12h-2Z"/></svg>
+                        </button>
+                        <span class="mic-status hidden" id="mic-status"></span>
+                    </div>
+
+                    <div class="action-row">
+                        <div class="quick-chips">
+                            <span class="chips-label">Try:</span>
+                            <button class="chip" data-query="मैं टाइप 2 डायबिटीज के लिए इंसुलिन लेता हूँ। क्या मैं दीक्षित की दिन में दो बार भोजन वाली योजना अपना सकता हूँ?">इंसुलिन + दो भोजन 🇮🇳</button>
+                            <button class="chip" data-query="What are the revised BMI cutoffs for Indian adults and why do they differ from WHO guidelines?">BMI Cutoffs</button>
+                            <button class="chip" data-query="दीक्षित लाइफस्टाइल डाइट आसान शब्दों में क्या है?">दीक्षित डाइट 🇮🇳</button>
+                            <button class="chip" data-query="Mujhe diabetes hai, kya main fruits kha sakta hu?">Fruits (Hinglish)</button>
+                        </div>
+                        <button class="btn-submit" id="btn-ask">
+                            <span class="btn-text">Ask Question</span>
+                            <span class="spinner hidden" id="ask-spinner"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="response-card hidden" id="ask-results">
+                    <div class="response-header">
+                        <div class="response-meta">
+                            <span class="response-badge" id="answer-lang-badge">Answer</span>
+                            <span class="source-tag" id="answer-meta"></span>
+                        </div>
+                        <div class="listen-controls">
+                            <label class="chips-label toggle"><input type="checkbox" id="auto-read"> Auto-read</label>
+                            <button class="btn-listen" id="btn-listen" type="button">🔊 Listen</button>
+                        </div>
+                    </div>
+
+                    <div class="answer-content" id="answer-body"></div>
+
+                    <details class="evidence-accordion">
+                        <summary>Pipeline trace: translated query, Answer Plan, validation</summary>
+                        <div class="evidence-list" id="trace-body"></div>
+                    </details>
+                    <details class="evidence-accordion">
+                        <summary id="chunks-summary">Retrieved evidence</summary>
+                        <div class="evidence-list" id="chunks-body"></div>
+                    </details>
+                </div>
+            </section>
+
+            <!-- TAB 2: PARITY COMPARISON -->
+            <section class="tab-view hidden" id="view-compare">
+                <div class="compare-card">
+                    <div class="compare-header">
+                        <h2>English, Hindi &amp; Hinglish Parity Verification</h2>
+                        <p class="subtitle">One canonical English answer is translated for Hindi and (optionally) Hinglish. The scorecards check whether every answer says the same thing.</p>
+                    </div>
+
+                    <div class="compare-grid three">
+                        <div class="compare-field">
+                            <label for="compare-en">English Question</label>
+                            <textarea id="compare-en" rows="2"></textarea>
+                        </div>
+                        <div class="compare-field">
+                            <label for="compare-hi">Hindi Question (हिन्दी)</label>
+                            <textarea id="compare-hi" rows="2"></textarea>
+                        </div>
+                        <div class="compare-field">
+                            <label for="compare-hg">Hinglish Question (optional)</label>
+                            <textarea id="compare-hg" rows="2"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="action-row">
+                        <div class="quick-chips">
+                            <span class="chips-label">Sample:</span>
+                            <button class="chip compare-pair-chip"
+                                data-en="I take insulin for type 2 diabetes. Can I follow the Dixit two-meal plan?"
+                                data-hi="मैं टाइप 2 डायबिटीज के लिए इंसुलिन लेता हूँ। क्या मैं दीक्षित की दिन में दो बार भोजन वाली योजना अपना सकता हूँ?"
+                                data-hg="Main type 2 diabetes ke liye insulin leta hoon. Kya main Dixit ka two-meal plan follow kar sakta hoon?">
+                                Insulin (safety)
+                            </button>
+                            <button class="chip compare-pair-chip"
+                                data-en="What are the revised BMI cutoffs for Indian adults and why do they differ from WHO guidelines?"
+                                data-hi="भारतीय वयस्कों के लिए संशोधित बीएमआई कटऑफ क्या हैं और वे डब्ल्यूएचओ दिशानिर्देशों से अलग क्यों हैं?"
+                                data-hg="Indian adults ke liye revised BMI cutoffs kya hain aur ye WHO guidelines se alag kyun hain?">
+                                BMI Cutoffs
+                            </button>
+                            <button class="chip compare-pair-chip"
+                                data-en="Is it okay to follow this plan while pregnant?"
+                                data-hi="क्या गर्भावस्था के दौरान यह योजना अपनाना ठीक है?"
+                                data-hg="Kya pregnancy ke dauran ye plan follow karna theek hai?">
+                                Pregnancy (safety)
+                            </button>
+                            <button class="chip compare-pair-chip"
+                                data-en="Can I eat fruits if I have diabetes?"
+                                data-hi="अगर मुझे डायबिटीज है तो क्या मैं फल खा सकता हूँ?"
+                                data-hg="Mujhe diabetes hai, kya main fruits kha sakta hu?">
+                                Fruits (diabetes)
+                            </button>
+                            <label class="chips-label toggle">
+                                <input type="checkbox" id="baseline-toggle"> Show baseline (before)
+                            </label>
+                        </div>
+                        <button class="btn-submit" id="btn-compare">
+                            <span class="btn-text">Compare Answers</span>
+                            <span class="spinner hidden" id="compare-spinner"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="compare-results hidden" id="compare-results">
+                    <div class="overlap-status" id="overlap-status">
+                        <span class="overlap-dot" id="overlap-dot"></span>
+                        <span id="overlap-text"></span>
+                    </div>
+
+                    <div class="scorecards" id="scorecards"></div>
+
+                    <div class="dual-answers" id="dual-answers">
+                        <div class="result-column">
+                            <div class="col-header"><span class="badge-en">English Answer</span></div>
+                            <div class="answer-content" id="compare-en-answer"></div>
+                        </div>
+                        <div class="result-column">
+                            <div class="col-header"><span class="badge-hi">हिन्दी उत्तर (Hindi Answer)</span></div>
+                            <div class="answer-content hindi-text" id="compare-hi-answer"></div>
+                            <details class="evidence-accordion">
+                                <summary>Back-translation used for the parity check</summary>
+                                <div class="answer-content" id="compare-hi-back"></div>
+                            </details>
+                        </div>
+                        <div class="result-column hidden" id="hinglish-column">
+                            <div class="col-header"><span class="badge-hg">Hinglish Answer</span></div>
+                            <div class="answer-content" id="compare-hg-answer"></div>
+                            <details class="evidence-accordion">
+                                <summary>Back-translation used for the parity check</summary>
+                                <div class="answer-content" id="compare-hg-back"></div>
+                            </details>
+                        </div>
+                        <div class="result-column baseline-column hidden" id="baseline-column">
+                            <div class="col-header"><span class="badge-base">Baseline Hindi (answered directly in Hindi)</span></div>
+                            <div class="answer-content hindi-text" id="compare-base-answer"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 3: VOICE AGENT -->
+            <section class="tab-view hidden" id="view-voice">
+                <div class="voice-card">
+                    <div class="search-header">
+                        <div>
+                            <h2>Voice Agent</h2>
+                            <p class="subtitle">Talk hands-free. It answers from the same verified pipeline, remembers the last 3 turns for follow-ups, and stops when you start talking.</p>
+                        </div>
+                        <div class="lang-selector" id="voice-lang">
+                            <span class="chips-label">Reply in</span>
+                            <button class="lang-pill active" data-lang="auto">Same as me</button>
+                            <button class="lang-pill" data-lang="en">English</button>
+                            <button class="lang-pill" data-lang="hi">हिन्दी</button>
+                            <button class="lang-pill" data-lang="hinglish">Hinglish</button>
+                        </div>
+                    </div>
+
+                    <div class="voice-stage">
+                        <button class="voice-orb" id="voice-orb" data-state="idle" type="button" aria-label="Start conversation">
+                            <span class="orb-core"></span>
+                        </button>
+                        <div class="voice-state" id="voice-state" aria-live="polite">Press to start talking</div>
+                        <div class="voice-actions">
+                            <button class="btn-submit" id="btn-voice-start" type="button">Start conversation</button>
+                            <button class="btn-secondary" id="btn-voice-clear" type="button">Clear memory</button>
+                        </div>
+                    </div>
+
+                    <div class="voice-chat" id="voice-chat">
+                        <p class="voice-empty" id="voice-empty">Try: “I take insulin for type 2 diabetes, can I follow the Dixit two-meal plan?”, then a follow-up like “aur agar main pregnant hoon to?”</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Swastham Health RAG &nbsp;·&nbsp; One canonical English answer, translated faithfully into Hindi and Hinglish</p>
+        </footer>
+    </div>
+
+    <script src="voice.js"></script>
+    <script src="app.js"></script>
+    <script src="agent.js"></script>
+</body>
+</html>
